@@ -1,0 +1,31 @@
+[package]
+edition = "2024"
+name = "vcu-firm"
+rust-version = "1.98.1"
+version = "0.1.0"
+
+[[bin]]
+name = "vcu-firm"
+path = "./src/bin/main.rs"
+
+[dependencies]
+critical-section = "1.2.0"
+esp-alloc = { version = "0.11.0", features = ["esp32p4"] }
+esp-backtrace = { version = "0.20.0", features = [
+  "esp32p4",
+  "panic-handler",
+  "println",
+] }
+esp-bootloader-esp-idf = { version = "0.6.0", features = ["esp32p4", "log-04"] }
+esp-hal = { version = "1.2.0", features = ["esp32p4", "log-04", "unstable"] }
+esp-println = { version = "0.18.0", features = ["esp32p4", "log-04"] }
+log = "0.4.34"
+
+[profile.dev]
+opt-level = "s"
+
+[profile.release]
+codegen-units = 1
+debug = 2
+lto = "fat"
+opt-level = 3
