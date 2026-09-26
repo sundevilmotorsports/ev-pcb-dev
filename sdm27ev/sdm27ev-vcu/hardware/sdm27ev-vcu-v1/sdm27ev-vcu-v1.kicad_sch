@@ -12319,6 +12319,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 12.7 160.02)
+		(size 16.51 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a3abf2c4-9a2a-457b-b884-dbc611a2dc79")
+		(property "Sheetname" "Digital IO"
+			(at 12.7 159.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DigitalIO.kicad_sch"
+			(at 12.7 196.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
