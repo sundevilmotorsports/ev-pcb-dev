@@ -161,6 +161,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -3971,9 +4138,9 @@
 		)
 		(uuid "0bffbb25-970d-443d-b69d-a82881809fd4")
 	)
-	(text "Current limit 1.24A"
+	(text "Current limit 2.37A"
 		(exclude_from_sim no)
-		(at 64.262 98.552 0)
+		(at 68.834 141.478 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -3983,7 +4150,7 @@
 	)
 	(text "Analog 5V"
 		(exclude_from_sim no)
-		(at 126.492 125.476 0)
+		(at 131.572 129.032 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4064,6 +4231,12 @@
 		(uuid "36edf068-ca14-464b-b258-820c3992858c")
 	)
 	(junction
+		(at 134.62 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b98bf7b-b611-47d9-a02e-b42d37971497")
+	)
+	(junction
 		(at 121.92 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4098,6 +4271,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6466bc8f-4ef3-4114-a38e-4db65dea962e")
+	)
+	(junction
+		(at 139.7 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b46d591-283e-424c-9fec-d2325f0f814f")
 	)
 	(junction
 		(at 113.03 142.24)
@@ -4268,6 +4447,12 @@
 		(uuid "e386c183-49cf-4d45-b115-813e46dd2b4f")
 	)
 	(junction
+		(at 139.7 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0052c26-0771-473c-a3dc-b441bb1c8a35")
+	)
+	(junction
 		(at 95.25 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4421,6 +4606,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 137.16) (xy 134.62 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1458223f-5c72-4504-b164-c18832a209cd")
+	)
+	(wire
+		(pts
 			(xy 113.03 137.16) (xy 119.38 137.16)
 		)
 		(stroke
@@ -4531,6 +4726,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 142.24) (xy 139.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a981bb-26b0-4859-b045-f7bbd0d0d2d0")
+	)
+	(wire
+		(pts
 			(xy 83.82 95.25) (xy 88.9 95.25)
 		)
 		(stroke
@@ -4548,6 +4753,16 @@
 			(type default)
 		)
 		(uuid "514cbadd-b0b9-4194-afc9-5fc94df7cd15")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b10e11-a18f-4621-9254-407d76560dd8")
 	)
 	(wire
 		(pts
@@ -5071,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c641af10-4489-4c57-a349-bed48ce55904")
+	)
+	(wire
+		(pts
 			(xy 96.52 95.25) (xy 97.79 95.25)
 		)
 		(stroke
@@ -5141,16 +5366,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 128.27) (xy 119.38 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc863cfc-6c5c-4829-be42-c25eb328909a")
-	)
-	(wire
-		(pts
 			(xy 118.11 95.25) (xy 121.92 95.25)
 		)
 		(stroke
@@ -5178,6 +5393,16 @@
 			(type default)
 		)
 		(uuid "ec7c5611-a010-4a7b-96ab-e8142a247191")
+	)
+	(wire
+		(pts
+			(xy 119.38 137.16) (xy 127 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd2a4d0-c641-4db1-8110-f8c183d034d2")
 	)
 	(wire
 		(pts
@@ -6283,7 +6508,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "47k"
 			(at 63.5 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7955,6 +8180,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 129.54 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70511a03-5724-4011-a64d-4f5e267d1244")
+		(property "Reference" "FB1"
+			(at 129.286 132.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "600 Ohm 100mhz"
+			(at 129.2479 134.112 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 129.54 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "65502267-7868-4e36-a499-357a826bcdc6")
+		)
+		(pin "1"
+			(uuid "12b1f223-5e93-4629-9edc-fecfe9b0f404")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 33.02 125.73 0)
 		(mirror x)
@@ -8359,83 +8663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86a019c8-0935-4101-9d7c-11505066bc56")
-		(property "Reference" "#PWR040"
-			(at 119.38 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5VA"
-			(at 119.38 124.968 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a62ce767-ede7-49ea-ae34-0a2863d0ad5e")
-		)
-		(instances
-			(project "sdm27ev-vcu-v1"
-				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 29.21 138.43 270)
 		(mirror x)
@@ -8830,6 +9057,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c0379cc-a536-4202-988b-6d1a10c9bfb0")
+		(property "Reference" "#PWR040"
+			(at 139.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VA"
+			(at 139.7 133.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca656a01-7612-4784-8bf5-459ae4f2d545")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 35.56 110.49 270)
 		(mirror x)
@@ -8987,6 +9292,164 @@
 			(project "sdm27ev-vcu-v1"
 				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a08be448-fe90-4a8f-8a12-f135d6dcaadc")
+		(property "Reference" "#PWR0168"
+			(at 139.7 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec1ef78-72c8-4fcd-9ff4-3c7bbe3278da")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a17fb314-b420-47f2-ae52-08d60ebeee20")
+		(property "Reference" "C72"
+			(at 134.62 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 134.62 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b752f792-9d10-4c8b-a5f1-5a52c6bd50b2")
+		)
+		(pin "1"
+			(uuid "761e099f-9a64-4705-9795-085d39f58533")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -9963,7 +10426,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b70a79d5-1099-4b55-b44f-eb7cacba79e8")
 		(property "Reference" "R35"
 			(at 134.62 97.028 0)
@@ -10194,6 +10657,87 @@
 			(project "sdm27ev-vcu-v1"
 				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.7 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4a9ca59-4657-4016-9be6-670799b7457d")
+		(property "Reference" "C73"
+			(at 139.7 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 139.7 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.7 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf00bc79-19e8-4887-a045-e43385f438f0")
+		)
+		(pin "1"
+			(uuid "82b29f55-c763-4407-9d91-02d33687c259")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "C73")
 					(unit 1)
 				)
 			)
