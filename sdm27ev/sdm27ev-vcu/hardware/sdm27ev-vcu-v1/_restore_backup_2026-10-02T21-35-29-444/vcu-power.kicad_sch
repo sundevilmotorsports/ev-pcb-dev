@@ -4279,12 +4279,6 @@
 		(color 0 0 0 0)
 		(uuid "f24c75d3-85f2-4c01-8170-1b5683efc7c2")
 	)
-	(junction
-		(at 106.68 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f68bf52a-2447-4ee3-b412-c1a559189215")
-	)
 	(no_connect
 		(at 97.79 105.41)
 		(uuid "5ce5ea6e-c4ce-4c1b-8351-8c22fa53dd31")
@@ -4441,7 +4435,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 106.68 39.37)
+			(xy 104.14 39.37) (xy 107.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4618,16 +4612,6 @@
 			(type default)
 		)
 		(uuid "62c232d4-bc3c-44e2-9288-43a600dd554b")
-	)
-	(wire
-		(pts
-			(xy 97.79 33.02) (xy 95.25 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636e3518-a9f9-4a17-8fee-67ae1728f1cf")
 	)
 	(wire
 		(pts
@@ -4901,16 +4885,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 33.02) (xy 106.68 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fa8d5a8-8eaa-4124-862b-8211c645e2b4")
-	)
-	(wire
-		(pts
 			(xy 119.38 142.24) (xy 119.38 147.32)
 		)
 		(stroke
@@ -4968,16 +4942,6 @@
 			(type default)
 		)
 		(uuid "b528f3a3-ae8e-44a5-84b3-510f25d05ba7")
-	)
-	(wire
-		(pts
-			(xy 95.25 33.02) (xy 95.25 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d6fd1f-a2cb-45a8-9b7c-8c5ecf3265c7")
 	)
 	(wire
 		(pts
@@ -5218,16 +5182,6 @@
 			(type default)
 		)
 		(uuid "f3fd0418-dcca-4910-b1ac-b35b594c1e3a")
-	)
-	(wire
-		(pts
-			(xy 106.68 33.02) (xy 106.68 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bd05e1-9714-46db-ba7f-3cc278f21734")
 	)
 	(wire
 		(pts
@@ -5626,88 +5580,6 @@
 			(project "sdm27ev-vcu-v1"
 				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 100.33 33.02 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "08c182a8-bb62-4621-82cf-37d7aca84617")
-		(property "Reference" "R10"
-			(at 100.076 31.496 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 101.6 31.496 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 100.33 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 100.33 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "92d81fbe-017f-4f4e-b8d5-e75b2fafa88e")
-		)
-		(pin "1"
-			(uuid "5ce89110-d684-4e53-b837-711bd6f88b8c")
-		)
-		(instances
-			(project "sdm27ev-vcu-v1"
-				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6854,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.hynetek.com/uploadfiles/site/219/news/aabbbbdb-48c9-4a44-a6dc-2c15f53282e6.pdf"
+		(property "Datasheet" ""
 			(at 74.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7879,7 +7751,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 106.68 33.02 0)
+		(at 107.95 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7889,7 +7761,7 @@
 		(dnp no)
 		(uuid "6d673d51-dad9-46cd-8c31-09ac5d408c3c")
 		(property "Reference" "#PWR04"
-			(at 106.68 36.83 0)
+			(at 107.95 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7900,7 +7772,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 106.68 29.464 0)
+			(at 107.95 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7910,7 +7782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 33.02 0)
+			(at 107.95 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7921,7 +7793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 33.02 0)
+			(at 107.95 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,7 +7804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 106.68 33.02 0)
+			(at 107.95 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1,0 +1,8 @@
+TE CONNECTOR 6437288-1
+https://www.tti.com/content/ttiinc/en/apps/part-detail.html?partsNumber=6437288-1&mfgShortname=TYC&utm_source=google&utm_medium=cpc&utm_campaign=20878198023&utm_content=160740117280&utm_term=6437288-1&gad_source=1&gad_campaignid=20878198023&gclid=CjwKCAjwrP3VBhBbEiwAnaqpQxzuL-iZmP4r_pFLCAVLL7rYUBO4ZVm00VD7Nt0wh0FtxLlfIxbCfhoCkk8QAvD_BwE
+
+ESP32 ADC PERFORMANCE
+https://developer.espressif.com/blog/2025/08/adc-performance/?utm_source=chatgpt.com
+
+ADC CALIBRATION
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32p4/api-reference/peripherals/adc/adc_calibration.html
