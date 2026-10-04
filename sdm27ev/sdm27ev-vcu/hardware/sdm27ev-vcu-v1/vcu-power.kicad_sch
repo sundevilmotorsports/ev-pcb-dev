@@ -4207,6 +4207,12 @@
 		(uuid "28d63664-9f27-4529-b0b3-208fd23ba3f8")
 	)
 	(junction
+		(at 67.31 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ad05ef4-d07a-4b02-b38f-7b39b736d9e8")
+	)
+	(junction
 		(at 88.9 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4265,6 +4271,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49750b90-3ccb-442e-bf8f-1d4ff35b9f6b")
+	)
+	(junction
+		(at 62.23 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58573efe-c7c4-4335-803a-aa9e95035f4d")
 	)
 	(junction
 		(at 69.85 44.45)
@@ -4516,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 72.39 59.69)
+			(xy 59.69 59.69) (xy 62.23 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4926,7 +4938,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 57.15) (xy 72.39 57.15)
+			(xy 62.23 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72640e38-7b5c-41fb-b7ce-29c74f159de3")
+	)
+	(wire
+		(pts
+			(xy 57.15 57.15) (xy 67.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5043,6 +5065,16 @@
 			(type default)
 		)
 		(uuid "898b87a8-6462-484a-8d84-9c9be62fe1bf")
+	)
+	(wire
+		(pts
+			(xy 62.23 59.69) (xy 62.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acd6493-36ae-4540-ae9f-134553d7cd66")
 	)
 	(wire
 		(pts
@@ -5216,6 +5248,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ce684b-8a99-44ef-99f3-6085357f9773")
+	)
+	(wire
+		(pts
 			(xy 86.36 128.27) (xy 99.06 128.27)
 		)
 		(stroke
@@ -5383,6 +5425,16 @@
 			(type default)
 		)
 		(uuid "dd9b1d27-20e1-4bae-9883-e22503ba4809")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 67.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cd5f0a-1037-4eea-bef4-7183c133de2d")
 	)
 	(wire
 		(pts
@@ -6097,6 +6149,88 @@
 			(project "sdm27ev-vcu-v1"
 				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 62.23 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1084f88e-d783-46c2-b8f2-1e33d5962f93")
+		(property "Reference" "R11"
+			(at 63.246 62.738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 63.246 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ba15abd-bfd2-41c9-82da-b97833fad585")
+		)
+		(pin "1"
+			(uuid "f1f45975-1e2a-421c-a642-14974977bc72")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7549,6 +7683,83 @@
 			(project "sdm27ev-vcu-v1"
 				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50b72293-366f-4773-80e0-2c1f92b9ccd1")
+		(property "Reference" "#PWR0170"
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ee35bc6-d012-4f64-ac82-94d2e3c82a49")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -11543,6 +11754,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e44f4e69-c57b-4108-8d26-82608369c918")
+		(property "Reference" "R79"
+			(at 68.326 62.738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 68.326 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 67.31 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b4e6ec63-4000-4dd0-80d3-d0c7c73fdbda")
+		)
+		(pin "1"
+			(uuid "5d3ef0b4-0bf0-4d0b-85ba-49c971e84034")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 110.49 0)
 		(unit 1)
@@ -11614,6 +11907,83 @@
 			(project "sdm27ev-vcu-v1"
 				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
 					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb02bd39-2ec5-41f0-8f3e-9082dfd141ca")
+		(property "Reference" "#PWR0116"
+			(at 62.23 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91cb6f24-3116-41b7-8bf3-a3f1f63944f6")
+		)
+		(instances
+			(project "sdm27ev-vcu-v1"
+				(path "/aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9/6a2ee1fd-03b1-4da7-bb6a-9a75b73da95c"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)

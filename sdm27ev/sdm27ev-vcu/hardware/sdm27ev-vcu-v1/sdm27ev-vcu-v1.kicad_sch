@@ -4754,6 +4754,16 @@
 		)
 		(uuid "14a8d0ef-02fc-475a-b633-5c665fc564ee")
 	)
+	(text "add sdmmc pullups\n"
+		(exclude_from_sim no)
+		(at 96.52 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "374e3dbe-3326-4ad5-a02c-d5326640a9e5")
+	)
 	(text "uSD ESD"
 		(exclude_from_sim no)
 		(at 89.916 18.796 0)

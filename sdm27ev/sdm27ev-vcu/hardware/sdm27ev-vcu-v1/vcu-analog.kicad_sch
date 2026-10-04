@@ -5142,6 +5142,26 @@
 		)
 		(uuid "0d6b611d-d9a7-4324-a8b3-1617c14acd88")
 	)
+	(text "double check math\n"
+		(exclude_from_sim no)
+		(at 182.372 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34b3465c-a8fd-45ab-919d-c7129c932cd5")
+	)
+	(text "use 1%\nor less"
+		(exclude_from_sim no)
+		(at 221.234 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66cde410-5051-45f7-bc83-97b777d3c43f")
+	)
 	(text "ESD"
 		(exclude_from_sim no)
 		(at 236.474 14.986 0)
