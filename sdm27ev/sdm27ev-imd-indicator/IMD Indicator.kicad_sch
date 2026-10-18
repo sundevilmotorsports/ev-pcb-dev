@@ -1867,7 +1867,7 @@
 	)
 	(text "Latch"
 		(exclude_from_sim no)
-		(at 82.804 38.608 0)
+		(at 134.874 42.418 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1880,7 +1880,7 @@
 	)
 	(text_box "Latch in Falstad"
 		(exclude_from_sim no)
-		(at 82.55 39.37 0)
+		(at 134.62 43.18 0)
 		(size 16.51 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1899,548 +1899,404 @@
 		(uuid "c0bbe5e4-d621-4692-936f-b8fcc9057ddf")
 	)
 	(junction
-		(at 151.13 72.39)
+		(at 125.73 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d058f07-4db9-451c-a371-c88014b38874")
+		(uuid "251dc7d9-274d-4e08-a642-a4789bc10718")
 	)
 	(junction
-		(at 130.81 58.42)
+		(at 146.05 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5571dcb7-1305-497a-b62a-a97879231643")
+		(uuid "2d5196da-24c5-4a77-b62c-b74ef446eb1a")
 	)
 	(junction
-		(at 121.92 91.44)
+		(at 116.84 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "578d3f0f-1573-4882-aebf-7a8dbb8fbcab")
+		(uuid "546e60be-4ea2-4c64-a686-826ce1ccda34")
 	)
 	(junction
-		(at 121.92 111.76)
+		(at 142.24 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75c1a0db-4e04-4b68-87aa-4d56ab8d8d98")
-	)
-	(junction
-		(at 147.32 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c167fc67-bab5-4ea7-9fae-85649b74fc0d")
-	)
-	(junction
-		(at 99.06 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cea4734e-20ea-4d3a-8d91-2e97ee8fef71")
-	)
-	(junction
-		(at 151.13 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc149fdd-b1c1-4fab-88f7-a4dd35a9d888")
+		(uuid "54a83f85-c2ae-43cd-aae9-82107ceeef17")
 	)
 	(no_connect
-		(at 125.73 48.26)
-		(uuid "b3141b84-cb33-4eec-a96b-eeb4a0e5a42f")
+		(at 120.65 67.31)
+		(uuid "2f5a2878-07ca-4a10-9467-4fc1082abd0f")
 	)
 	(no_connect
-		(at 138.43 48.26)
-		(uuid "dfd0193a-3c39-40eb-8174-f4bc5d671122")
+		(at 133.35 67.31)
+		(uuid "3c3c0329-334d-46c9-b48a-a95a20203e88")
+	)
+	(no_connect
+		(at 120.65 64.77)
+		(uuid "9ef4217e-1105-4649-b186-4ce45439123c")
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 130.81 57.15)
+			(xy 130.81 110.49) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03932c6c-58ed-4672-a73d-044f1d24472a")
+		(uuid "12a72745-95ce-4386-aeb2-e714bef347f9")
 	)
 	(wire
 		(pts
-			(xy 80.01 97.79) (xy 92.71 97.79)
+			(xy 146.05 118.11) (xy 149.86 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "090d2d25-35e4-4ab6-8e70-4c7d34bc4ab7")
+		(uuid "13267733-da15-490c-ba3d-cacd67cb0553")
 	)
 	(wire
 		(pts
-			(xy 121.92 123.19) (xy 121.92 125.73)
+			(xy 133.35 69.85) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aa95297-ff43-452c-9b87-fbf8bb584e6a")
+		(uuid "4daafb4f-b0e5-4292-9051-4edab448b4b2")
 	)
 	(wire
 		(pts
-			(xy 138.43 50.8) (xy 139.7 50.8)
+			(xy 154.94 74.93) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18bd668f-834d-45ed-9981-c387cc5f4f04")
+		(uuid "5b2fdc0a-963e-4c63-a96f-8bc7d92af4ef")
 	)
 	(wire
 		(pts
-			(xy 121.92 106.68) (xy 121.92 111.76)
+			(xy 128.27 76.2) (xy 128.27 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23de784e-f4d2-4c95-8b56-064dcc556162")
+		(uuid "67535423-1dce-4e7b-abc2-1b4874475767")
 	)
 	(wire
 		(pts
-			(xy 147.32 99.06) (xy 147.32 96.52)
+			(xy 116.84 125.73) (xy 116.84 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c22824d-be92-43a3-8bca-3475aea89a45")
+		(uuid "722e0d9c-aae5-4a7e-8267-4ea8fd84506c")
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 157.48 72.39)
+			(xy 116.84 110.49) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ef58d7a-b5a8-464f-bf1c-9df44acdedbf")
+		(uuid "7cad7cd4-e620-4fe5-8e94-7f8113a9a4b6")
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 154.94 99.06)
+			(xy 116.84 110.49) (xy 116.84 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "350c4adc-dc2d-450a-8c38-e0815a48e4ab")
+		(uuid "7e44dbcd-1056-4c82-828f-e3423cd3fea5")
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 135.89 91.44)
+			(xy 146.05 91.44) (xy 146.05 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c0c49d3-86c4-4275-82bf-4f2210f30105")
+		(uuid "8752c176-9332-4380-8862-c2809af96801")
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 135.89 93.98)
+			(xy 142.24 118.11) (xy 142.24 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cbb2fc0-a03f-47e5-9cb1-46551c7fdeef")
+		(uuid "8e25d91e-f1ef-4467-a8cd-24a99d36c34d")
 	)
 	(wire
 		(pts
-			(xy 106.68 45.72) (xy 125.73 45.72)
+			(xy 146.05 91.44) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ae1a27f-1ea1-40f7-b112-7ecd3d26c593")
+		(uuid "976fd93c-c0c3-42cd-b901-372bf22419f6")
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 130.81 58.42)
+			(xy 116.84 130.81) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c4afc11-2eee-49cc-9e00-92dc2dbee050")
+		(uuid "9c92e41e-8660-4ab6-8cdb-a8e388ff99e4")
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 179.07 72.39)
+			(xy 132.08 130.81) (xy 147.32 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f999fff-b4e8-4337-a1c5-1b3f5ce6bd3a")
+		(uuid "9cf49bc9-b0f6-4d99-a45e-fdf139c3b74f")
 	)
 	(wire
 		(pts
-			(xy 96.52 118.11) (xy 115.57 118.11)
+			(xy 125.73 77.47) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53f70cef-70d2-417e-8a83-88fbd119b3af")
+		(uuid "9d5c3d59-ad70-47f2-94bb-8968c72da03e")
 	)
 	(wire
 		(pts
-			(xy 133.35 57.15) (xy 133.35 58.42)
+			(xy 116.84 142.24) (xy 116.84 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a66b641-9ab9-44f1-8607-780fbb9191b6")
+		(uuid "a026ede7-cf6a-42ad-b56c-475b8b02c228")
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 132.08 99.06)
+			(xy 142.24 118.11) (xy 146.05 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b48930a-9cce-4f48-83d1-9e775772ecc6")
+		(uuid "a2a46f41-809c-493c-a7f4-6891cd97654b")
 	)
 	(wire
 		(pts
-			(xy 99.06 91.44) (xy 99.06 92.71)
+			(xy 101.6 69.85) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7398c98c-dbc6-4940-8b0b-622b926bd748")
+		(uuid "a76f48a1-49ff-42ce-8f77-d68c4b4f05ce")
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 121.92 113.03)
+			(xy 139.7 115.57) (xy 142.24 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77aa783e-e413-49d7-9847-1fef47f1bf02")
+		(uuid "a99e4ad2-ac84-40b0-91a2-2f8f9eba540b")
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 121.92 92.71)
+			(xy 116.84 130.81) (xy 116.84 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ab2611a-9c10-40aa-be83-d245ba93c4e8")
+		(uuid "afd10cbf-391d-4080-8cc0-3a69ed9e2064")
 	)
 	(wire
 		(pts
-			(xy 151.13 78.74) (xy 151.13 80.01)
+			(xy 116.84 116.84) (xy 116.84 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b19b98b-84e0-47bd-b702-87be84a0a0ab")
+		(uuid "b41f6936-ca87-43f1-91f8-af27c237ddc2")
 	)
 	(wire
 		(pts
-			(xy 160.02 55.88) (xy 160.02 57.15)
+			(xy 146.05 114.3) (xy 146.05 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e0009ba-f1f0-4c37-a7ad-f46e8532b958")
+		(uuid "ba765212-7015-4036-955a-455297c6303b")
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 152.4 111.76)
+			(xy 160.02 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e0eb4ac-a5a1-4d36-b982-0ec807883493")
+		(uuid "c29a4adb-c5c1-4f21-9b7c-8df67d4b2191")
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 147.32 96.52)
+			(xy 133.35 64.77) (xy 154.94 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88ed85a4-9203-4bbe-9ccb-d3c4304effb8")
+		(uuid "ca469801-ca6d-4029-8fa0-27d7304b428a")
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 147.32 99.06)
+			(xy 139.7 118.11) (xy 142.24 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b632262-2b76-43e5-8572-ffcaa2f6feba")
+		(uuid "ca62ea6f-ab07-4e6d-b455-53e61c03f6df")
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 151.13 73.66)
+			(xy 124.46 118.11) (xy 127 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ba334c0-e195-4288-b3ed-c3ffc5465f2f")
+		(uuid "d6ad6c15-08c9-4163-b47d-12c7d0f159ad")
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 99.06 72.39)
+			(xy 128.27 77.47) (xy 125.73 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9514d2fc-e276-46a6-bfb3-dcda2d1393ec")
+		(uuid "de80449e-cae2-46cd-b4b3-c9b064623d60")
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 125.73 50.8)
+			(xy 124.46 118.11) (xy 124.46 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ffb7fa4-4bc7-4f43-a88c-2c9674b7b318")
+		(uuid "e8b33305-c8e4-493d-a482-225e5272ef8f")
 	)
 	(wire
 		(pts
-			(xy 99.06 102.87) (xy 99.06 104.14)
+			(xy 146.05 97.79) (xy 146.05 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a25658aa-122a-4912-b741-c1375763aede")
+		(uuid "ea7b3e0f-9cf0-4c16-b593-eaf5893c0811")
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 132.08 111.76)
+			(xy 154.94 64.77) (xy 154.94 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a42e0471-fb91-43e8-b80d-0fea11c611e2")
+		(uuid "eeeeb81a-7815-4be7-8e47-ec99328d68d0")
 	)
 	(wire
 		(pts
-			(xy 99.06 78.74) (xy 99.06 91.44)
+			(xy 91.44 137.16) (xy 110.49 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b49d19c0-0011-46de-bcc4-63a7fb8aa81f")
-	)
-	(wire
-		(pts
-			(xy 138.43 45.72) (xy 160.02 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b84a1fe2-46ac-40e9-98d7-6ad7e9de15c2")
-	)
-	(wire
-		(pts
-			(xy 160.02 45.72) (xy 160.02 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb082443-5b5f-49ac-8489-7f606edddb85")
-	)
-	(wire
-		(pts
-			(xy 99.06 91.44) (xy 104.14 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21f02f4-cd7b-4472-a0ca-4b5d4702b75c")
-	)
-	(wire
-		(pts
-			(xy 121.92 97.79) (xy 121.92 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b7a864-301c-455e-adb4-1969b464d305")
-	)
-	(wire
-		(pts
-			(xy 99.06 72.39) (xy 137.16 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85a6cc0-a5b7-40aa-86a6-91c44e27cc67")
-	)
-	(wire
-		(pts
-			(xy 144.78 72.39) (xy 151.13 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb64428f-e79d-487c-bd88-9dc9dbf56449")
-	)
-	(wire
-		(pts
-			(xy 129.54 99.06) (xy 129.54 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2175592-b006-4bee-adf0-bed6983bb6e8")
-	)
-	(wire
-		(pts
-			(xy 111.76 91.44) (xy 121.92 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f879bb20-a55c-404e-973a-64d2749d618e")
-	)
-	(wire
-		(pts
-			(xy 151.13 95.25) (xy 151.13 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2f1b6c-ca39-4b90-bc13-2f8ee81b5ba9")
-	)
-	(wire
-		(pts
-			(xy 147.32 99.06) (xy 151.13 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2c47b5-e5ce-4b2e-997e-89a2a6ba683e")
+		(uuid "f9025009-c9e0-4829-b305-bf042b53ebd3")
 	)
 	(label "12V MASTER"
-		(at 179.07 72.39 180)
+		(at 173.99 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0267cc76-65a1-446d-a13b-f2749d349c7a")
+		(uuid "49232d0d-7107-43f7-a6f2-ea59b6d53b33")
 	)
 	(label "12V MASTER"
-		(at 80.01 97.79 0)
+		(at 101.6 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "09972263-fb7d-4df3-9af6-a2b1043a9791")
+		(uuid "73ee2454-1131-4570-9bdd-781c8bed24bf")
 	)
-	(label "12V IGNITION"
-		(at 106.68 72.39 0)
+	(label "12V MASTER"
+		(at 147.32 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0c3cb409-7788-47b5-b267-52698f8269e7")
+		(uuid "7d8b9a73-61a0-4a25-ab9a-5c5f631333d4")
 	)
 	(label "IMD_LOGIC_SIGNAL"
-		(at 160.02 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3321edf6-0a68-4258-b85c-f4fa2b6d53b8")
-	)
-	(label "12V MASTER"
-		(at 106.68 50.8 0)
+		(at 91.44 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3af25fc1-e3c6-4b51-8f02-0fc621133150")
+		(uuid "a35e5011-66af-4591-86ec-0d2e2b6da167")
 	)
-	(label "12V IGNITION"
-		(at 106.68 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e70559e-54bb-4795-8ea4-ffa33ef75f4c")
-	)
-	(label "12V IGNITION"
-		(at 152.4 111.76 180)
+	(label "IMD_LOGIC_SIGNAL"
+		(at 154.94 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a3afb7c4-d2e5-498d-8501-63e8bd7ed935")
+		(uuid "ba16607b-2772-424f-b21d-1c199eb9bc73")
 	)
 	(label "SCR Gate"
-		(at 134.62 91.44 180)
+		(at 129.54 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c5fe1672-39a8-4e8e-bf1d-f80aa19f65e5")
-	)
-	(label "IMD_LOGIC_SIGNAL"
-		(at 96.52 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd444ff1-ff8a-42a5-a2a1-8a8f5a88ed72")
+		(uuid "f4d9646a-36d8-4967-aa46-1b39094822c0")
 	)
 	(global_label "IMD KILL SIGNAL"
 		(shape input)
-		(at 139.7 50.8 0)
+		(at 149.86 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2448,9 +2304,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9f7bf69d-9fc3-4c46-b9d7-aa488306c242")
+		(uuid "575098f9-1f71-4b11-a497-cc1197eac637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.4091 50.8 0)
+			(at 168.5691 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,7 +2320,7 @@
 	)
 	(global_label "IMD KILL SIGNAL"
 		(shape input)
-		(at 154.94 99.06 0)
+		(at 134.62 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2472,9 +2328,9 @@
 			)
 			(justify left)
 		)
-		(uuid "dae2f5f8-5087-4d48-8811-a15b550e8fd1")
+		(uuid "5e95295f-8537-48d9-a070-1ca658a30ab9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.6491 99.06 0)
+			(at 153.3291 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2483,1126 +2339,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d26dfca-abfc-4a0b-8093-1e5219fedc3f")
-		(property "Reference" "#PWR04"
-			(at 160.02 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9f1332f-aef0-4e79-be80-d8ac6c102374")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_SCR:X0202MN_5BA4")
-		(at 146.05 99.06 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "436cd6b6-d13d-44ac-8f98-d07bfa26b44b")
-		(property "Reference" "D7"
-			(at 133.858 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "X0202MN_5BA4"
-			(at 139.954 103.632 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:SOT230P700X190-4N"
-			(at 132.08 -6.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00002274.pdf"
-			(at 132.08 -106.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "STMICROELECTRONICS - X0202MN 5BA4 - SCR THYRISTOR, 800mA, 600V, SOT-223"
-			(at 146.05 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.9"
-			(at 132.08 -306.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "511-X0202MN"
-			(at 132.08 -406.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/X0202MN-5BA4?qs=gSSIpVhvwUnb%2FPyS6HoGFw%3D%3D"
-			(at 132.08 -506.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 132.08 -606.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "X0202MN 5BA4"
-			(at 132.08 -706.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "85ab6e09-06c7-4a2f-94de-9b0a3ec5ca01")
-		)
-		(pin "3"
-			(uuid "9070af38-fe71-44a9-bef8-66ab7a5612e8")
-		)
-		(pin "4"
-			(uuid "b165d212-de6d-4f6e-83cd-0e6010ef03df")
-		)
-		(pin "1"
-			(uuid "d27344b5-2d0d-4e11-8099-26e75d8cfddc")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_DIODES:BAT54XV2T1G")
-		(at 111.76 91.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b74c7aa-aabe-4fd8-a453-8f676ffe98a3")
-		(property "Reference" "D5"
-			(at 106.68 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54XV2T1G"
-			(at 106.68 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:SODFL1608X70N"
-			(at 100.33 -6.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54XV2T1-D.PDF"
-			(at 100.33 -106.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable ; Lower forward voltage (VF)"
-			(at 111.76 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.7"
-			(at 100.33 -306.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "863-BAT54XV2T1G"
-			(at 100.33 -406.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAT54XV2T1G?qs=vLkC5FC1VN8vpceP7xcdrw%3D%3D"
-			(at 100.33 -506.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 100.33 -606.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BAT54XV2T1G"
-			(at 100.33 -706.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "adfca75f-2ec8-4f54-a924-0800e43d3c23")
-		)
-		(pin "1"
-			(uuid "1ec38f4b-8b49-416e-8f2d-f0139f46ef12")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50aeb458-dd22-4021-91e0-0c803ebd4a3d")
-		(property "Reference" "#PWR02"
-			(at 121.92 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b3dad1d-47c3-4cc0-818d-05b82f8065c0")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MOSFET_N-CHANNEL:2N7002,215")
-		(at 115.57 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70b242bb-535d-4f81-b920-352886295fb6")
-		(property "Reference" "Q2"
-			(at 124.206 116.332 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002,215"
-			(at 124.206 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:SOT95P230X110-3N"
-			(at 127 216.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
-			(at 127 316.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 60V 0.3A TO236AB NXP 2N7002,215 N-channel MOSFET Transistor, 0.3 A, 60 V, 3-Pin TO-236AB"
-			(at 115.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 127 516.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "771-2N7002-T/R"
-			(at 127 616.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002215?qs=P62ublwmbi9rRKKuNdhqMA%3D%3D"
-			(at 127 716.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 127 816.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2N7002,215"
-			(at 127 916.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "05364e9e-a4aa-4f46-b3fc-d144897ea782")
-		)
-		(pin "2"
-			(uuid "c8e0f0ee-8b5d-4d5d-8a4b-2b78663f4d37")
-		)
-		(pin "1"
-			(uuid "2f2149cd-e7fd-474b-a4bc-d73f25b6f671")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_DIODES:BAT54XV2T1G")
-		(at 121.92 99.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7117f5c4-ce84-4905-b122-d7daa302680a")
-		(property "Reference" "D6"
-			(at 117.094 101.854 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54XV2T1G"
-			(at 107.442 103.632 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:SODFL1608X70N"
-			(at 24.46 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54XV2T1-D.PDF"
-			(at -75.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable ; Lower forward voltage (VF)"
-			(at 121.92 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.7"
-			(at -275.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "863-BAT54XV2T1G"
-			(at -375.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAT54XV2T1G?qs=vLkC5FC1VN8vpceP7xcdrw%3D%3D"
-			(at -475.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at -575.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BAT54XV2T1G"
-			(at -675.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "ef80af6f-a18c-47fb-8fbd-06aa64431f51")
-		)
-		(pin "1"
-			(uuid "7a4e2b81-3dbf-4b23-a2f1-562a62cd9d34")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 111.76 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a45aed9-f502-4ee5-ac58-ddfd2b013773")
-		(property "Reference" "R5"
-			(at 132.842 107.442 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 132.842 109.474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.62 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1bec585-e6ae-4cf6-8ed4-5a3b14903c6b")
-		)
-		(pin "2"
-			(uuid "8fe78a1c-93ac-426a-b82b-ea4f688b66b3")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c3f31e9-4087-4e81-a0a1-38c95be4d0aa")
-		(property "Reference" "#PWR03"
-			(at 130.81 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4aae056f-5ee9-4449-ab7f-889586bd05f6")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_DIODES:BAT54XV2T1G")
-		(at 157.48 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f798436-7dea-471d-8bf6-589d572afa1a")
-		(property "Reference" "D3"
-			(at 162.56 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54XV2T1G"
-			(at 162.56 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:SODFL1608X70N"
-			(at 168.91 169.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54XV2T1-D.PDF"
-			(at 168.91 269.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable ; Lower forward voltage (VF)"
-			(at 157.48 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.7"
-			(at 168.91 469.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "863-BAT54XV2T1G"
-			(at 168.91 569.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAT54XV2T1G?qs=vLkC5FC1VN8vpceP7xcdrw%3D%3D"
-			(at 168.91 669.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 168.91 769.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BAT54XV2T1G"
-			(at 168.91 869.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "f90a40c8-6368-45ae-ae68-461abb24fb9d")
-		)
-		(pin "1"
-			(uuid "61cad3b5-9357-4886-938e-371a7f7ba662")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f8dd7c2-c1ab-479b-bf66-964a1d5494ff")
-		(property "Reference" "#PWR040"
-			(at 99.06 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddf88f78-54e3-4a8e-b201-9ac53dcc6c04")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "#PWR040")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "IMDSymbolLibrary:776280-1")
-		(at 125.73 45.72 0)
+		(at 120.65 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3611,9 +2353,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95c49628-150e-4941-b0e6-fd173003940d")
-		(property "Reference" "J5"
-			(at 132.08 39.37 0)
+		(uuid "033541d2-3eaa-4cea-9efc-cae0b2f87732")
+		(property "Reference" "J6"
+			(at 127 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3623,7 +2365,7 @@
 			)
 		)
 		(property "Value" "776280-1"
-			(at 132.08 41.91 0)
+			(at 127 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3633,7 +2375,7 @@
 			)
 		)
 		(property "Footprint" "SDM_MiscFootprint:776280-1"
-			(at 142.24 140.64 0)
+			(at 137.16 159.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,7 +2387,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=776280&DocType=Customer+Drawing&DocLang=English&PartCntxt=776280-1&DocFormat=pdf"
-			(at 142.24 240.64 0)
+			(at 137.16 259.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +2399,7 @@
 			)
 		)
 		(property "Description" "Body Features: Primary Product Color Black | Connector & Keying Code 1 | Configuration Features: Number of Positions 8 | Number of Rows 3 | PCB Mount Orientation Right Angle | Contact Features: Contact Type Pin | Contact Current Rating (Max) 8 AMP | Contact Mating Area Plating Material Tin | Housing Features: Centerline (Pitch) .157 INCH | Centerline (Pitch) 4 MM | Industry Standards: UL Flammability Rating UL 94V-0 | Mechanical Attachment: Connector Mounting Type Board Mount | PCB Mount Alignment With | PC"
-			(at 124.206 40.894 0)
+			(at 119.126 59.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +2410,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 142.24 440.64 0)
+			(at 137.16 459.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,7 +2422,7 @@
 			)
 		)
 		(property "Mouser Part Number" "571-776280-1"
-			(at 142.24 540.64 0)
+			(at 137.16 559.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +2434,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/776280-1?qs=tLAa1RwIH6coumJMxuaTDA%3D%3D"
-			(at 142.24 640.64 0)
+			(at 137.16 659.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3704,7 +2446,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TE Connectivity"
-			(at 142.24 740.64 0)
+			(at 137.16 759.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3716,7 +2458,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "776280-1"
-			(at 142.24 840.64 0)
+			(at 137.16 859.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,115 +2470,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "bf67bf61-2097-4bf5-85c2-c68a9deba4a7")
+			(uuid "464d398a-4974-47ea-b12a-ecbb6b16d530")
 		)
 		(pin "5"
-			(uuid "7c1bec83-723c-4fdd-9f05-44fd515d9570")
+			(uuid "c1d70ec7-f51a-42c5-b92e-910e65010761")
 		)
 		(pin "6"
-			(uuid "dd1bde89-91a8-4a5e-b2a9-b465d08feb0f")
+			(uuid "c26cd436-471d-4867-b354-400848af707c")
 		)
 		(pin "8"
-			(uuid "6ddd343a-4bf6-496a-97aa-0e4dee5c4342")
+			(uuid "9c2fca1f-5d0d-4f62-9dce-7b1967abb615")
 		)
 		(pin "2"
-			(uuid "e29bb38f-e8fb-4bf3-a731-2c8cade7dff2")
+			(uuid "b7a43bb3-5bc3-4fcb-8020-f330306c9c8b")
 		)
 		(pin "1"
-			(uuid "0e3aa3f5-9330-4082-9490-bcbe1256cbe5")
+			(uuid "e04431a7-7f36-4758-a205-ca81782eaaf8")
 		)
 		(pin "7"
-			(uuid "4860e6bf-7921-494e-885b-2b3b241ef2ec")
+			(uuid "7b8b60f5-ef00-4c5b-9ee9-8c7e9f3f5a11")
 		)
 		(pin "4"
-			(uuid "1023451d-1cb2-469a-ac07-4996888cb927")
+			(uuid "76fed97c-f67c-4b80-97e9-bf57324b38e9")
 		)
 		(instances
 			(project "IMD Indicator"
 				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9afb0541-f09f-4f96-9b3d-87939a2fcb10")
-		(property "Reference" "R4"
-			(at 162.56 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 162.56 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.798 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d13daa99-f494-40cd-a874-452edcaded77")
-		)
-		(pin "1"
-			(uuid "ceac8b85-cbf3-403a-99cf-6352597c2963")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "R4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3844,7 +2504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 100.33 0)
+		(at 154.94 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3853,9 +2513,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b96788f7-18b2-4a33-8fa7-1651f84590ca")
-		(property "Reference" "#PWR039"
-			(at 129.54 106.68 0)
+		(uuid "15be3fc1-e1ce-4510-b268-b5b3ea0eb2d9")
+		(property "Reference" "#PWR07"
+			(at 154.94 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3866,7 +2526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 105.41 0)
+			(at 154.94 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3876,7 +2536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 100.33 0)
+			(at 154.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3887,7 +2547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 100.33 0)
+			(at 154.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +2558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 100.33 0)
+			(at 154.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3909,322 +2569,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b303e454-fb62-4a6f-a9cf-bf6d079dcf6d")
+			(uuid "9b4c8114-425f-4beb-aa2a-e0fcd4b3fdd2")
 		)
 		(instances
 			(project "IMD Indicator"
 				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 99.06 76.2 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9d1f447-20d5-4c61-b586-ec5d2d54a41a")
-		(property "Reference" "R1"
-			(at 94.742 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 96.774 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 99.06 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ba1ea67-c100-41e9-9dd0-713abe734d47")
-		)
-		(pin "2"
-			(uuid "46c55a3a-33a6-4076-94fc-5e4ecfc860ad")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 121.92 95.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c03f7420-7712-4e14-b2ca-ab9e2e6d2432")
-		(property "Reference" "R3"
-			(at 117.602 97.028 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 119.634 97.028 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.92 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 121.92 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1d5124f-2388-42a2-a44d-8adf1430dac6")
-		)
-		(pin "2"
-			(uuid "56f77054-e7be-4276-93a1-3341862f9a37")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MOSFET_N-CHANNEL:2N7002,215")
-		(at 92.71 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9385e0d-1175-4afd-88e0-c5a0c487c718")
-		(property "Reference" "Q1"
-			(at 101.346 96.012 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002,215"
-			(at 101.346 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:SOT95P230X110-3N"
-			(at 104.14 196.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
-			(at 104.14 296.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET N-Channel 60V 0.3A TO236AB NXP 2N7002,215 N-channel MOSFET Transistor, 0.3 A, 60 V, 3-Pin TO-236AB"
-			(at 92.71 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 104.14 496.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "771-2N7002-T/R"
-			(at 104.14 596.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002215?qs=P62ublwmbi9rRKKuNdhqMA%3D%3D"
-			(at 104.14 696.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 104.14 796.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2N7002,215"
-			(at 104.14 896.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "9e73c315-b9d2-489c-b5be-60fb9eb2cdf4")
-		)
-		(pin "2"
-			(uuid "27352f37-a342-4fcc-85ab-56eec95166c7")
-		)
-		(pin "1"
-			(uuid "c338c155-920e-4f34-8e21-b001fdb1afd5")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "Q1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4232,7 +2582,7 @@
 	)
 	(symbol
 		(lib_id "IMDSymbolLibrary:HLMP-EG30-NR000")
-		(at 151.13 95.25 90)
+		(at 146.05 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4241,9 +2591,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e86aea5a-2436-4e20-9e30-f6d33d592663")
-		(property "Reference" "LED1"
-			(at 154.94 86.3599 90)
+		(uuid "288cdb6b-3a56-42b0-80b9-361656af7b85")
+		(property "Reference" "LED2"
+			(at 149.86 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4254,7 +2604,7 @@
 			)
 		)
 		(property "Value" "HLMP-EG30-NR000"
-			(at 154.94 88.8999 90)
+			(at 149.86 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4265,7 +2615,7 @@
 			)
 		)
 		(property "Footprint" "IMDFootprintLibrary:LED_5MM"
-			(at 244.78 82.55 0)
+			(at 239.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +2627,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/HLMP-EG30-NR000.pdf"
-			(at 344.78 82.55 0)
+			(at 339.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +2639,7 @@
 			)
 		)
 		(property "Description" "LED, Red HLMP-EG30-NR000, Broadcom 626 nm 5mm (T-1 3/4) Round Through Hole package"
-			(at 151.13 95.25 0)
+			(at 146.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +2650,7 @@
 			)
 		)
 		(property "Height" "8.7"
-			(at 544.78 82.55 0)
+			(at 539.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,7 +2662,7 @@
 			)
 		)
 		(property "Mouser Part Number" "630-HLMP-EG30-NR000"
-			(at 644.78 82.55 0)
+			(at 639.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +2674,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Broadcom-Avago/HLMP-EG30-NR000?qs=lQqkXH5tj5TCSGNMEnC3rA%3D%3D"
-			(at 744.78 82.55 0)
+			(at 739.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4336,7 +2686,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Avago Technologies"
-			(at 844.78 82.55 0)
+			(at 839.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,7 +2698,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "HLMP-EG30-NR000"
-			(at 944.78 82.55 0)
+			(at 939.7 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,97 +2710,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2963e37f-15b0-4f3a-b0f0-0fc47efe8af5")
+			(uuid "62d7c67a-c27e-48cc-8b81-ee2ebc2b2ffd")
 		)
 		(pin "1"
-			(uuid "63884dd0-a5de-45ab-a3b5-3c9c8e58a8ef")
+			(uuid "8fb03e59-714c-4a72-aafc-4ca2347c0d32")
 		)
 		(instances
 			(project "IMD Indicator"
 				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 151.13 76.2 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec3c6ca0-5e96-49af-97dd-ffbc1e4f386b")
-		(property "Reference" "R2"
-			(at 146.812 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "510"
-			(at 148.844 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.13 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 151.13 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98370a63-d300-4994-8e93-21c9075ab5cf")
-		)
-		(pin "2"
-			(uuid "02ef993d-ec47-4370-8b80-4920b31ffe05")
-		)
-		(instances
-			(project "IMD Indicator"
-				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "R2")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -4458,7 +2726,7 @@
 	)
 	(symbol
 		(lib_id "SDM_DIODES:BAT54XV2T1G")
-		(at 144.78 72.39 180)
+		(at 116.84 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4466,30 +2734,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcd254ed-aaa8-4ab8-a73d-cbd345ccfc0e")
-		(property "Reference" "D2"
-			(at 139.7 66.04 0)
+		(uuid "38e8bc9b-c02e-4aac-99c5-08e5f9830373")
+		(property "Reference" "D9"
+			(at 112.014 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "BAT54XV2T1G"
-			(at 139.7 68.58 0)
+			(at 102.362 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SDM_MiscFootprint:SODFL1608X70N"
-			(at 133.35 -25.07 0)
+			(at 19.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4501,7 +2770,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54XV2T1-D.PDF"
-			(at 133.35 -125.07 0)
+			(at -80.62 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +2782,7 @@
 			)
 		)
 		(property "Description" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable ; Lower forward voltage (VF)"
-			(at 144.78 72.39 0)
+			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +2793,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 133.35 -325.07 0)
+			(at -280.62 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,7 +2805,7 @@
 			)
 		)
 		(property "Mouser Part Number" "863-BAT54XV2T1G"
-			(at 133.35 -425.07 0)
+			(at -380.62 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +2817,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAT54XV2T1G?qs=vLkC5FC1VN8vpceP7xcdrw%3D%3D"
-			(at 133.35 -525.07 0)
+			(at -480.62 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4560,7 +2829,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 133.35 -625.07 0)
+			(at -580.62 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +2841,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BAT54XV2T1G"
-			(at 133.35 -725.07 0)
+			(at -680.62 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,15 +2853,1012 @@
 			)
 		)
 		(pin "2"
-			(uuid "c42db5b5-709a-49db-83ae-74244a803d51")
+			(uuid "d7cec018-6f83-47f9-9cb4-c23ea0afc813")
 		)
 		(pin "1"
-			(uuid "8e1b2683-cb5e-4d72-86b8-3e7013f3fdbd")
+			(uuid "8b93812e-c42b-4678-8c88-8adf2c44bb76")
 		)
 		(instances
 			(project "IMD Indicator"
 				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "D2")
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af875d5-34b1-46be-97f2-0059f2fe8381")
+		(property "Reference" "R10"
+			(at 157.48 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 157.48 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.718 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91543411-24e1-48bc-ad38-330aa75cc1ba")
+		)
+		(pin "1"
+			(uuid "2b1deff3-2c6e-4854-b9c4-ab552a8829c2")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6423b8d1-a527-4b8d-ab4b-fe1694a25722")
+		(property "Reference" "#PWR042"
+			(at 124.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43b6d461-c1bb-4978-929a-f090ab9c987d")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "699f3d42-0d90-44ac-b305-f0e9416e718d")
+		(property "Reference" "#PWR05"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6de3f906-ac7a-4a9f-b0fe-52606f5d4fce")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 116.84 114.3 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f4f8365-a09e-4135-9724-445c35351573")
+		(property "Reference" "R7"
+			(at 112.522 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 114.554 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "592c9cc8-4d08-42a6-bdc6-37fc2981d471")
+		)
+		(pin "2"
+			(uuid "1a2e6540-685a-44b0-a2f2-357d1e28125f")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_DIODES:BAT54XV2T1G")
+		(at 152.4 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86035e5f-6524-4bb9-93fa-c7c439e50d7e")
+		(property "Reference" "D11"
+			(at 157.48 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54XV2T1G"
+			(at 157.48 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SODFL1608X70N"
+			(at 163.83 188.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54XV2T1-D.PDF"
+			(at 163.83 288.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable ; Lower forward voltage (VF)"
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.7"
+			(at 163.83 488.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-BAT54XV2T1G"
+			(at 163.83 588.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAT54XV2T1G?qs=vLkC5FC1VN8vpceP7xcdrw%3D%3D"
+			(at 163.83 688.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 163.83 788.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT54XV2T1G"
+			(at 163.83 888.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "b4c0a58d-3356-481d-baae-851e14c6fc6b")
+		)
+		(pin "1"
+			(uuid "654718e1-3b4e-4847-b055-8ff2de257b86")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_MOSFET_N-CHANNEL:2N7002,215")
+		(at 110.49 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "983824d9-f0d7-4581-9e4e-bd4a0895115a")
+		(property "Reference" "Q4"
+			(at 119.126 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002,215"
+			(at 119.126 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOT95P230X110-3N"
+			(at 121.92 235.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
+			(at 121.92 335.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 60V 0.3A TO236AB NXP 2N7002,215 N-channel MOSFET Transistor, 0.3 A, 60 V, 3-Pin TO-236AB"
+			(at 110.49 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 121.92 535.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-2N7002-T/R"
+			(at 121.92 635.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002215?qs=P62ublwmbi9rRKKuNdhqMA%3D%3D"
+			(at 121.92 735.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 121.92 835.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2N7002,215"
+			(at 121.92 935.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "3117af5c-5443-4636-afdf-84f8f627f8e9")
+		)
+		(pin "2"
+			(uuid "03d9fdb0-ffaa-4a11-9ad4-4cf72eb2ff21")
+		)
+		(pin "1"
+			(uuid "c3700fb2-2652-4077-94f1-702eec55974a")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_SCR:X0202MN_5BA4")
+		(at 140.97 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c761eae9-f013-4f25-8051-d498b0af1168")
+		(property "Reference" "D10"
+			(at 128.778 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "X0202MN_5BA4"
+			(at 134.874 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:SOT230P700X190-4N"
+			(at 127 13.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00002274.pdf"
+			(at 127 -86.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "STMICROELECTRONICS - X0202MN 5BA4 - SCR THYRISTOR, 800mA, 600V, SOT-223"
+			(at 140.97 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.9"
+			(at 127 -286.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "511-X0202MN"
+			(at 127 -386.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/X0202MN-5BA4?qs=gSSIpVhvwUnb%2FPyS6HoGFw%3D%3D"
+			(at 127 -486.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 127 -586.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "X0202MN 5BA4"
+			(at 127 -686.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "d182b89d-2805-4515-ba69-f780aa80756f")
+		)
+		(pin "3"
+			(uuid "236a761b-4328-43a8-b025-46f45f063c34")
+		)
+		(pin "4"
+			(uuid "216903e8-f521-47b5-873a-2a3e96f2122b")
+		)
+		(pin "1"
+			(uuid "f2d6ca78-6587-4c4c-8f92-6a23069e530b")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 129.54 130.81 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceb198b9-9c80-4a56-9e16-48bc04ff2944")
+		(property "Reference" "R8"
+			(at 127.762 126.492 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 127.762 128.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 129.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec1c60f-c3aa-435e-97dd-a243d5069630")
+		)
+		(pin "2"
+			(uuid "9b213d5c-f655-48a0-b808-7238c250f080")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 146.05 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc8e5c87-0e05-4275-8c0e-633acf343d20")
+		(property "Reference" "R9"
+			(at 141.732 97.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510"
+			(at 143.764 97.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 146.05 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 146.05 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95ee2e97-3875-45bd-a487-fb5536fd52c1")
+		)
+		(pin "2"
+			(uuid "6ab2d50a-0c69-4283-b4f3-f49e2d2b20a4")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3e5b3fd-9fc6-4cf0-9d61-a9a863429a72")
+		(property "Reference" "#PWR06"
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3ca2daf-1548-41ef-ad3d-ba09a977fbcf")
+		)
+		(instances
+			(project "IMD Indicator"
+				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
