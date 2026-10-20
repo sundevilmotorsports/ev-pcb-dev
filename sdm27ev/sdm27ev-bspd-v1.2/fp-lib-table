@@ -1,4 +1,5 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/Misc.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "Misc") (type "KiCad") (uri "${KIPRJMOD}/Misc.pretty") (options "") (descr ""))
+	(lib (name "SDM_MiscFootprint") (type "KiCad") (uri "/home/robocat/Documents/Clubs/SDM/pcb-dev/MiscLibraries/SDM_MiscFootprint.pretty") (options "") (descr ""))
 )

@@ -3153,10 +3153,10 @@
 		(uuid "73c3bb77-4df7-47c4-a2b3-8aa56790a179")
 	)
 	(junction
-		(at 43.18 104.14)
+		(at 72.39 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b7d2c6f-88e5-4b5b-a0d9-299b03eefe16")
+		(uuid "89232257-7690-47ca-bc1f-de9e9f36852d")
 	)
 	(junction
 		(at 107.95 194.31)
@@ -3352,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 104.14) (xy 44.45 104.14)
+			(xy 29.21 104.14) (xy 44.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3575,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "35120630-c087-489d-a630-5648babebc36")
+	)
+	(wire
+		(pts
+			(xy 67.31 71.12) (xy 72.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359eb7e6-c46c-42bd-bafe-4abbffa93f8f")
 	)
 	(wire
 		(pts
@@ -3924,17 +3934,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 104.14) (xy 43.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 65 62 255 1)
-		)
-		(uuid "79851890-ac53-4e36-9b32-e104fc4c6037")
-	)
-	(wire
-		(pts
 			(xy 48.26 181.61) (xy 45.72 181.61)
 		)
 		(stroke
@@ -4244,17 +4243,6 @@
 			(color 255 109 0 1)
 		)
 		(uuid "ba1c42ee-f21e-49fd-bd2c-74bbee2cd072")
-	)
-	(wire
-		(pts
-			(xy 43.18 88.9) (xy 43.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 65 62 255 1)
-		)
-		(uuid "bb6ccddd-adea-416d-ac5e-531b7ff8852e")
 	)
 	(wire
 		(pts
@@ -4574,6 +4562,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 68.58) (xy 67.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8baea14-63a2-4930-bad0-561b50cf1344")
+	)
+	(wire
+		(pts
 			(xy 107.95 194.31) (xy 109.22 194.31)
 		)
 		(stroke
@@ -4806,7 +4804,7 @@
 			(uuid "5a3cffc5-ab59-4f76-b136-d98c8bd48ac0")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K6")
 					(unit 1)
@@ -4884,7 +4882,7 @@
 			(uuid "e7683243-09d1-4336-9a9e-8f05083d1dc0")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R9")
 					(unit 1)
@@ -4962,7 +4960,7 @@
 			(uuid "f5d2fd61-5b14-4e73-b1da-0525ddb14530")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "TP1")
 					(unit 1)
@@ -5041,7 +5039,7 @@
 			(uuid "d33bb246-4f00-4f4d-af0b-08d12bd132f1")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW4")
 					(unit 1)
@@ -5119,7 +5117,7 @@
 			(uuid "1ff77616-7f6e-4099-9cdf-91ddcf3f45cf")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R10")
 					(unit 1)
@@ -5234,7 +5232,7 @@
 			(uuid "fa72e594-3e5e-452d-bb4d-9a05cb8c700d")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "GLV_Battery")
 					(unit 1)
@@ -5404,7 +5402,7 @@
 			(uuid "d8669a9b-fb1a-493c-a6d2-78fff26dd885")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "Q3")
 					(unit 1)
@@ -5490,7 +5488,7 @@
 			(uuid "430c70b8-37f0-48d0-86c2-0320c5ba77bd")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K4")
 					(unit 1)
@@ -5568,7 +5566,7 @@
 			(uuid "98db12d8-cd57-425e-ba7a-e06f59f88745")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "TP2")
 					(unit 1)
@@ -5745,7 +5743,7 @@
 			(uuid "2a644b8b-ebfd-4038-beab-b8ee13c8fa99")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K3")
 					(unit 1)
@@ -5827,7 +5825,7 @@
 			(uuid "51f2b95b-2a44-43f5-b4ce-860d0e4efef7")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R2")
 					(unit 1)
@@ -5905,7 +5903,7 @@
 			(uuid "33dd7674-0200-4fd3-aacf-66acbc4027df")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR014")
 					(unit 1)
@@ -5985,7 +5983,7 @@
 			(uuid "7151bb0d-12db-4db6-89ae-c11e86f714d4")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "F2")
 					(unit 1)
@@ -6070,7 +6068,7 @@
 			(uuid "d3fbe91a-2e4b-44e3-b3f3-fe176456f215")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K7")
 					(unit 1)
@@ -6148,7 +6146,7 @@
 			(uuid "11f4c0b3-6d43-4957-aff8-1ba3713cb725")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR05")
 					(unit 1)
@@ -6227,7 +6225,7 @@
 			(uuid "4584cd58-ca42-45a1-a63e-c8e34b5e7841")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "Energy_Meter_Interlock")
 					(unit 1)
@@ -6305,7 +6303,7 @@
 			(uuid "b88f42e1-c86a-4587-a151-32b0ac4e6db6")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R7")
 					(unit 1)
@@ -6383,7 +6381,7 @@
 			(uuid "99bc3abb-1ad0-498a-bb97-04a0efd6ea0a")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR016")
 					(unit 1)
@@ -6461,7 +6459,7 @@
 			(uuid "b9afc19a-da07-4528-950c-3d5645bd1dbf")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR015")
 					(unit 1)
@@ -6540,7 +6538,7 @@
 			(uuid "96321c59-2a72-463d-89d6-8089e6bee7b6")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW1")
 					(unit 1)
@@ -6630,7 +6628,7 @@
 			(uuid "b838e154-418e-48e8-ac27-60566e493d12")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "D5")
 					(unit 1)
@@ -6717,7 +6715,7 @@
 			(uuid "6a909025-ffca-43d5-949a-c42dbe390082")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K5")
 					(unit 1)
@@ -6887,7 +6885,7 @@
 			(uuid "9c9c31ac-b615-4970-8788-287ee3ac9735")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "Q2")
 					(unit 1)
@@ -6966,7 +6964,7 @@
 			(uuid "a7a871ec-72b3-4d61-aba5-5e1ecc73fc33")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "J1")
 					(unit 1)
@@ -7044,7 +7042,7 @@
 			(uuid "56439c42-0a1f-4c36-b517-53128e88d6fc")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "F1")
 					(unit 1)
@@ -7122,87 +7120,9 @@
 			(uuid "210bc910-f231-4e7c-907d-dbcbce5926be")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 43.18 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88e1efc8-0f30-4eff-8197-f1ea93bdf9a9")
-		(property "Reference" "#PWR04"
-			(at 43.18 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 43.18 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 43.18 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de5f73d1-f3bb-402d-bed4-d882d9f29294")
-		)
-		(instances
-			(project "ESF_Shutdown_Circuit"
-				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7301,7 +7221,7 @@
 			(uuid "ab6b532a-b0d6-429e-bd97-bb35cc50f9f8")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "D1")
 					(unit 1)
@@ -7402,7 +7322,7 @@
 			(uuid "1d1af223-2a98-4a72-922f-1029e4b8379b")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "D3")
 					(unit 1)
@@ -7484,7 +7404,7 @@
 			(uuid "f94e96de-bc3e-4ed9-aa9f-9a9f71e70fa8")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R1")
 					(unit 1)
@@ -7564,7 +7484,7 @@
 			(uuid "150ad4b4-ac74-4307-81e4-85a1c09cc7bd")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R6")
 					(unit 1)
@@ -7644,7 +7564,7 @@
 			(uuid "07869d27-804d-49b1-a1a7-ca89093f4b74")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R4")
 					(unit 1)
@@ -7722,9 +7642,87 @@
 			(uuid "a190e76c-c700-4db5-8354-043213f4a2fb")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 67.31 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a0bfd6-a02e-45c0-91cb-2cf9ffe6884c")
+		(property "Reference" "#PWR04"
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 67.31 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 67.31 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e10c6025-f458-494c-8268-1d5d65bbdb65")
+		)
+		(instances
+			(project "Shutdown_Circuit_Full_ESF"
+				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7837,7 +7835,7 @@
 			(uuid "2a1a7086-10b1-47d7-9eb1-00367c37e3e4")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "TS_Battery")
 					(unit 1)
@@ -7927,7 +7925,7 @@
 			(uuid "3e4c976a-f4c1-402b-aa49-947eeaf4ec3a")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "D6")
 					(unit 1)
@@ -8006,7 +8004,7 @@
 			(uuid "05672ccf-2f50-462b-8559-9325d4175aab")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW8")
 					(unit 1)
@@ -8085,7 +8083,7 @@
 			(uuid "ed1942f5-6436-474e-adb3-2b0b762d00a1")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW5")
 					(unit 1)
@@ -8164,7 +8162,7 @@
 			(uuid "2c3de1a8-248d-4d92-a659-18647e01b3fa")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW6")
 					(unit 1)
@@ -8242,7 +8240,7 @@
 			(uuid "164e4b00-4fdd-41e7-b90d-ab48dbc51b2d")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR02")
 					(unit 1)
@@ -8419,7 +8417,7 @@
 			(uuid "f04277d8-4a72-4e8d-b1ab-4c21b9bc89a7")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K1")
 					(unit 1)
@@ -8589,7 +8587,7 @@
 			(uuid "0a391d90-e0fb-4229-9c45-fbc326afb4bc")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "Q1")
 					(unit 1)
@@ -8668,7 +8666,7 @@
 			(uuid "a3fead75-ed28-45ea-9ff8-5292274c28e1")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "MSD_Interlock")
 					(unit 1)
@@ -8750,7 +8748,7 @@
 			(uuid "4075f3ff-ba0d-4fd2-b366-adf9929b24c0")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R3")
 					(unit 1)
@@ -8927,7 +8925,7 @@
 			(uuid "216d8a9d-5a1a-4ef5-a2ba-24a75a1725f4")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K2")
 					(unit 1)
@@ -9007,7 +9005,7 @@
 			(uuid "2946c0c5-4f76-4814-8fc0-307fa21e304f")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R5")
 					(unit 1)
@@ -9097,7 +9095,7 @@
 			(uuid "90b3e7ca-70b1-4e9d-a59d-e59d628c8543")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "D4")
 					(unit 1)
@@ -9198,7 +9196,7 @@
 			(uuid "828c2ce5-df9f-4075-8ab3-69b1f1895eb7")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "D2")
 					(unit 1)
@@ -9276,7 +9274,7 @@
 			(uuid "d17ea5e3-0c5d-4a8d-b4dd-c1b667d815f0")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "R11")
 					(unit 1)
@@ -9355,7 +9353,7 @@
 			(uuid "29b44098-8b19-4f2a-aa7d-3df282c43c67")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW3")
 					(unit 1)
@@ -9434,7 +9432,7 @@
 			(uuid "9d840467-1d52-4e96-b6af-7cc307837540")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW7")
 					(unit 1)
@@ -9519,7 +9517,7 @@
 			(uuid "bcec3385-fb72-48a9-a5aa-8111cec4a34d")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "K8")
 					(unit 1)
@@ -9597,7 +9595,7 @@
 			(uuid "8e0f4906-1f60-43ff-bfe5-e8164b03dd19")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "#PWR06")
 					(unit 1)
@@ -9676,7 +9674,7 @@
 			(uuid "3f1e23bf-de49-4372-a7aa-5477aad103a1")
 		)
 		(instances
-			(project "ESF_Shutdown_Circuit"
+			(project "Shutdown_Circuit_Full_ESF"
 				(path "/34aa4959-1f44-4199-a4aa-05bf7ff8c18b"
 					(reference "SW2")
 					(unit 1)
