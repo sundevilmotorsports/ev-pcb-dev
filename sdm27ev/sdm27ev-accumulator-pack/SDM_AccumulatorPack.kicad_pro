@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -152,16 +146,16 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.6,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -209,13 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.15,
-        0.2,
-        0.4,
-        0.6
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -242,20 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.9,
-          "drill": 0.4
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -513,37 +488,29 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "highvoltageindicator_2026.kicad_pro",
+    "filename": "SDM_AccumulatorPack.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.254,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6858,
-        "microvia_drill": 0.3302,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 2.5,
-        "name": "HV",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -689,18 +656,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "highvoltageindicator_2026.kicad_sch",
-        "name": "highvoltageindicator_2026",
-        "uuid": "791bedc7-ef25-4412-9494-b7d0090ea594"
+        "filename": "SDM_AccumulatorPack.kicad_sch",
+        "name": "SDM_AccumulatorPack",
+        "uuid": "b2e70c53-29d1-4b3b-8053-28286598a524"
       }
     ],
-    "used_designators": "U4,J2",
+    "used_designators": "1,U1-24,K1-22,#FLG1,R1-17,TH1,TP1-10,F1-7,#PWR1-14,BT1-12,D1,SW1-9,J1",
     "variants": []
   },
   "sheets": [
     [
-      "791bedc7-ef25-4412-9494-b7d0090ea594",
-      "thispcbdoesnotmog"
+      "b2e70c53-29d1-4b3b-8053-28286598a524",
+      "SDM_AccumulatorPack"
+    ],
+    [
+      "16fb8ffb-0c0a-4168-91f0-3eeebe392096",
+      "Version 1.1"
     ]
   ],
   "text_variables": {},
