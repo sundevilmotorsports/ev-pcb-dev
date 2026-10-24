@@ -429,7 +429,7 @@
         "uuid": "b2aeb17e-134d-4155-8140-6b03f1864ab3"
       }
     ],
-    "used_designators": "J1-5,R1-16,D1-6,#PWR1-11,#PWR14-16,BT1-17,F1-18,K1-14,GLV_Battery1,Q1-3,SW1-7,TP1-2,TS_Battery1",
+    "used_designators": "J1-6,R1-16,D1-6,#PWR1-11,#PWR14-16,BT1-17,F1-18,K1-14,GLV_Battery1,Q1-3,SW1-7,TP1-2,TS_Battery1",
     "variants": []
   },
   "sheets": [

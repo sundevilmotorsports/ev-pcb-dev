@@ -1035,19 +1035,6 @@
 		(uuid "620aca06-12fd-4789-ae81-7fdb9ed3b2c7")
 	)
 	(rectangle
-		(start 172.72 45.72)
-		(end 193.04 50.8)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6ef47493-087c-43d6-a730-ed71f20daa08")
-	)
-	(rectangle
 		(start 170.18 22.86)
 		(end 195.58 33.02)
 		(stroke
@@ -1085,7 +1072,7 @@
 		(uuid "80061331-1f5d-484c-bf7b-8be7a7867302")
 	)
 	(rectangle
-		(start 266.7 68.58)
+		(start 246.38 68.58)
 		(end 276.86 76.2)
 		(stroke
 			(width 0)
@@ -1172,19 +1159,6 @@
 		)
 		(uuid "e3a34650-e1be-42e6-ba64-cc6efd9ddb35")
 	)
-	(rectangle
-		(start 246.38 71.12)
-		(end 254.254 78.74)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "fb9c5d07-8149-43ce-8510-087de0544591")
-	)
 	(text "B-\n"
 		(exclude_from_sim no)
 		(at 144.526 60.96 0)
@@ -1257,18 +1231,6 @@
 		)
 		(uuid "4e732c1e-cf26-413d-a207-ed66d0372d3b")
 	)
-	(text "NEED TO FIX"
-		(exclude_from_sim no)
-		(at 50.038 37.084 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "51ec08a9-29d2-4701-938e-3fc3b68759c6")
-	)
 	(text "12V\n"
 		(exclude_from_sim no)
 		(at 267.208 147.574 0)
@@ -1288,6 +1250,16 @@
 			)
 		)
 		(uuid "8cb97bbd-7570-4d68-b4a6-2f5d906a91c4")
+	)
+	(text "McMaster-Carr\n5340N21"
+		(exclude_from_sim no)
+		(at 261.366 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e11cdc7-3587-49e6-835a-0a205c44b0ea")
 	)
 	(text "CHARGING CART"
 		(exclude_from_sim no)
@@ -1356,6 +1328,16 @@
 			)
 		)
 		(uuid "e05f5d8e-5985-4abe-8c84-cf8dbf0dd960")
+	)
+	(text "HVSL1000022A1HB"
+		(exclude_from_sim no)
+		(at 232.156 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f39b825d-71a3-4c8c-b045-bfb9fa2328ab")
 	)
 	(junction
 		(at 87.63 50.8)
@@ -1606,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 193.04 92.71)
+			(xy 193.04 88.9) (xy 193.04 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1690,17 +1672,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 49.53) (xy 231.14 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 21 205 210 1)
-		)
-		(uuid "45e8c71a-f416-4ae8-befd-39301efe93b5")
-	)
-	(wire
-		(pts
 			(xy 165.1 132.08) (xy 170.18 132.08)
 		)
 		(stroke
@@ -1718,6 +1689,17 @@
 			(type solid)
 		)
 		(uuid "4867ee5b-d783-4e76-9720-0d4f61c60196")
+	)
+	(wire
+		(pts
+			(xy 175.26 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 21 205 210 1)
+		)
+		(uuid "487f5a3d-8f1b-4bf3-99a6-8ab71b985760")
 	)
 	(polyline
 		(pts
@@ -2272,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 92.71) (xy 231.14 49.53)
+			(xy 248.92 93.98) (xy 248.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 231.14 92.71)
+			(xy 193.04 93.98) (xy 248.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2397,6 +2379,17 @@
 			(color 255 155 3 1)
 		)
 		(uuid "e422d7a9-0922-4e7d-86ac-58d0d81af9c1")
+	)
+	(wire
+		(pts
+			(xy 175.26 45.72) (xy 175.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 21 205 210 1)
+		)
+		(uuid "ee3e700c-d002-45cb-89c0-f11e3b9c9e6b")
 	)
 	(wire
 		(pts
@@ -3900,6 +3893,85 @@
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 185.42 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7bef6cc-3c7c-4d72-a8e4-4165a3d1e9db")
+		(property "Reference" "F11"
+			(at 185.42 42.164 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Schurter 8020.5070.G 5A"
+			(at 187.96 40.132 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 39.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 185.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d55edcfd-4918-4139-a655-1af7c151c485")
+		)
+		(pin "1"
+			(uuid "b78ace21-a863-4fd0-ad1e-8bca5a6c3db8")
+		)
+		(instances
+			(project "TS System Schematic"
+				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
+					(reference "F11")
 					(unit 1)
 				)
 			)
