@@ -562,7 +562,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -676,7 +676,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Current Sensor",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -688,13 +688,17 @@
         "uuid": "f5fc7189-56d7-49a3-a293-889ea2ed3485"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-6,J1-4",
+    "used_designators": "#FLG1-4,#PWR1-24,C1-4,H1-5,IC1-2,J1-4,LED6-7,R1-6,RED_TP1-2,RED_TP4-6,U1-4,VR1-2,VR4-5,WHITE_TP1-2",
     "variants": []
   },
   "sheets": [
     [
       "f5fc7189-56d7-49a3-a293-889ea2ed3485",
       "sdm27ev-bspd-v2"
+    ],
+    [
+      "e2198b7f-9f60-4a5d-be1e-3151c1f6d596",
+      "Current Sensor Sub-Board"
     ]
   ],
   "text_variables": {},

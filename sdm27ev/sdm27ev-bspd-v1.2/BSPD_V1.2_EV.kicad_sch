@@ -16343,7 +16343,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca00bbe9-140b-4b19-a331-32fbd5856af2")
+			(uuid "ca00bbe9-140b-4b19-a331-32fbd5856af3")
 		)
 		(instances
 			(project "BSPD_V1.2_EV"
