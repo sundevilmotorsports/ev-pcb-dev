@@ -425,6 +425,16 @@
 		)
 		(uuid "4a062977-d75f-49c6-8084-9141695eec5a")
 	)
+	(text "McMaster-Carr\n5340N21"
+		(exclude_from_sim no)
+		(at 46.228 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c4d9e8e-0428-4d9d-a76a-d4fec2f99758")
+	)
 	(text "AWG 1\n"
 		(exclude_from_sim no)
 		(at 200.406 61.722 0)
@@ -454,6 +464,26 @@
 			)
 		)
 		(uuid "5947394d-2d45-406a-950d-70e47eac0806")
+	)
+	(text "McMaster-Carr\n5340N21"
+		(exclude_from_sim no)
+		(at 68.834 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b9fd65c-def8-4bd2-a980-9b8c02d77238")
+	)
+	(text "McMaster-Carr\n5340N21"
+		(exclude_from_sim no)
+		(at 106.426 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6375918c-fcc5-46b5-8485-b47fc1f979ab")
 	)
 	(text "NEED TO FIX"
 		(exclude_from_sim no)
@@ -500,6 +530,16 @@
 			)
 		)
 		(uuid "70aa6ce2-4fd7-4694-9e8f-178e902a1ae9")
+	)
+	(text "HVSL1000022A1HB"
+		(exclude_from_sim no)
+		(at 65.278 28.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71702897-87c8-4476-83ad-a40db02ee4a4")
 	)
 	(text "TRACTIVE SYSTEM ESF"
 		(exclude_from_sim no)

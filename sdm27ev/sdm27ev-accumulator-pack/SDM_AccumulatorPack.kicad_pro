@@ -661,7 +661,7 @@
         "uuid": "b2e70c53-29d1-4b3b-8053-28286598a524"
       }
     ],
-    "used_designators": "1,U1-24,K1-22,#FLG1,R1-17,TH1,TP1-10,F1-7,#PWR1-14,BT1-12,D1,SW1-9,J1",
+    "used_designators": "1,U1-37,K1-22,#FLG1,R1-17,TH1,TP1-10,F1-7,#PWR1-29,BT1-23,D1,SW1-24,J1-3,Current_Sensor1-2",
     "variants": []
   },
   "sheets": [
@@ -672,6 +672,10 @@
     [
       "16fb8ffb-0c0a-4168-91f0-3eeebe392096",
       "Version 1.1"
+    ],
+    [
+      "f1a29f4d-0b66-4060-aca7-e5001004b0dc",
+      "Version 1.2"
     ]
   ],
   "text_variables": {},

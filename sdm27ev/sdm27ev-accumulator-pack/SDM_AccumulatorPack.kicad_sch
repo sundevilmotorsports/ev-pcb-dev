@@ -5205,6 +5205,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 374.65 274.32)
+		(size 384.81 218.44)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1a29f4d-0b66-4060-aca7-e5001004b0dc")
+		(property "Sheetname" "Version 1.2"
+			(at 374.65 273.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Version 1.2.kicad_sch"
+			(at 374.65 493.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SDM_AccumulatorPack"
+				(path "/b2e70c53-29d1-4b3b-8053-28286598a524"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
