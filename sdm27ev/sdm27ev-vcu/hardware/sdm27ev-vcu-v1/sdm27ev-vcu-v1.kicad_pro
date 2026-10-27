@@ -633,7 +633,7 @@
         "uuid": "aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9"
       }
     ],
-    "used_designators": "U2,U8-24,D3,#PWR1-3,#PWR6-11,#PWR13-16,#PWR119-136,#PWR159-162,#PWR164,#PWR166-167,#PWR171-273,J6,R1-2,R38,R40,R43-44,R50-51,R80-105,R109-184,SW4-5,C10-11,C68-71,C74-143,RN5-15,IC7-8,IC20-26,Q4-7",
+    "used_designators": "U2,U8-24,D3,#PWR1-4,#PWR6-11,#PWR13-16,#PWR25,#PWR35-40,#PWR47-51,#PWR55,#PWR71,#PWR85,#PWR87,#PWR119-136,#PWR157-162,#PWR164,#PWR166-273,J5-6,R1-2,R10-11,R14-18,R30,R33-34,R37-44,R50-51,R79-106,R109-184,SW4-5,C1-6,C10-11,C13-39,C68-71,C74-143,FB1-2,RN5-15,IC1,IC3-13,IC20-26,Q4-7,Y1,LED1,NT1,L3",
     "variants": []
   },
   "sheets": [
@@ -646,7 +646,7 @@
       "Power"
     ],
     [
-      "977c91ee-781b-48c9-8e40-db1deadd4721",
+      "7b200d13-b4cc-49a7-aeb1-2810cac03b9c",
       "CAN"
     ],
     [
