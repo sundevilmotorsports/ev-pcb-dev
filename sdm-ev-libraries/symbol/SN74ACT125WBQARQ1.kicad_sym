@@ -1,0 +1,100 @@
+(kicad_symbol_lib
+  (version 20231120)
+  (generator "kicad_symbol_editor")
+  (symbol "SN74ACT125WBQARQ1"
+    (pin_names (offset 0.508))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at -17.78 21.59 0) (effects (font (size 1.0 1.0)) (justify left)))
+    (property "Value" "SN74ACT125WBQARQ1" (at 0 -25.4 0) (effects (font (size 1.0 1.0))))
+    (property "Footprint" "SN74ACT125_WBQA:SN74ACT125WBQARQ1_WQFN-14-1EP_2.5x3mm_P0.5mm" (at 0 0 0) (effects (font (size 1.0 1.0)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/gpn/sn74act125-q1" (at 0 0 0) (effects (font (size 1.0 1.0)) hide))
+    (property "Description" "TI AEC-Q100 quad non-inverting tri-state buffer, 5V, active-low enables; wettable-flank WQFN-14 BQA0014B with exposed pad 15." (at 0 0 0) (effects (font (size 1.0 1.0)) hide))
+    (property "Notes" "/OE pins 1,4,10,13 are active LOW (tie to GND to enable). Exposed pad 15 must be soldered to PCB; electrically GND or floating only. 100nF VCC decoupling near device." (at 0 0 0) (effects (font (size 1.0 1.0)) hide))
+    (symbol "SN74ACT125WBQARQ1_0_1"
+      (rectangle (start -17.78 17.78) (end 17.78 -17.78) (stroke (width 0.254) (type default)) (fill (type background)))
+      (polyline (pts (xy -17.78 8.89) (xy 17.78 8.89)) (stroke (width 0.127) (type default)) (fill (type none)))
+      (polyline (pts (xy -17.78 1.27) (xy 17.78 1.27)) (stroke (width 0.127) (type default)) (fill (type none)))
+      (polyline (pts (xy -17.78 -6.35) (xy 17.78 -6.35)) (stroke (width 0.127) (type default)) (fill (type none)))
+      (text "QUAD 3-STATE BUFFER" (at 0 15.24 0) (effects (font (size 1.016 1.016))))
+      (text "5 V / WBQA" (at 0 -15.875 0) (effects (font (size 0.889 0.889))))
+    )
+    (symbol "SN74ACT125WBQARQ1_1_1"
+      (pin input inverted
+        (at -20.32 12.7 0) (length 2.54)
+        (name "~{1OE}" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin input line
+        (at -20.32 10.16 0) (length 2.54)
+        (name "1A" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+      (pin output line
+        (at 20.32 10.16 180) (length 2.54)
+        (name "1Y" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016))))
+      )
+      (pin input inverted
+        (at -20.32 5.08 0) (length 2.54)
+        (name "~{2OE}" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016))))
+      )
+      (pin input line
+        (at -20.32 2.54 0) (length 2.54)
+        (name "2A" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016))))
+      )
+      (pin output line
+        (at 20.32 2.54 180) (length 2.54)
+        (name "2Y" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016))))
+      )
+      (pin input inverted
+        (at -20.32 -2.54 0) (length 2.54)
+        (name "~{3OE}" (effects (font (size 1.016 1.016))))
+        (number "10" (effects (font (size 1.016 1.016))))
+      )
+      (pin input line
+        (at -20.32 -5.08 0) (length 2.54)
+        (name "3A" (effects (font (size 1.016 1.016))))
+        (number "9" (effects (font (size 1.016 1.016))))
+      )
+      (pin output line
+        (at 20.32 -5.08 180) (length 2.54)
+        (name "3Y" (effects (font (size 1.016 1.016))))
+        (number "8" (effects (font (size 1.016 1.016))))
+      )
+      (pin input inverted
+        (at -20.32 -10.16 0) (length 2.54)
+        (name "~{4OE}" (effects (font (size 1.016 1.016))))
+        (number "13" (effects (font (size 1.016 1.016))))
+      )
+      (pin input line
+        (at -20.32 -12.7 0) (length 2.54)
+        (name "4A" (effects (font (size 1.016 1.016))))
+        (number "12" (effects (font (size 1.016 1.016))))
+      )
+      (pin output line
+        (at 20.32 -12.7 180) (length 2.54)
+        (name "4Y" (effects (font (size 1.016 1.016))))
+        (number "11" (effects (font (size 1.016 1.016))))
+      )
+      (pin power_in line
+        (at 8.89 20.32 270) (length 2.54)
+        (name "VCC" (effects (font (size 1.016 1.016))))
+        (number "14" (effects (font (size 1.016 1.016))))
+      )
+      (pin power_in line
+        (at -8.89 -20.32 90) (length 2.54)
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "7" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line
+        (at 8.89 -20.32 90) (length 2.54)
+        (name "EP (GND/NC)" (effects (font (size 1.016 1.016))))
+        (number "15" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+)

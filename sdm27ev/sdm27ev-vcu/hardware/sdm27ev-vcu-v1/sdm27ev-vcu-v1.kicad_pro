@@ -633,7 +633,7 @@
         "uuid": "aaff56d4-6a2c-4b9b-8d6c-def2b75cacc9"
       }
     ],
-    "used_designators": "IC17-20,RN1-4,U2,U8-13,FB1,#PWR5,#PWR16-18,#PWR24,#PWR26,#PWR40,#PWR116,#PWR118-172,D2,D11,C68-73,LED1-3,R10-11,R79,R87-135",
+    "used_designators": "U2,U8-24,D3,#PWR1-3,#PWR6-11,#PWR13-16,#PWR119-136,#PWR159-162,#PWR164,#PWR166-167,#PWR171-273,J6,R1-2,R38,R40,R43-44,R50-51,R80-105,R109-184,SW4-5,C10-11,C68-71,C74-143,RN5-15,IC7-8,IC20-26,Q4-7",
     "variants": []
   },
   "sheets": [
@@ -650,12 +650,12 @@
       "CAN"
     ],
     [
-      "94470ab9-6bce-420a-9cac-af2dd8684221",
-      "Analog"
+      "a3abf2c4-9a2a-457b-b884-dbc611a2dc79",
+      "Digital IN-OUT"
     ],
     [
-      "a3abf2c4-9a2a-457b-b884-dbc611a2dc79",
-      "Digital IO"
+      "d2d3c7b3-c1c6-4ab1-8191-c239c244f58a",
+      "Analog"
     ]
   ],
   "text_variables": {},
