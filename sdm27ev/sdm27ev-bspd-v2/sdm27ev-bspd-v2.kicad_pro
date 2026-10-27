@@ -561,7 +561,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -676,6 +676,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "Current Sensor",
     "plot_directory": "",
     "reuse_designators": true,
@@ -688,7 +696,7 @@
         "uuid": "f5fc7189-56d7-49a3-a293-889ea2ed3485"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-24,C1-4,H1-5,IC1-2,J1-4,LED6-7,R1-6,RED_TP1-2,RED_TP4-6,U1-4,VR1-2,VR4-5,WHITE_TP1-2",
+    "used_designators": "#FLG1-4,#FLG101-104,#FLG301,#PWR1-40,#PWR44,#PWR101-106,#PWR201-216,#PWR301-331,C1-8,C201-202,C301-308,D301-306,H1-8,H201-204,H301-304,IC1-2,IC5,IC301-304,J1-4,J101-104,LED1-2,LED6-9,LED201-202,LED301-305,Q301,R1-16,R201-207,R301-314,RED_TP1-6,RED_TP201-202,RED_TP301-302,U1-4,U201-202,U301,VR1-5,VR201-202,VR301-302,WHITE_TP1-2,WHITE_TP201,WHITE_TP301",
     "variants": []
   },
   "sheets": [
@@ -699,6 +707,10 @@
     [
       "e2198b7f-9f60-4a5d-be1e-3151c1f6d596",
       "Current Sensor Sub-Board"
+    ],
+    [
+      "895bf764-fc21-430b-99cd-ad743e73de67",
+      "Main Board"
     ]
   ],
   "text_variables": {},
