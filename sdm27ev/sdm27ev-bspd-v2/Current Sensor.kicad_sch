@@ -3305,7 +3305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.8 145.288 90)
 			(hide yes)
 			(show_name no)
@@ -3387,7 +3387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 142.24 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -3463,7 +3463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 142.24 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -3536,7 +3536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.37 145.288 90)
 			(hide yes)
 			(show_name no)
@@ -4082,7 +4082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 122.428 90)
 			(hide yes)
 			(show_name no)
@@ -4239,7 +4239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 31.75 122.428 90)
 			(hide yes)
 			(show_name no)
@@ -4397,7 +4397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 163.068 90)
 			(hide yes)
 			(show_name no)
@@ -4630,7 +4630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.32 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -4791,7 +4791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 142.24 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -4915,7 +4915,7 @@
 	(symbol
 		(lib_id "Isolator:LTV-827S")
 		(at 49.53 128.27 270)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5007,7 +5007,7 @@
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
 					(reference "U302")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -5362,7 +5362,7 @@
 				)
 			)
 		)
-		(property "Measure" "HES"
+		(property "Measure" "Current Sensor"
 			(at 103.124 39.878 0)
 			(hide yes)
 			(show_name no)
@@ -5944,7 +5944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 91.948 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -6073,7 +6073,7 @@
 		(lib_id "Isolator:LTV-827S")
 		(at 40.64 128.27 90)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6082,7 +6082,7 @@
 		(dnp no)
 		(uuid "b47f9bc6-001d-4c7e-a4fa-5c43fc2285be")
 		(property "Reference" "U302"
-			(at 32.512 127.254 90)
+			(at 29.718 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6164,7 +6164,7 @@
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
 					(reference "U302")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -6368,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.32 81.5848 0)
 			(hide yes)
 			(show_name no)
@@ -6450,7 +6450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 142.24 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7004,7 +7004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 26.67 163.068 90)
 			(hide yes)
 			(show_name no)

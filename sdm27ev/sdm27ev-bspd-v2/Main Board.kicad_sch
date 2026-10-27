@@ -4501,7 +4501,7 @@
 	)
 	(text "Latch"
 		(exclude_from_sim no)
-		(at 164.592 119.634 0)
+		(at 165.608 119.634 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4704,16 +4704,6 @@
 			(type default)
 		)
 		(uuid "01af5973-06f7-4bd6-a37d-ccf1a5e16f68")
-	)
-	(wire
-		(pts
-			(xy 157.48 99.06) (xy 157.48 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021f4ac8-296a-4beb-929d-6599e418a1f8")
 	)
 	(wire
 		(pts
@@ -5197,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 129.54) (xy 160.02 132.08)
+			(xy 160.02 99.06) (xy 160.02 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5224,16 +5214,6 @@
 			(type default)
 		)
 		(uuid "7f6c92b6-92b0-40b6-b017-42443229e3ab")
-	)
-	(wire
-		(pts
-			(xy 160.02 129.54) (xy 157.48 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7ea240-3287-4c5e-ad53-870129e979d7")
 	)
 	(wire
 		(pts
@@ -5267,7 +5247,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 181.61 99.06)
+			(xy 160.02 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5816,7 +5796,7 @@
 		(uuid "4c03086e-3819-4288-9265-e042f166e5eb")
 	)
 	(label "Combined Fault Line"
-		(at 157.48 99.06 0)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6149,7 +6129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 16.51 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -6534,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 87.122 90)
 			(hide yes)
 			(show_name no)
@@ -6760,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 17.78 79.0448 0)
 			(hide yes)
 			(show_name no)
@@ -6997,7 +6977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.238 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -8271,7 +8251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.818 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -8508,7 +8488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 16.51 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9129,7 +9109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 17.78 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -10191,7 +10171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 88.392 90)
 			(hide yes)
 			(show_name no)
@@ -10500,7 +10480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.328 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -10660,7 +10640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 16.51 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11306,7 +11286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.038 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -11464,7 +11444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -11849,7 +11829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 16.51 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12236,7 +12216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.658 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -12316,7 +12296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -12714,7 +12694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "SDM_MiscFootprint:SOT95P280X145-5L"
 			(at 229.87 146.99 0)
 			(hide yes)
 			(show_name no)

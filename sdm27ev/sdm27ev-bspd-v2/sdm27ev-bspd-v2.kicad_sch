@@ -1961,7 +1961,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2692,7 +2692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "776280-1"
+		(property "Footprint" "SDM_MiscFootprint:776280-1"
 			(at 53.34 119.05 0)
 			(hide yes)
 			(show_name no)
@@ -2827,7 +2827,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2929,7 +2929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "776280-1"
+		(property "Footprint" "SDM_MiscFootprint:776280-1"
 			(at 240.03 119.05 0)
 			(hide yes)
 			(show_name no)
