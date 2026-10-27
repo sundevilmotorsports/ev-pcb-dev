@@ -2043,7 +2043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "167692e4-8775-46ab-9b3d-e37e92b10f19")
-		(property "Reference" "#FLG0104"
+		(property "Reference" "#FLG0102"
 			(at 243.205 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -2104,7 +2104,7 @@
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
-					(reference "#FLG0104")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb50ec6-833e-4945-8346-67800b53e5dc")
-		(property "Reference" "#FLG0103"
+		(property "Reference" "#FLG0104"
 			(at 243.205 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2418,7 +2418,7 @@
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
-					(reference "#FLG0103")
+					(reference "#FLG0104")
 					(unit 1)
 				)
 			)
@@ -2436,7 +2436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58114e1a-6073-4405-a0bd-33a7b85840e5")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG0103"
 			(at 28.575 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2497,7 +2497,7 @@
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
-					(reference "#FLG0102")
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -3215,7 +3215,7 @@
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -3291,7 +3291,7 @@
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
