@@ -707,7 +707,7 @@
         "uuid": "f5fc7189-56d7-49a3-a293-889ea2ed3485"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-24,C1-4,H1-5,IC1-2,J1-4,LED6-7,R1-6,RED_TP1-2,RED_TP4-6,U1-4,VR1-2,VR4-5,WHITE_TP1-2",
+    "used_designators": "#FLG1-4,#PWR1-24,#PWR226,#PWR232,C1-4,H1-5,IC1-2,J1-4,LED6-7,LED203,R1-6,R213,RED_TP1-2,RED_TP4-6,U1-4,VR1-2,VR4-5,WHITE_TP1-2",
     "variants": []
   },
   "sheets": [
