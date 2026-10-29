@@ -2628,7 +2628,7 @@
 		)
 		(uuid "b6b19961-55da-4464-bb05-4e71cd894f72")
 	)
-	(text "Brightness: 10mcd\nΔV = 5V - 2.7V = 2.3V\nV/I = 2.3V / 0.5mA = 4600Ω\n4.6k ≈ 4.7kΩ\nLED Current Draw: 0.5mA"
+	(text "Brightness: 10mcd\nΔV = 5V - 2.7V = 2.3V\nV/I = 2.3V / 0.5mA =\n  4.6kΩ ≈ 4.7kΩ\nLED Current Draw: 0.5mA"
 		(exclude_from_sim no)
 		(at 17.526 173.736 0)
 		(effects

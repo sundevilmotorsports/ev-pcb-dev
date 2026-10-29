@@ -1291,6 +1291,18 @@
 		)
 		(uuid "aac4cce2-3399-40b0-a26d-fbc0115b22a3")
 	)
+	(rectangle
+		(start 191.77 110.49)
+		(end 245.11 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f954d6e2-2cf3-45cc-8ac6-daa511777a25")
+	)
 	(text "External Wireing Harness"
 		(exclude_from_sim no)
 		(at 136.398 20.828 0)
@@ -1352,6 +1364,17 @@
 			(justify left)
 		)
 		(uuid "991c1d18-777a-434d-8a25-8fd65605d098")
+	)
+	(text "Link to Falstad Simulation"
+		(exclude_from_sim no)
+		(at 218.186 113.792 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(href "https://links.dylan-shah.com/sdm-bspd-falstad")
+		)
+		(uuid "fe3f9dce-29ab-4909-b7f0-351f4cac622d")
 	)
 	(junction
 		(at 241.3 29.21)
