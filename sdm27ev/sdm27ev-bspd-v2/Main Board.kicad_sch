@@ -4406,16 +4406,6 @@
 		)
 		(uuid "127bca02-cc09-4a91-a892-0e26e748c751")
 	)
-	(text "5V / 20mA = 250Ω"
-		(exclude_from_sim no)
-		(at 200.152 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1a2f52ae-accd-431e-8765-5e3be9858e79")
-	)
 	(text "Comparitor goes high-impedance when + > -\nComparitor goes LOW when - > +\n"
 		(exclude_from_sim no)
 		(at 56.388 75.438 0)
@@ -5403,16 +5393,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 137.16) (xy 205.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d9d1a1-dc86-4093-9d6b-65bc7519503f")
-	)
-	(wire
-		(pts
 			(xy 190.5 38.1) (xy 198.12 38.1)
 		)
 		(stroke
@@ -5793,6 +5773,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 137.16) (xy 217.17 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec470bd9-e697-4f2b-b1b1-99eee002218d")
+	)
+	(wire
+		(pts
 			(xy 106.68 69.85) (xy 106.68 67.31)
 		)
 		(stroke
@@ -5810,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "efceba45-4335-46f4-beb6-b7b2cc29d777")
+	)
+	(wire
+		(pts
+			(xy 194.31 137.16) (xy 198.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f266752c-165b-4ebc-aa00-985d37c73a89")
 	)
 	(wire
 		(pts
@@ -6106,14 +6106,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 189.23 115.57 0)
+		(property "Value" "+12V"
+			(at 191.77 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8599,85 +8600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 209.55 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55308d84-38b9-4cac-a483-bebb8389ddaa")
-		(property "Reference" "R212"
-			(at 209.55 132.588 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 209.55 135.128 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 138.938 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 209.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a7425b8b-b626-4b52-98b7-d14945d214cb")
-		)
-		(pin "1"
-			(uuid "d8ef6b43-362e-413f-8c51-6f1de95273a0")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
-					(reference "R212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 16.51 184.15 0)
 		(unit 1)
@@ -9884,6 +9806,171 @@
 		)
 	)
 	(symbol
+		(lib_id "SDM_MiscSymbol:150060GS75000")
+		(at 201.93 137.16 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fe9a659-26bb-4102-a6ec-052feffd0429")
+		(property "Reference" "LED203"
+			(at 198.628 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060GS75000"
+			(at 199.136 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
+			(at 189.23 43.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
+			(at 189.23 -56.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"
+			(at 201.93 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 203.708 156.464 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Height" "0.8"
+			(at 189.23 -256.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "710-150060GS75000"
+			(at 189.23 -356.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
+			(at 189.23 -456.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 189.23 -556.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060GS75000"
+			(at 189.23 -656.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Measure" "BSPD Good"
+			(at 205.232 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4df781f0-f5bf-4967-aa41-ab77b188ad54")
+		)
+		(pin "1"
+			(uuid "6ef5e866-1c2b-4e8e-aa13-c9c421371fa1")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
+					(reference "LED203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 187.96 46.99 270)
 		(unit 1)
@@ -10814,6 +10901,85 @@
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b92ad3f9-5df8-439f-899b-2e493f677aad")
+		(property "Reference" "R212"
+			(at 190.5 132.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 190.5 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 190.5 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "339cb005-c796-4707-8aac-91d42e13e565")
+		)
+		(pin "1"
+			(uuid "56ac1641-3eb7-4a81-bcda-d81148aded84")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
+					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -11859,7 +12025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 137.16 0)
+		(at 217.17 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11870,7 +12036,7 @@
 		(fields_autoplaced yes)
 		(uuid "e10c1760-e0bd-402b-9ecc-9c41488ff465")
 		(property "Reference" "#PWR0227"
-			(at 213.36 143.51 0)
+			(at 217.17 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11881,7 +12047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 142.24 0)
+			(at 217.17 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11891,7 +12057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 137.16 0)
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11902,7 +12068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 137.16 0)
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11913,7 +12079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 137.16 0)
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12664,7 +12830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240"
+		(property "Value" "680"
 			(at 186.944 126.238 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12718,171 +12884,6 @@
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
 					(reference "R209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MiscSymbol:150060GS75000")
-		(at 190.5 137.16 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa9a0954-98a2-4fd4-bfc9-1d26bdec49bb")
-		(property "Reference" "LED203"
-			(at 187.198 141.986 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "150060GS75000"
-			(at 187.706 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
-			(at 177.8 43.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
-			(at 177.8 -56.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"
-			(at 190.5 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" "Green"
-			(at 192.278 156.464 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Height" "0.8"
-			(at 177.8 -256.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "710-150060GS75000"
-			(at 177.8 -356.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
-			(at 177.8 -456.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 177.8 -556.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060GS75000"
-			(at 177.8 -656.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Measure" "BSPD Good"
-			(at 193.802 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "45b98134-c18c-469f-bf02-cffdd353c242")
-		)
-		(pin "1"
-			(uuid "b97b75ad-5d0e-404f-8987-d91802960722")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
-					(reference "LED203")
 					(unit 1)
 				)
 			)
