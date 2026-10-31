@@ -5922,7 +5922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.33µF"
 			(at 59.69 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6002,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100"
 			(at 194.31 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6228,7 +6228,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 21.59 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +6308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1µF"
 			(at 94.742 190.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 122.174 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,26 +7626,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "528ae354-973d-49d3-9168-e75f30166669")
 		(property "Reference" "R211"
-			(at 59.69 157.48 90)
+			(at 60.96 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 62.23 157.48 90)
+		(property "Value" "4.7k"
+			(at 63.5 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -8415,7 +8416,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1µF"
 			(at 21.59 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,7 +9239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10µF"
 			(at 185.42 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9319,7 +9320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100µF"
 			(at 182.626 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,26 +9618,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0890492-b025-42e6-81f1-745a887610e9")
 		(property "Reference" "R212"
-			(at 76.2 157.48 90)
+			(at 77.724 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 78.74 157.48 90)
+		(property "Value" "4.7k"
+			(at 80.264 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -10019,7 +10021,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 190.5 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10357,7 +10359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 176.53 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10515,7 +10517,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 45.974 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +10675,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 58.42 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11519,7 +11521,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 53.594 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11599,7 +11601,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 125.73 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11837,7 +11839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "380"
 			(at 186.944 126.238 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11917,7 +11919,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "39k"
 			(at 186.69 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +12164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1µF"
 			(at 178.562 26.416 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12288,28 +12290,28 @@
 			)
 		)
 		(pin "11"
-			(uuid "b913429f-2681-4105-ac3d-8cd474ad3934")
+			(uuid "b913429f-2681-4105-ac3d-8cd474ad3935")
 		)
 		(pin "10"
-			(uuid "def0f512-972f-4b76-a6b1-d9c3314a7041")
+			(uuid "def0f512-972f-4b76-a6b1-d9c3314a7042")
 		)
 		(pin "14"
-			(uuid "910b7b81-b352-457a-bd6d-9eb8ec719db0")
+			(uuid "910b7b81-b352-457a-bd6d-9eb8ec719db2")
 		)
 		(pin "7"
-			(uuid "0ea245b9-2618-4bdf-8830-f853c54e2604")
+			(uuid "0ea245b9-2618-4bdf-8830-f853c54e2606")
 		)
 		(pin "6"
-			(uuid "a2e54b26-6cf9-4870-ad68-9d9dac789bb7")
+			(uuid "a2e54b26-6cf9-4870-ad68-9d9dac789bb9")
 		)
 		(pin "5"
-			(uuid "9379179b-c799-4d75-a7a1-f94d33f294d2")
+			(uuid "9379179b-c799-4d75-a7a1-f94d33f294d4")
 		)
 		(pin "13"
-			(uuid "775c9071-f065-4202-ac08-c993b9df6ede")
+			(uuid "775c9071-f065-4202-ac08-c993b9df6edf")
 		)
 		(pin "12"
-			(uuid "56bc4500-41b7-4a02-afb5-32e2b5b136a4")
+			(uuid "56bc4500-41b7-4a02-afb5-32e2b5b136a5")
 		)
 		(pin "9"
 			(uuid "cf7e5b67-87eb-411e-aa63-eb47d90a955f")
@@ -12324,10 +12326,10 @@
 			(uuid "581090fd-f6f6-43f2-8541-31ffe3ea642d")
 		)
 		(pin "3"
-			(uuid "c69eb5ee-426c-44c4-bc75-283ab12732e3")
+			(uuid "c69eb5ee-426c-44c4-bc75-283ab12732e5")
 		)
 		(pin "4"
-			(uuid "e0943335-5baf-45a4-808c-20dc53cbc71b")
+			(uuid "e0943335-5baf-45a4-808c-20dc53cbc71d")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
