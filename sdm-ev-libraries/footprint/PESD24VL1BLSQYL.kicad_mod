@@ -1,0 +1,240 @@
+(footprint "PESD24VL1BLSQYL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PESD24VL1BLS-QYL")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "D1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3f51a055-1361-4525-829f-887c8d1817d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PESD24VL1BLS-QYL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "680294a0-35ae-48fe-808b-ce4b4f1bac6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nexperia.com/product/PESD24VL1BLS-Q"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69649822-d67d-493c-8c3c-dc79e719e950")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "PESD24VL1BLS-Q - Extremely low clamping bidirectional ESD protection, VRWM = 24 V, VCL = 31 V at Ipp = 1 A, Tamb = 25 C."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39207b30-71b2-49f9-a6c7-5263d83c3bcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e9788f5-1c78-4903-9a7b-f6e2e3c5a05a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "771-PESD24VL1BLSQYL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cedfe6d6-47ab-4d42-b6c4-38921a420637")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD24VL1BLS-QYL?qs=olJun0bQHM%252B4foBAcrkO1A%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "876a89b4-6137-4907-bbc8-fa71d9206238")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b0c3265-2b78-4476-806d-171754842124")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PESD24VL1BLS-QYL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6da521b8-20cb-46d8-bc66-ec6000dd4079")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Digital IN-OUT/")
+	(sheetfile "DigitalIO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.149999 0.000001)
+		(end -1.149999 0.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af8cfcbd-8a59-4f2c-8ea4-35febdd29026")
+	)
+	(fp_line
+		(start -1.05 0.000001)
+		(end -1.05 0.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8632ad5-1d0b-441c-b98e-113ac62002f1")
+	)
+	(fp_arc
+		(start -1.149999 0.000001)
+		(mid -1.1 -0.05)
+		(end -1.05 0.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69d87d27-10b4-40ee-9ab3-d8c83e604bd1")
+	)
+	(fp_arc
+		(start -1.05 0.000001)
+		(mid -1.1 0.05)
+		(end -1.149999 0.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47f1e93f-63e6-4196-802e-a3b400cf4a53")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -0.999999) (xy 1.5 -1.000001) (xy 1.5 0.999999) (xy -1.5 1.000001)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "23f9b34f-5308-4dbe-b904-4b88400b7694")
+	)
+	(fp_line
+		(start -0.500001 -0.3)
+		(end 0.5 -0.300001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a15057bd-e25f-4581-a98a-b65faa0c5c00")
+	)
+	(fp_line
+		(start -0.5 0.300001)
+		(end -0.500001 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a79ac3cd-dd9f-4fc2-8cbb-e686af93631a")
+	)
+	(fp_line
+		(start 0.5 -0.300001)
+		(end 0.500001 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddcc9369-7875-4b07-8b1b-14bd9dae57ba")
+	)
+	(fp_line
+		(start 0.500001 0.3)
+		(end -0.5 0.300001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21137bb0-45a1-4f17-92df-9c5de53bee22")
+	)
+	(pad "1" smd rect
+		(at -0.399999 -0.000001)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3f358be-6563-4368-b1d9-47f9affe6075")
+	)
+	(pad "2" smd rect
+		(at 0.399999 0.000001)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76f91b30-41f0-445e-8050-07b9e6b95e40")
+	)
+	(embedded_fonts no)
+	(model "PESD24VL1BLS-QYL.stp"
+		(offset
+			(xyz -0.2199999955 -0.5199999731 -0.7799999597)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

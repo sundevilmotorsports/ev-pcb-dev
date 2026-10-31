@@ -4283,7 +4283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" ""
 			(at 129.54 167.31 0)
 			(hide yes)
 			(show_name no)
@@ -4616,7 +4616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4703,7 +4703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5217,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS3225MVQ400BSTR"
+		(property "Footprint" "SDM_EV:ECS3225MVQ400BSTR"
 			(at 62.23 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -5371,7 +5371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" ""
 			(at 129.54 205.41 0)
 			(hide yes)
 			(show_name no)
@@ -5622,7 +5622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-14N"
+		(property "Footprint" "SDM_EV:SOIC127P600X175-14N"
 			(at 47.498 60.706 0)
 			(hide yes)
 			(show_name no)
@@ -6797,7 +6797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7385,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" ""
 			(at 129.54 129.21 0)
 			(hide yes)
 			(show_name no)

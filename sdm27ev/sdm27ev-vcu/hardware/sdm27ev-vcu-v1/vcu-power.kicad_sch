@@ -3381,12 +3381,6 @@
 		(uuid "2acd5ef3-7099-4b5f-9a27-d4004e8598a5")
 	)
 	(junction
-		(at 73.66 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ee6ce71-82ec-46ea-8444-637aea0bdbfb")
-	)
-	(junction
 		(at 175.26 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3415,6 +3409,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4836d28a-cecd-4e36-aacc-e15960a01a2b")
+	)
+	(junction
+		(at 73.66 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca1a7eb-165d-423b-8301-4e886f1e9baf")
 	)
 	(junction
 		(at 167.64 40.64)
@@ -3529,6 +3529,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a257aa10-1b20-4990-8bea-0e3a4dc81b4e")
+	)
+	(junction
+		(at 73.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4d321d6-4c83-4015-a387-af0029e70d09")
 	)
 	(junction
 		(at 39.37 50.8)
@@ -4278,6 +4284,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962f1e05-0409-4ea4-b59c-6f60c2790da7")
+	)
+	(wire
+		(pts
 			(xy 167.64 80.01) (xy 170.18 80.01)
 		)
 		(stroke
@@ -4365,6 +4381,16 @@
 			(type default)
 		)
 		(uuid "a89bb5e5-ed5c-4cfa-b6f4-21e6999a8429")
+	)
+	(wire
+		(pts
+			(xy 73.66 77.47) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2166ad-c37b-459b-b07a-181d818c4d61")
 	)
 	(wire
 		(pts
@@ -4910,6 +4936,30 @@
 			)
 		)
 	)
+	(global_label "A3.3V"
+		(shape input)
+		(at 74.93 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f7d2b3a-af04-4659-ba37-071e4b889e20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.1162 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "12V"
 		(shape input)
 		(at 19.05 25.4 180)
@@ -4979,6 +5029,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 139.7 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd78f4ad-eb52-4903-812d-638fa75b9877")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.3138 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5501,7 +5575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON65P300X300X100-9N-D"
+		(property "Footprint" ""
 			(at 52.07 174.93 0)
 			(hide yes)
 			(show_name no)
@@ -5819,7 +5893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5977,7 +6051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +6131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P300X300X80-13N-D"
+		(property "Footprint" "SDM_EV:SON50P300X300X80-13N-D"
 			(at 53.34 120.32 0)
 			(hide yes)
 			(show_name no)
@@ -6310,7 +6384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7412,7 +7486,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 73.66 80.01 0)
+		(at 73.66 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7422,7 +7496,7 @@
 		(dnp no)
 		(uuid "50e114ef-163f-48c2-85cd-cb6b08e1d4f7")
 		(property "Reference" "#PWR0161"
-			(at 73.66 83.82 0)
+			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7433,7 +7507,7 @@
 			)
 		)
 		(property "Value" "A3.3V"
-			(at 73.66 76.454 0)
+			(at 73.66 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7443,7 +7517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 80.01 0)
+			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,7 +7528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 80.01 0)
+			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7465,7 +7539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 80.01 0)
+			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,7 +7594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.12 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7602,7 +7676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9185,7 +9259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9502,7 +9576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 198.12 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9582,7 +9656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X80-21N-D"
+		(property "Footprint" "SDM_EV:QFN50P400X400X80-21N-D"
 			(at 201.93 122.86 0)
 			(hide yes)
 			(show_name no)
@@ -10176,7 +10250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.12 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10258,7 +10332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10577,7 +10651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X80-21N-D"
+		(property "Footprint" "SDM_EV:QFN50P400X400X80-21N-D"
 			(at 201.93 162.23 0)
 			(hide yes)
 			(show_name no)
@@ -11251,7 +11325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11410,7 +11484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11492,7 +11566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 27.94 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11651,7 +11725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
