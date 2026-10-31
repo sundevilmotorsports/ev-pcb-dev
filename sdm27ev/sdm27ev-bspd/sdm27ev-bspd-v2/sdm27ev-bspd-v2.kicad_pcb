@@ -143,7 +143,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f9aabff4-b063-4675-abee-0ae1b84234ed")
@@ -192,12 +192,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/528ae354-973d-49d3-9168-e75f30166669")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -301,7 +295,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "C"
 			(at 2.775 0 90)
 			(layer "F.Fab")
 			(uuid "7602cd43-3b4f-418c-b52f-0c254649e7eb")
@@ -350,12 +344,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/bf0f5c83-0ef9-47b2-9221-4303d8ea0e78")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -496,7 +484,7 @@
 				)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at -2.54 -6 0)
 			(layer "F.SilkS")
 			(uuid "a57499e7-2df6-4cde-a495-bce70558ae9e")
@@ -575,12 +563,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/5335d949-72a2-49ac-be9c-69139aaf21ab")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -829,7 +811,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "68dce54e-aff3-40f7-a564-868cccb747de")
@@ -878,12 +860,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/fea330a6-daac-42d8-b41b-eec96f20bb32")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -970,13 +946,13 @@
 			)
 		)
 	)
-	(footprint "SDM_MiscFootprint:TLV9022QDRQ1-IPC_A"
+	(footprint "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
 		(layer "F.Cu")
 		(uuid "0e63315d-efe7-44dc-a89a-e2fa54a0121d")
 		(at 38.5 137 90)
-		(tags "TLV9022QDRQ1 ")
+		(tags "TLV9032QDRQ1 ")
 		(property "Reference" "U301"
-			(at 0 3.5 90)
+			(at 0 -3.2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6f24d20-1463-40db-9476-897d9e797f60")
@@ -987,8 +963,8 @@
 				)
 			)
 		)
-		(property "Value" "TLV9022QDRQ1"
-			(at 0.5 -3 90)
+		(property "Value" "TLV9032QDRQ1"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "be52aaa4-2c94-48e6-9adc-8bf503e6031d")
@@ -999,7 +975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9022-q1"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1025,16 +1001,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/8950e02a-ea57-4d1d-a441-5bcd612c02f6")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "8" "4" "1")
-			)
-			(unit
-				(name "B")
-				(pins "5" "6" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1213,7 +1179,7 @@
 			(uuid "8c564a51-6171-44ca-a8ff-1f89f1fb8342")
 		)
 		(embedded_fonts no)
-		(model "${SDM_MISC_3D}/TLV9022QDRQ1.stp"
+		(model "${SDM_MISC_3D}/TLV9032QDRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1242,7 +1208,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "R"
 			(at 2.56 0 0)
 			(layer "F.Fab")
 			(uuid "1df3ce13-008e-48e6-a7f0-31877941ada0")
@@ -1291,12 +1257,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/09e60f6f-52d9-4239-b15b-ffae593ea046")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1400,7 +1360,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "eedfe4a4-640e-40d9-b9e4-270941eea1db")
@@ -1446,15 +1406,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/efeb3b32-85e4-4ca2-89f0-2ef325af4864")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/b92ad3f9-5df8-439f-899b-2e493f677aad")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1515,7 +1469,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Current Sensor Fault")
+			(net "/Main Board/~{BSPD Fault}")
 			(pintype "passive")
 			(uuid "7e64431c-cba9-482c-975c-f774f6e57201")
 		)
@@ -1524,7 +1478,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+5V")
+			(net "Net-(LED203-A)")
 			(pintype "passive")
 			(uuid "26d5053d-8b32-47fb-9922-fac74c766a47")
 		)
@@ -1541,14 +1495,14 @@
 			)
 		)
 	)
-	(footprint "SDM_MiscFootprint:SOT95P280X145-5L"
+	(footprint "SDM_MiscFootprint:L7805ACD2TTR"
 		(layer "F.Cu")
 		(uuid "28ef1747-bbfe-4776-8e68-9cb84c53e1bd")
 		(at 73.225 55.19082)
-		(descr "DBV")
+		(descr "D2PAK _2025")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC202"
-			(at 0 -2.6 0)
+			(at 0 -11 0)
 			(layer "F.SilkS")
 			(uuid "4a543bf3-3717-468c-9cd7-4d05232c2191")
 			(effects
@@ -1558,8 +1512,8 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DBVRG4"
-			(at 0 0 0)
+		(property "Value" "L7805ACD2T-TR"
+			(at 0 0.207 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "40847229-fd26-451f-ab32-1b1412852b29")
@@ -1570,7 +1524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/SN74LVC1G17"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1582,7 +1536,7 @@
 				)
 			)
 		)
-		(property "Description" "SINGLE SCHMITT-TRIGGER BUFFER"
+		(property "Description" "Voltage Regulator 5V 1A D2PAK STMicroelectronics L78xx L7805ACD2T-TR, Single Linear Voltage Regulator, 1.5A 5 V, +/-2%, 3-Pin D2PAK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1594,12 +1548,12 @@
 				)
 			)
 		)
-		(property "Height" "1.45"
+		(property "Height" "4.83"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1367818d-f4fc-44ff-81a3-02dc04bf955d")
+			(uuid "c457c598-cbe1-4454-873a-4396b420cde6")
 			(effects
 				(font
 					(size 1 1)
@@ -1607,12 +1561,12 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
+		(property "Mouser Part Number" "511-L7805ACD2T-TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8613b46-f188-4f51-8f56-3e884f21849f")
+			(uuid "82501904-62cd-47f2-baa2-f95712f89850")
 			(effects
 				(font
 					(size 1 1)
@@ -1620,12 +1574,12 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SN74LVC1G17DBVRG4"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7805ACD2T-TR?qs=Ctxo64yJVFuOLXlPPZdJUQ%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ca92f6b-1647-4ca9-8ba7-be43076b6746")
+			(uuid "ae56176e-0aba-45a0-921f-a345dda3498e")
 			(effects
 				(font
 					(size 1 1)
@@ -1633,12 +1587,12 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "595-SN74LVC1G17DBVG4"
+		(property "Manufacturer_Name" "STMicroelectronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad80cbe1-1681-402d-af1a-a0dd1ee804c8")
+			(uuid "688d48c6-af91-4ad6-8c8b-50faf3ccdf05")
 			(effects
 				(font
 					(size 1 1)
@@ -1646,12 +1600,12 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G17DBVRG4?qs=pajgIaoyDUjKkU6U%252BocopA%3D%3D"
+		(property "Manufacturer_Part_Number" "L7805ACD2T-TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45d65c1c-bb9a-4395-ada4-5245dff8efbc")
+			(uuid "ea3b6301-d696-4050-9627-fc07f9d5ebb9")
 			(effects
 				(font
 					(size 1 1)
@@ -1659,66 +1613,14 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" "SN74LVC1G17DBVRG4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09192112-0782-4e16-a654-a67724358663")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74lvc1g17dbvrg4/texas-instruments.html?utm_currency=USD&region=nac"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf6915ad-25bb-47f9-9d2a-414b7dea157f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/fadbc826-5a6b-4b34-a1c6-68623169eb82")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/1a0ed4a8-faee-4285-9d0b-e1f39f65a11a")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.65 -1.475)
-			(end -0.75 -1.475)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e6ad3003-7548-4406-bad6-6b5701e20cf9")
-		)
-		(fp_line
-			(start -0.4 -1.45)
-			(end 0.4 -1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bd78b287-8ced-4aa5-8b37-65a87fbbfd7a")
-		)
-		(fp_line
-			(start -0.4 1.45)
-			(end -0.4 -1.45)
+			(start -5.1 2)
+			(end -5.1 2.242)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -1727,8 +1629,8 @@
 			(uuid "deb16195-4ddb-496e-9f59-4e0567eef45e")
 		)
 		(fp_line
-			(start 0.4 -1.45)
-			(end 0.4 1.45)
+			(start -5.1 2.242)
+			(end 5.1 2.242)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -1737,8 +1639,28 @@
 			(uuid "7b8424dc-eefb-426f-b09d-1644fd1ba970")
 		)
 		(fp_line
-			(start 0.4 1.45)
-			(end -0.4 1.45)
+			(start -2.54 9.1)
+			(end -2.54 9.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d275364b-d13f-4d69-bad4-e7f784fa9d15")
+		)
+		(fp_line
+			(start -2.54 9.2)
+			(end -2.54 9.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e6ad3003-7548-4406-bad6-6b5701e20cf9")
+		)
+		(fp_line
+			(start 5.1 2.242)
+			(end 5.1 2)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -1746,69 +1668,71 @@
 			(layer "F.SilkS")
 			(uuid "549fca00-2c0c-47e9-8a06-ed7de1e26e1e")
 		)
-		(fp_line
-			(start -1.75 -1.625)
-			(end 1.75 -1.625)
+		(fp_arc
+			(start -2.54 9.1)
+			(mid -2.49 9.15)
+			(end -2.54 9.2)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "bd116959-5c1f-4943-b479-ccef18f3c6b5")
+			(layer "F.SilkS")
+			(uuid "4c356695-aeb5-49ef-b3c4-ac857a656f5e")
+		)
+		(fp_arc
+			(start -2.54 9.2)
+			(mid -2.59 9.15)
+			(end -2.54 9.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a7ae36fd-a313-497c-8a4c-8032ba1153dc")
 		)
 		(fp_line
-			(start -1.75 1.625)
-			(end -1.75 -1.625)
+			(start -7.1 -9.243)
+			(end 7.1 -9.243)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.CrtYd")
 			(uuid "60ecf6d3-632d-4cce-897d-0d49c46d4b73")
 		)
 		(fp_line
-			(start 1.75 -1.625)
-			(end 1.75 1.625)
+			(start -7.1 9.657)
+			(end -7.1 -9.243)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c1c18654-85a4-40f0-9219-210d17dad547")
+			(uuid "bd116959-5c1f-4943-b479-ccef18f3c6b5")
 		)
 		(fp_line
-			(start 1.75 1.625)
-			(end -1.75 1.625)
+			(start 7.1 -9.243)
+			(end 7.1 9.657)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.CrtYd")
 			(uuid "80a87e5e-2b0c-450a-b2d3-08f07f811ac2")
 		)
 		(fp_line
-			(start -0.8 -1.45)
-			(end 0.8 -1.45)
+			(start 7.1 9.657)
+			(end -7.1 9.657)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "54ca0af8-5ae0-47cb-86b6-6d49d8ae550c")
+			(layer "F.CrtYd")
+			(uuid "c1c18654-85a4-40f0-9219-210d17dad547")
 		)
 		(fp_line
-			(start -0.8 -0.5)
-			(end 0.15 -1.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "29b9e918-bad8-4993-a12d-02880bc5a40c")
-		)
-		(fp_line
-			(start -0.8 1.45)
-			(end -0.8 -1.45)
+			(start -5.1 -6.908)
+			(end 5.1 -6.908)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1817,8 +1741,18 @@
 			(uuid "1c082b4b-a762-4c3c-9ee6-4a33d7eb64a9")
 		)
 		(fp_line
-			(start 0.8 -1.45)
-			(end 0.8 1.45)
+			(start -5.1 2.242)
+			(end -5.1 -6.908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29b9e918-bad8-4993-a12d-02880bc5a40c")
+		)
+		(fp_line
+			(start 5.1 -6.908)
+			(end 5.1 2.242)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1827,17 +1761,17 @@
 			(uuid "bfbf95a5-8b47-4727-850f-5a79b54d84fa")
 		)
 		(fp_line
-			(start 0.8 1.45)
-			(end -0.8 1.45)
+			(start 5.1 2.242)
+			(end -5.1 2.242)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d275364b-d13f-4d69-bad4-e7f784fa9d15")
+			(uuid "54ca0af8-5ae0-47cb-86b6-6d49d8ae550c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0.207 0)
 			(layer "F.Fab")
 			(uuid "b9d31dd8-3741-4601-864e-781d5a628096")
 			(effects
@@ -1848,60 +1782,42 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.2 -0.95 90)
-			(size 0.55 0.9)
+			(at -2.54 6.907)
+			(size 1.6 3.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(IC202-N.C.-Pad1)")
-			(pinfunction "N.C._1")
-			(pintype "no_connect")
+			(net "+12V")
+			(pinfunction "IN_1")
+			(pintype "passive")
 			(uuid "f6afa27b-64b3-47bf-85b5-75190008c099")
 		)
 		(pad "2" smd rect
-			(at -1.2 0 90)
-			(size 0.55 0.9)
+			(at 0 -3.368 90)
+			(size 9.75 12.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/HB*5kW_FAULT")
-			(pinfunction "A_2")
+			(net "GND")
+			(pinfunction "GND_2")
 			(pintype "passive")
 			(uuid "7a7d539f-8bc7-43dc-b4fc-dfa6f16344b9")
 		)
 		(pad "3" smd rect
-			(at -1.2 0.95 90)
-			(size 0.55 0.9)
+			(at 2.54 6.907)
+			(size 1.6 3.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "GND_3")
+			(net "+5V")
+			(pinfunction "OUT_3")
 			(pintype "passive")
 			(uuid "c4335b5e-c8b0-4fd7-a3b6-b51a0eb6b914")
 		)
-		(pad "4" smd rect
-			(at 1.2 0.95 90)
-			(size 0.55 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/Over power and break for 0.25s")
-			(pinfunction "Y_4")
-			(pintype "passive")
-			(uuid "1d3ddd0d-75ff-4d8d-8b7f-386b2b4bb65e")
-		)
-		(pad "5" smd rect
-			(at 1.2 -0.95 90)
-			(size 0.55 0.9)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "VCC_5")
-			(pintype "passive")
-			(uuid "9713032d-6c5f-43d8-8831-f6229bcdb541")
-		)
 		(embedded_fonts no)
-		(model "SN74AHC1G125DBVR.stp"
+		(model "${SDM_MISC_3D}/L7805ACD2T-TR.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.07 1.5 -0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1922,7 +1838,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9753fc2c-fc83-40cf-ac01-ac141f319f48")
@@ -1968,15 +1884,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/ccda59c5-2103-407c-b862-e0801fd5b1b3")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/efeb3b32-85e4-4ca2-89f0-2ef325af4864")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2037,7 +1947,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/POWER OVER FAUT")
+			(net "/Current Sensor Fault")
 			(pintype "passive")
 			(uuid "cdea5a0c-277d-4d04-941d-1d73e9da9443")
 		)
@@ -2062,6 +1972,1012 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "SDM_MiscFootprint:SN74HCS4075DR"
+		(layer "F.Cu")
+		(uuid "35c658d7-3567-4906-9038-76cdd03fe80e")
+		(at 60.12255 64.81)
+		(tags "SN74HCS4075DR ")
+		(property "Reference" "U202"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d756229b-33b2-4da1-86ed-c9f772ba2a42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SOIC14_D_TEX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "aa77c312-94b0-4911-bfe2-0c9d2494252e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hcs4075"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cea6890f-225c-4922-9f52-024a0329501b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf661831-8986-479e-8929-3ac8276fe11d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "SOIC14_D_TEX SOIC14_D_TEX-M SOIC14_D_TEX-L")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/79df9d65-069b-4991-abd3-c04deb44857b")
+		(sheetname "/Main Board/")
+		(sheetfile "Main Board.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.1209 4.4958)
+			(end 2.1209 4.4958)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ffed27e-b80e-4472-94d3-478017624013")
+		)
+		(fp_line
+			(start 2.1209 -4.4958)
+			(end -2.1209 -4.4958)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5fdb0a3b-4b30-4796-b6b9-198ea2f4d924")
+		)
+		(fp_poly
+			(pts
+				(xy 3.7592 1.0795) (xy 3.7592 1.4605) (xy 3.5052 1.4605) (xy 3.5052 1.0795)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "02bb4f11-7063-44de-b331-11cb95113853")
+		)
+		(fp_line
+			(start -3.3528 -4.1656)
+			(end -2.0955 -4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce2617da-68b1-40f0-a462-34ffc2b3145d")
+		)
+		(fp_line
+			(start -3.3528 4.1656)
+			(end -3.3528 -4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bf97cac6-09dc-4584-bbb0-f2384e84d8be")
+		)
+		(fp_line
+			(start -3.3528 4.1656)
+			(end -2.0955 4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a5f703da-eb52-423f-b68c-506db5bf9be2")
+		)
+		(fp_line
+			(start -2.0955 -4.4704)
+			(end 2.0955 -4.4704)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "59c6c88d-fa9b-48b7-92a4-e060d0ea3a46")
+		)
+		(fp_line
+			(start -2.0955 -4.1656)
+			(end -2.0955 -4.4704)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddda4dec-e4dd-4746-9894-547780dba112")
+		)
+		(fp_line
+			(start -2.0955 4.4704)
+			(end -2.0955 4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6c4f4cf0-e051-400c-9750-bae1f92832b4")
+		)
+		(fp_line
+			(start 2.0955 -4.4704)
+			(end 2.0955 -4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1823d8aa-c895-4c82-b3a8-1ca710f086fb")
+		)
+		(fp_line
+			(start 2.0955 4.1656)
+			(end 2.0955 4.4704)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b48c6271-0bb1-48bc-879b-461e52ee5243")
+		)
+		(fp_line
+			(start 2.0955 4.4704)
+			(end -2.0955 4.4704)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ccf1e29a-6d7e-488f-a379-e422c69596ca")
+		)
+		(fp_line
+			(start 3.3528 -4.1656)
+			(end 2.0955 -4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a96b4b10-e57d-45b1-a933-8b09befa988d")
+		)
+		(fp_line
+			(start 3.3528 -4.1656)
+			(end 3.3528 4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cfc9de7f-c631-4f28-9fb1-00f0d724de61")
+		)
+		(fp_line
+			(start 3.3528 4.1656)
+			(end 2.0955 4.1656)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3b204e2-0418-4be5-8dcf-99fe6906a7d8")
+		)
+		(fp_line
+			(start -3.0988 -4.064)
+			(end -3.0988 -3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "459c8c49-af19-4d7c-8234-3af4a78cbade")
+		)
+		(fp_line
+			(start -3.0988 -3.556)
+			(end -1.9939 -3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e61d83b-5824-4736-8b0c-6b5867f6fbeb")
+		)
+		(fp_line
+			(start -3.0988 -2.794)
+			(end -3.0988 -2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db5c1270-e691-47de-92ba-e4a8ede3e6a0")
+		)
+		(fp_line
+			(start -3.0988 -2.286)
+			(end -1.9939 -2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "897d386e-1ebe-49aa-8396-84cfbc10a7af")
+		)
+		(fp_line
+			(start -3.0988 -1.524)
+			(end -3.0988 -1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cbf95b48-c7cb-4bf7-ada8-22f0c5f6df83")
+		)
+		(fp_line
+			(start -3.0988 -1.016)
+			(end -1.9939 -1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "84ac47e8-a7a7-477d-a342-dd7393bf9338")
+		)
+		(fp_line
+			(start -3.0988 -0.254)
+			(end -3.0988 0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da7e305d-3a8e-4e0c-84f5-25d8a7ff04f5")
+		)
+		(fp_line
+			(start -3.0988 0.254)
+			(end -1.9939 0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "82447cf6-4dff-4a25-a7d7-4fae151b5abb")
+		)
+		(fp_line
+			(start -3.0988 1.016)
+			(end -3.0988 1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1bb782b9-8fa1-44ef-b5ec-4d7eb2992d32")
+		)
+		(fp_line
+			(start -3.0988 1.524)
+			(end -1.9939 1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aded7f9e-4881-473f-b41c-a6a3c43682f6")
+		)
+		(fp_line
+			(start -3.0988 2.286)
+			(end -3.0988 2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5585666-4749-4176-b892-f723fd607de8")
+		)
+		(fp_line
+			(start -3.0988 2.794)
+			(end -1.9939 2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2d0d7cad-e810-4b70-a2c8-0673fbe7ad22")
+		)
+		(fp_line
+			(start -3.0988 3.556)
+			(end -3.0988 4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3b5974a-db2f-4866-97e4-0ae717916eb6")
+		)
+		(fp_line
+			(start -3.0988 4.064)
+			(end -1.9939 4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d01667c-9338-4531-8742-3351eee811d7")
+		)
+		(fp_line
+			(start -1.9939 -4.3688)
+			(end -1.9939 4.3688)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "150d79ed-4319-4ae9-8d95-fe34d1fb1d48")
+		)
+		(fp_line
+			(start -1.9939 -4.064)
+			(end -3.0988 -4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1ea77df1-4e48-4080-b7d4-e73921ca2754")
+		)
+		(fp_line
+			(start -1.9939 -3.556)
+			(end -1.9939 -4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9a86f44e-5076-408a-a3d0-768264c485d5")
+		)
+		(fp_line
+			(start -1.9939 -2.794)
+			(end -3.0988 -2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f22d0734-f53a-4298-ae9f-d20f61be9163")
+		)
+		(fp_line
+			(start -1.9939 -2.286)
+			(end -1.9939 -2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "69281a2e-1a74-4e2a-92de-3bd134e3e25f")
+		)
+		(fp_line
+			(start -1.9939 -1.524)
+			(end -3.0988 -1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "229d31bf-e98c-421c-be34-d3ca6df10c6c")
+		)
+		(fp_line
+			(start -1.9939 -1.016)
+			(end -1.9939 -1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "64783f11-bc64-4bfa-84a5-83a821bcc384")
+		)
+		(fp_line
+			(start -1.9939 -0.254)
+			(end -3.0988 -0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ba6f806-8f94-4d82-b9a9-5b655bee4d0b")
+		)
+		(fp_line
+			(start -1.9939 0.254)
+			(end -1.9939 -0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "685bb194-608a-43d7-8816-109ab1acd6d3")
+		)
+		(fp_line
+			(start -1.9939 1.016)
+			(end -3.0988 1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "88d665db-314d-409c-9a21-e83d517ea6dd")
+		)
+		(fp_line
+			(start -1.9939 1.524)
+			(end -1.9939 1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b45ea06-2ab6-4ba1-8009-7f714ba7ec96")
+		)
+		(fp_line
+			(start -1.9939 2.286)
+			(end -3.0988 2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d7891be1-d580-4412-822a-cf8a22839931")
+		)
+		(fp_line
+			(start -1.9939 2.794)
+			(end -1.9939 2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9877ed40-d282-41f8-8fd9-b9986754f1cc")
+		)
+		(fp_line
+			(start -1.9939 3.556)
+			(end -3.0988 3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0b6962d0-31bd-4316-84be-60525cf966f3")
+		)
+		(fp_line
+			(start -1.9939 4.064)
+			(end -1.9939 3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17d17565-4cc2-47e7-ad4a-1f7ec3516a77")
+		)
+		(fp_line
+			(start -1.9939 4.3688)
+			(end 1.9939 4.3688)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e5c7a27f-8f6a-433a-a7ab-98c5d623d495")
+		)
+		(fp_line
+			(start 1.9939 -4.3688)
+			(end -1.9939 -4.3688)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "70e62ace-70f7-45eb-8a0a-0dd5f324f277")
+		)
+		(fp_line
+			(start 1.9939 -4.064)
+			(end 1.9939 -3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae56195d-f8f7-450d-927d-eb9fa898608e")
+		)
+		(fp_line
+			(start 1.9939 -3.556)
+			(end 3.0988 -3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ff7be22d-0858-46be-8ed4-53e08298a7d1")
+		)
+		(fp_line
+			(start 1.9939 -2.794)
+			(end 1.9939 -2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ebb6450-35a5-40e2-af14-8ee5ceaea922")
+		)
+		(fp_line
+			(start 1.9939 -2.286)
+			(end 3.0988 -2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "88b32f8d-14ea-4119-90a7-0f2b58531617")
+		)
+		(fp_line
+			(start 1.9939 -1.524)
+			(end 1.9939 -1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7421b612-9706-4805-82c9-03f84fb20e5e")
+		)
+		(fp_line
+			(start 1.9939 -1.016)
+			(end 3.0988 -1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "52d09cea-aefa-423c-9c30-a3b56ba5f178")
+		)
+		(fp_line
+			(start 1.9939 -0.254)
+			(end 1.9939 0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b970c451-bda9-4822-811f-25c26eb968d2")
+		)
+		(fp_line
+			(start 1.9939 0.254)
+			(end 3.0988 0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c85839f6-5620-4533-969a-46229c38facc")
+		)
+		(fp_line
+			(start 1.9939 1.016)
+			(end 1.9939 1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d686935a-eadb-4d2d-8194-b82de6c12f7c")
+		)
+		(fp_line
+			(start 1.9939 1.524)
+			(end 3.0988 1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f31f0bd4-0403-4e7d-ae2b-e7e32c0865d6")
+		)
+		(fp_line
+			(start 1.9939 2.286)
+			(end 1.9939 2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bed13c9c-db44-49eb-a6df-9228ed92c4b9")
+		)
+		(fp_line
+			(start 1.9939 2.794)
+			(end 3.0988 2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dd64d365-4214-438c-a853-e7aa81a2ad00")
+		)
+		(fp_line
+			(start 1.9939 3.556)
+			(end 1.9939 4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e92cd708-1914-4f1e-9eb2-94007f56c9ec")
+		)
+		(fp_line
+			(start 1.9939 4.064)
+			(end 3.0988 4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7083052-37d7-4515-ae6b-a0190c2f9f42")
+		)
+		(fp_line
+			(start 1.9939 4.3688)
+			(end 1.9939 -4.3688)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "94e2d3a1-f9ed-4da0-9a41-31a277a72ca3")
+		)
+		(fp_line
+			(start 3.0988 -4.064)
+			(end 1.9939 -4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "54ddf29c-4006-46c6-8dc6-314055f1e78e")
+		)
+		(fp_line
+			(start 3.0988 -3.556)
+			(end 3.0988 -4.064)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b9f798d-5b81-481d-84df-159651c1c4db")
+		)
+		(fp_line
+			(start 3.0988 -2.794)
+			(end 1.9939 -2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c5516123-5566-4ae0-8363-d88b0774d7e7")
+		)
+		(fp_line
+			(start 3.0988 -2.286)
+			(end 3.0988 -2.794)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2fd12c9-a386-49b3-89f0-9b4fe99eda5b")
+		)
+		(fp_line
+			(start 3.0988 -1.524)
+			(end 1.9939 -1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e228a70-7324-46ec-9459-5b9bf19fec4c")
+		)
+		(fp_line
+			(start 3.0988 -1.016)
+			(end 3.0988 -1.524)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "55947c4e-6e8f-4b39-bab6-27550f24ae75")
+		)
+		(fp_line
+			(start 3.0988 -0.254)
+			(end 1.9939 -0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "575a5e8c-dead-48d5-9f45-926fc81b973e")
+		)
+		(fp_line
+			(start 3.0988 0.254)
+			(end 3.0988 -0.254)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e413d9b0-4f34-4a37-b1d1-d7dbca56721e")
+		)
+		(fp_line
+			(start 3.0988 1.016)
+			(end 1.9939 1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14faa5f1-50ea-4527-875a-9e51186497ee")
+		)
+		(fp_line
+			(start 3.0988 1.524)
+			(end 3.0988 1.016)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3c985c82-b161-4c5f-9205-22c47102793b")
+		)
+		(fp_line
+			(start 3.0988 2.286)
+			(end 1.9939 2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e2e080d1-5325-4cbc-bb4a-5aa5a5157701")
+		)
+		(fp_line
+			(start 3.0988 2.794)
+			(end 3.0988 2.286)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "afe43561-2649-45f8-84a9-7a2ed36ce555")
+		)
+		(fp_line
+			(start 3.0988 3.556)
+			(end 1.9939 3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91864ef8-590b-49b4-9d89-52688b36ed99")
+		)
+		(fp_line
+			(start 3.0988 4.064)
+			(end 3.0988 3.556)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "10b6baae-4a90-4df8-8b90-0ff2e82f540b")
+		)
+		(fp_arc
+			(start 0.3048 -4.3688)
+			(mid 0 -4.064)
+			(end -0.3048 -4.3688)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d5a91e5-d4ee-4871-b7ac-c11856df7c85")
+		)
+		(fp_text user "*"
+			(at -2.87655 -5.461 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0d34e101-9ed0-4ebf-b43e-c5a1665c19cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "*"
+			(at -2.87655 -5.461 0)
+			(layer "F.SilkS")
+			(uuid "43b13810-858d-48b9-ae8f-b4a16e05312d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "*"
+			(at -1.6129 -4.2926 0)
+			(layer "F.Fab")
+			(uuid "15fb3d65-7883-4239-b5cb-352ee4dd41e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "*"
+			(at -1.6129 -4.2926 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "59ca5ad4-9936-407d-864f-23195d9d3f52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "de0dac49-d38f-4345-bc4b-43f468f0cbda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.62255 -3.81)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "2A_1")
+			(pintype "input")
+			(uuid "0ea2abc7-0757-43a5-837c-0144022ac75a")
+		)
+		(pad "2" smd rect
+			(at -2.62255 -2.54)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "2B_2")
+			(pintype "input")
+			(uuid "e84702c7-0465-4cb6-a55a-5ee57ff6f2c9")
+		)
+		(pad "3" smd rect
+			(at -2.62255 -1.27)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Main Board/Over power and break for 0.25s")
+			(pinfunction "1A_3")
+			(pintype "input")
+			(uuid "4d483f87-53e3-4584-baee-e070f8c7b5f2")
+		)
+		(pad "4" smd rect
+			(at -2.62255 0)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Current Sensor Fault")
+			(pinfunction "1B_4")
+			(pintype "input")
+			(uuid "0180b23c-5321-4f1c-b0bb-98024b78803c")
+		)
+		(pad "5" smd rect
+			(at -2.62255 1.27)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Main Board/Break Disconnected")
+			(pinfunction "1C_5")
+			(pintype "input")
+			(uuid "f1bc0f77-8955-45ba-bd8d-f7d71017f9b3")
+		)
+		(pad "6" smd rect
+			(at -2.62255 2.54)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Main Board/Combined Fault Line")
+			(pinfunction "1Y_6")
+			(pintype "output")
+			(uuid "619dc305-dff6-4bf2-a501-b5884447bf94")
+		)
+		(pad "7" smd rect
+			(at -2.62255 3.81)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "GND_7")
+			(pintype "power_in")
+			(uuid "a708bac9-1c45-41c0-80bf-345159ad1947")
+		)
+		(pad "8" smd rect
+			(at 2.62255 3.81)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "2C_8")
+			(pintype "input")
+			(uuid "04ce01f1-7027-4d95-b02b-4d0eab6f7b93")
+		)
+		(pad "9" smd rect
+			(at 2.62255 2.54)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U202B-2Y-Pad9)")
+			(pinfunction "2Y_9")
+			(pintype "output+no_connect")
+			(uuid "79df2b20-ca6b-4437-a324-a88341d79562")
+		)
+		(pad "10" smd rect
+			(at 2.62255 1.27)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U202C-3Y-Pad10)")
+			(pinfunction "3Y_10")
+			(pintype "output+no_connect")
+			(uuid "475e1cc1-4cdb-4a99-9ffe-661b91d90c6e")
+		)
+		(pad "11" smd rect
+			(at 2.62255 0)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "3A_11")
+			(pintype "input")
+			(uuid "9d2da8fc-dff1-46d9-8605-ba51c9e78ed4")
+		)
+		(pad "12" smd rect
+			(at 2.62255 -1.27)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "3B_12")
+			(pintype "input")
+			(uuid "2910e5bf-b192-42d0-aa31-61b020ceaaa5")
+		)
+		(pad "13" smd rect
+			(at 2.62255 -2.54)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "3C_13")
+			(pintype "input")
+			(uuid "9b3b46a0-206c-4ffe-ab43-0ca633e82c77")
+		)
+		(pad "14" smd rect
+			(at 2.62255 -3.81)
+			(size 1.2573 0.508)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "VCC_14")
+			(pintype "power_in")
+			(uuid "983ff9ce-4ab8-4a1d-835b-2d7daf0fd2c2")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "SDM_MiscFootprint:LEDC1608X80N"
 		(layer "F.Cu")
@@ -2116,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Measure" "Current Disc."
+		(property "Measure" "Measure"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2209,12 +3125,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/595c3423-33ef-430e-8963-7f3e63be908b")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2387,7 +3297,7 @@
 				)
 			)
 		)
-		(property "Value" "39K"
+		(property "Value" "R_Small"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ca344a7a-1fca-42d4-ab6a-cc380fa661f7")
@@ -2436,12 +3346,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/faaefa05-3673-45c9-bc3c-c13dfa46e154")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2511,7 +3415,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Main Board/HB*5kW_FAULT")
+			(net "/Main Board/Over power and break for 0.25s")
 			(pintype "passive")
 			(uuid "303c02eb-c6fe-45cd-99f6-123a5a7f676f")
 		)
@@ -2545,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f65b48d3-cf4e-4393-8d48-9691eedd4655")
@@ -2594,12 +3498,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/5432fc6b-7dc7-4227-8e5b-dee5179e35c9")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2740,7 +3638,7 @@
 				)
 			)
 		)
-		(property "Measure" "Over Current Ref"
+		(property "Measure" "Measure"
 			(at -4 -6.5 90)
 			(layer "F.SilkS")
 			(uuid "0f31a6d2-94f0-45ea-a6c4-9d322fe02a61")
@@ -2819,12 +3717,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/9daceb7f-70ba-4c2a-8298-c660dafdd140")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3073,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "91cf3a44-deb6-4fd9-85a1-ed34b441b69b")
@@ -3122,12 +4014,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/2564c8f6-6b8f-42cf-a1d5-2745a96d4e1a")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3280,12 +4166,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/08b82569-2b3f-4868-8f90-51b1d6481bb6")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3385,7 +4265,7 @@
 				)
 			)
 		)
-		(property "Measure" "P High Fault"
+		(property "Measure" "Measure"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3478,12 +4358,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/bebd28f4-5e48-4c45-b6dc-bbf9e555c87f")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3693,7 +4567,7 @@
 				)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at 0 -3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3773,12 +4647,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/0b56a300-e489-4a67-a0b5-534ea889b0a6")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3844,7 +4712,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "R"
 			(at -2.06 0 0)
 			(layer "F.Fab")
 			(uuid "ae1edd99-e45a-4cbb-9de7-1d7faeb0dffd")
@@ -3893,12 +4761,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/1f1898ae-308f-492f-b428-c1128e6c3b6b")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4051,12 +4913,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/6e46c12c-dad9-4a8b-92c9-f1f06c9d142a")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4103,428 +4959,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "SDM_MiscFootprint:SOP65P640X120-14L"
-		(layer "F.Cu")
-		(uuid "5ff00389-a8e4-4441-8f9f-949a88fc225f")
-		(at 65.55 53.76582)
-		(descr "14-Pin TSSOP-ren1")
-		(tags "Integrated Circuit")
-		(property "Reference" "IC203"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "94269431-f9c3-45ed-bfa3-d15c3dd031cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Value" "SN74HC32PWR"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d8aa7d1e-a938-4f48-90f4-929a482a97e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc32"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b38d38f1-d454-477c-acbf-10186891bd9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-Input Positive-OR Gates"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f35c785-b1d5-419b-b7d5-2730d7f71ae9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" "1.2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d371bd92-0871-4957-9f8a-822130d58c3d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74HC32PWR"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "482adff8-d869-4700-8c6c-ed7dff93e5b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC32PWR?qs=ZA235jQDfbp291NIbGpFPA%3D%3D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de0ab820-28d8-4488-91a8-eec496e55f8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9572e28c-eb54-4aa8-beaa-eb2f67de799b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74HC32PWR"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0bebc513-16ea-4d0a-a043-478f93dd60a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/4ce9b031-40c4-4cc3-b0ff-7ee00f4c69ac")
-		(sheetname "/Main Board/")
-		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.475 -2.525)
-			(end -2.2 -2.525)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "09ea26be-f588-4b48-8eca-41fa98924bbb")
-		)
-		(fp_line
-			(start -1.85 -2.5)
-			(end 1.85 -2.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6329c1c8-4074-4f8e-9e06-c342ff86b748")
-		)
-		(fp_line
-			(start -1.85 2.5)
-			(end -1.85 -2.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9c7ba2b6-f98f-4b42-8eca-b0847d998d90")
-		)
-		(fp_line
-			(start 1.85 -2.5)
-			(end 1.85 2.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5efd39d1-e52d-47f2-a9b4-55aa7da13a01")
-		)
-		(fp_line
-			(start 1.85 2.5)
-			(end -1.85 2.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a9044142-087b-4536-8449-076172399bca")
-		)
-		(fp_line
-			(start -2.2 -2.5)
-			(end 2.2 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "d398befa-be91-4724-88a3-3dfa53572262")
-		)
-		(fp_line
-			(start -2.2 -1.85)
-			(end -1.55 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "470189c5-bd63-4b0f-a5b4-22cd0e1cffe0")
-		)
-		(fp_line
-			(start -2.2 2.5)
-			(end -2.2 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6ab10a12-9c21-4ff3-821d-1975a87bfbc3")
-		)
-		(fp_line
-			(start 2.2 -2.5)
-			(end 2.2 2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "2b91bfca-4fe9-44d9-8e7d-c65b5733f64d")
-		)
-		(fp_line
-			(start 2.2 2.5)
-			(end -2.2 2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "329ab7aa-acd7-475d-931c-1dc6ee266068")
-		)
-		(fp_line
-			(start -3.575 -2.65)
-			(end 3.575 -2.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9dd89631-0a77-4f3d-88e3-305fff04ffdf")
-		)
-		(fp_line
-			(start -3.575 2.65)
-			(end -3.575 -2.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b5f6f3f2-fa73-44d4-8ceb-6be4492f9dd7")
-		)
-		(fp_line
-			(start 3.575 -2.65)
-			(end 3.575 2.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4ec6e32c-513c-48a4-89d8-df8dd3e009ab")
-		)
-		(fp_line
-			(start 3.575 2.65)
-			(end -3.575 2.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "17b7d889-8616-470b-84a4-6e83fdea81ef")
-		)
-		(pad "1" smd rect
-			(at -2.838 -1.95 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Current Sensor Fault")
-			(pinfunction "1A_1")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "1000c9c1-69c2-4e7e-996f-29c00c0a459a")
-		)
-		(pad "2" smd rect
-			(at -2.838 -1.3 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/Break Disconnected")
-			(pinfunction "1B_2")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "ebe17a0b-6535-401e-93be-e867cb3e0a59")
-		)
-		(pad "3" smd rect
-			(at -2.838 -0.65 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(IC203-1Y)")
-			(pinfunction "1Y_3")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "099cb43d-93a5-4697-b5cd-6f138442049c")
-		)
-		(pad "4" smd rect
-			(at -2.838 0 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(IC203-1Y)")
-			(pinfunction "2A_4")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "044af4ba-c385-4556-871f-8849f46e34a6")
-		)
-		(pad "5" smd rect
-			(at -2.838 0.65 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/Over power and break for 0.25s")
-			(pinfunction "2B_5")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "a75c5d29-c638-4355-accd-ebc4dc336d57")
-		)
-		(pad "6" smd rect
-			(at -2.838 1.3 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/Combined Fault Line")
-			(pinfunction "2Y_6")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "670e8245-9e8c-4e1c-b1df-7e2967b44e38")
-		)
-		(pad "7" smd rect
-			(at -2.838 1.95 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "GND_7")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "edd7a185-2760-46aa-949f-94caa8d60363")
-		)
-		(pad "8" smd rect
-			(at 2.838 1.95 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(IC203-3Y-Pad8)")
-			(pinfunction "3Y_8")
-			(pintype "passive+no_connect")
-			(thermal_bridge_angle 45)
-			(uuid "89ef15cf-8c1f-42c9-99e4-4d0d077de563")
-		)
-		(pad "9" smd rect
-			(at 2.838 1.3 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "3A_9")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "dad412f0-5fbe-4aaa-8dcc-1551d4a3c404")
-		)
-		(pad "10" smd rect
-			(at 2.838 0.65 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "3B_10")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "3997ddcf-141c-4e3d-9630-a87cd137b020")
-		)
-		(pad "11" smd rect
-			(at 2.838 0 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(IC203-4Y-Pad11)")
-			(pinfunction "4Y_11")
-			(pintype "passive+no_connect")
-			(thermal_bridge_angle 45)
-			(uuid "58c06ac1-1632-4915-aba6-1d9193821366")
-		)
-		(pad "12" smd rect
-			(at 2.838 -0.65 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "4A_12")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "c003dad3-321d-4e55-8843-21020aa455c2")
-		)
-		(pad "13" smd rect
-			(at 2.838 -1.3 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "4B_13")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "813ca21a-e77f-417a-97c8-87a8e4bbac6e")
-		)
-		(pad "14" smd rect
-			(at 2.838 -1.95 90)
-			(size 0.45 1.275)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "VCC_14")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "af4bc15d-626b-4e46-be59-15dab39438d6")
-		)
-		(embedded_fonts no)
-		(model "${SDM_MISC_3D}/SN74HC32PWR.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "620f3bc0-8b87-4b47-8b3b-9386641b705a")
@@ -4542,7 +4976,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e47dfb60-961e-44cd-8e53-ba1028cd420f")
@@ -4591,12 +5025,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/668adf45-b0e2-4dd5-8115-ec9f1e173040")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4804,12 +5232,6 @@
 		(path "/884fc4d2-736d-43f5-96f4-d8916d0c892f")
 		(sheetname "/")
 		(sheetfile "sdm27ev-bspd-v2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5206,7 +5628,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R_Small"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "17a4f290-d521-4fb8-ae64-f04b563ad7e7")
@@ -5228,7 +5650,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5252,15 +5674,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/d57dfd27-e9e0-48ee-96da-872484858894")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/f941bd6f-8fed-440b-8de0-3f954549c368")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5321,7 +5737,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(LED202-K)")
+			(net "+12V")
 			(pintype "passive")
 			(uuid "9a000bc8-ab23-4131-bcb2-6b2b9fd2c938")
 		)
@@ -5330,7 +5746,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "/Main Board/~{BSPD Fault}")
 			(pintype "passive")
 			(uuid "30375133-7f0a-4a91-bf0a-b6958896e3be")
 		)
@@ -5364,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7fc4ab29-781d-4b6f-9bc8-4aff8b4733a8")
@@ -5386,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5410,15 +5826,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/e74dc1bf-2d4e-4a87-8aba-5a01e884961d")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/0fb101c4-06cf-4c56-b6b5-c704a91c77fa")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5479,7 +5889,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+5V")
+			(net "GND")
 			(pintype "passive")
 			(uuid "0cbf3063-aa2b-4680-a20f-79350127e53c")
 		)
@@ -5488,7 +5898,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "+12V")
 			(pintype "passive")
 			(uuid "97b1b8a2-1f97-4578-bb44-3abb43862d23")
 		)
@@ -5559,7 +5969,7 @@
 				)
 			)
 		)
-		(property "Measure" "HES"
+		(property "Measure" "Measure"
 			(at 0 2 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -5640,12 +6050,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/4238ab2f-51b7-473f-9889-7e589afcc350")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5711,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C_Small"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d757ac3b-490f-4e23-bf5a-25033ec2cc69")
@@ -5733,7 +6137,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5757,15 +6161,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/1d10d322-c0be-469f-92a7-8b5ed9dc3d71")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/83e15708-bdc0-427f-8788-c2b240cbecb0")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5826,7 +6224,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+5V")
+			(net "GND")
 			(pintype "passive")
 			(uuid "60f82f3a-b1ef-4137-a0cb-22aead066e8d")
 		)
@@ -5835,7 +6233,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "+5V")
 			(pintype "passive")
 			(uuid "babedd44-a634-459b-a1ed-343d73c0d050")
 		)
@@ -5869,7 +6267,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "C_Small"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "42a425ce-2317-4f04-a41a-bc266b0b06d6")
@@ -5918,12 +6316,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/835cfd1d-23b7-4f74-8bf4-4ec1e7f34406")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5984,7 +6376,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Main Board/HB*5kW_FAULT")
+			(net "/Main Board/Over power and break for 0.25s")
 			(pintype "passive")
 			(uuid "4884c5c6-7d74-405c-8b95-0a801fd3257d")
 		)
@@ -6027,7 +6419,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "04ffd207-8fab-465b-bba7-abfc4027a20b")
@@ -6073,15 +6465,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/9336fdc0-5c0e-474a-88fd-0d29187ba7de")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/d57dfd27-e9e0-48ee-96da-872484858894")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6142,7 +6528,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+5V")
+			(net "Net-(LED202-K)")
 			(pintype "passive")
 			(uuid "825f58e0-fecc-497b-a01c-c1ef2105a563")
 		)
@@ -6151,7 +6537,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Main Board/Hard Breaking")
+			(net "GND")
 			(pintype "passive")
 			(uuid "7cdaa1ed-d864-4681-9488-eaf5a5281083")
 		)
@@ -6234,12 +6620,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/5550fd80-1cb2-4461-a8dc-c662079fb180")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6407,12 +6787,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/55aa19aa-60fb-47ae-9f15-179c29ca5a2d")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6549,7 +6923,7 @@
 			(at 0.75 0 90)
 			(size 0.42 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/HB*5kW_FAULT")
+			(net "/Main Board/Over power and break for 0.25s")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d41edb4f-a313-41bf-88a5-5d698fe62e7a")
@@ -6621,7 +6995,7 @@
 				)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at 0 -3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6702,12 +7076,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/45c60c7d-e328-422a-b3f0-db96218a2f72")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6877,12 +7245,6 @@
 		(path "/ce184044-b9be-454f-b3d6-9592841a61af")
 		(sheetname "/")
 		(sheetfile "sdm27ev-bspd-v2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7315,7 +7677,7 @@
 				)
 			)
 		)
-		(property "Measure" "BSPD Fault"
+		(property "Measure" "Measure"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7405,15 +7767,9 @@
 				)
 			)
 		)
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/8027d054-2909-458c-9a97-cfd1c0c94cab")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/7fe9a659-26bb-4102-a6ec-052feffd0429")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7540,7 +7896,7 @@
 			(at -0.75 0 90)
 			(size 0.95 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/~{BSPD Fault}")
+			(net "GND")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -7635,12 +7991,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/1d7a31b2-dc8d-4cbd-acf0-f1f0d2e1f246")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7704,7 +8054,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "C"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "765c616d-bf3d-4ebc-9f9c-d2586fc36142")
@@ -7750,15 +8100,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/626a8086-444b-4a57-86f0-85957e696963")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/1d10d322-c0be-469f-92a7-8b5ed9dc3d71")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7911,12 +8255,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/e58f8416-34dd-48c2-a64a-b77e8f747d11")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7980,7 +8318,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "601fc90b-67ed-40eb-a94e-be884f87612b")
@@ -8029,12 +8367,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/a9a3daf7-585c-42d6-9efd-aab64aecdd07")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8138,7 +8470,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fd17fcc8-41b2-46fc-b9c3-383b8673c157")
@@ -8187,12 +8519,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/a0890492-b025-42e6-81f1-745a887610e9")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8332,7 +8658,7 @@
 				)
 			)
 		)
-		(property "Measure" "Over Current"
+		(property "Measure" "Measure"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8425,12 +8751,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/75a5bc0d-775f-4255-ba30-420d2d0804f4")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8603,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "874dd30e-2ef0-4cb7-b224-d346f17f8ed3")
@@ -8652,12 +8972,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/f8a256c2-e165-40e5-b5ad-76df13f4557b")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8862,15 +9176,8 @@
 				)
 			)
 		)
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/1a0ed4a8-faee-4285-9d0b-e1f39f65a11a")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9142,12 +9449,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/d207974c-d14a-4b2c-80b4-907188704ef6")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -9260,12 +9561,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/a9027537-2654-46c1-8240-7e81faf83087")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -9329,7 +9624,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5b08c614-6ba3-4354-ae95-81576ded6765")
@@ -9351,7 +9646,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9375,15 +9670,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/5583c840-5dc2-484f-8651-e953d09d9296")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/626a8086-444b-4a57-86f0-85957e696963")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9487,7 +9776,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R_Small"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3f7d73d2-6733-4f2c-89e6-0ca9d93d3011")
@@ -9536,12 +9825,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/13709da6-3a63-41e2-ba68-021776b02535")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9681,7 +9964,7 @@
 				)
 			)
 		)
-		(property "Measure" "Hard Breaking"
+		(property "Measure" "Measure"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9774,12 +10057,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/fd6a6947-ca29-4345-848b-16dc7bbfb2da")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9952,7 +10229,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dfc37a5c-afd9-4315-8788-9c155d2805c3")
@@ -9998,15 +10275,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/f02ecbb1-cec3-4953-b88b-30f7c8f1de59")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/c60b1630-943b-4c66-a89c-2ef225deb6ca")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10067,7 +10338,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(LED201-K)")
+			(net "/Main Board/Combined Fault Line")
 			(pintype "passive")
 			(uuid "0fe2a648-b3a3-426a-b727-12eb55c64352")
 		)
@@ -10076,7 +10347,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "Net-(D202-G)")
 			(pintype "passive")
 			(uuid "512589c9-5bcb-4585-ac2d-baaa6d5910e3")
 		)
@@ -10146,7 +10417,7 @@
 				)
 			)
 		)
-		(property "Measure" "P Low Fault"
+		(property "Measure" "Measure"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10239,12 +10510,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/d7ce9ba8-9df3-40c9-8e61-eb1e7c338829")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10453,7 +10718,7 @@
 				)
 			)
 		)
-		(property "Measure" "B Disc."
+		(property "Measure" "Measure"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10546,12 +10811,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/396aaf84-99eb-4815-8c23-342cd6014977")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10770,15 +11029,8 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/1f77bde8-06d8-4e90-9090-62979cce2d30")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10919,7 +11171,7 @@
 				)
 			)
 		)
-		(property "Measure" "Current Sensor"
+		(property "Measure" "Measure"
 			(at -2.5 6.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11000,12 +11252,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/912684ca-01d8-4266-8c00-5331893c83b9")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -11526,7 +11772,7 @@
 				)
 			)
 		)
-		(property "Value" "74AHC1G08"
+		(property "Value" "74AHC1G08GW,125"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11630,12 +11876,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/987c7e22-009a-46ff-82f6-cbaa757368e1")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "5" "3" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11895,7 +12135,7 @@
 				)
 			)
 		)
-		(property "Measure" "Over Current Ref"
+		(property "Measure" "Measure"
 			(at 0 -3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11976,12 +12216,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/657d2ef9-9310-4e96-8a27-dd1f80931cdb")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -12047,7 +12281,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "R"
 			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "42ff9dcf-12ca-462b-82cb-95a9df39372e")
@@ -12096,12 +12330,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/62c200d6-01a8-4fb8-9e6e-3f191123f527")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12205,7 +12433,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7c55a5f7-505b-45de-9608-f5f1310e31ba")
@@ -12227,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12251,15 +12479,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/f941bd6f-8fed-440b-8de0-3f954549c368")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/ccda59c5-2103-407c-b862-e0801fd5b1b3")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12320,7 +12542,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+5V")
+			(net "/POWER OVER FAUT")
 			(pintype "passive")
 			(uuid "06a7334c-7b8a-402d-84df-5f2a1a257530")
 		)
@@ -12329,7 +12551,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(LED203-A)")
+			(net "+5V")
 			(pintype "passive")
 			(uuid "68284a87-50b5-4025-ad0f-f3945b548f99")
 		)
@@ -12467,12 +12689,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/d656ccad-b9a5-4fee-9f87-1520028b8312")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "4" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12648,7 +12864,7 @@
 			(at -3.15 2.3 90)
 			(size 0.95 1.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Main Board/Combined Fault Line")
+			(net "Net-(D202-G)")
 			(pinfunction "G_3")
 			(pintype "passive")
 			(uuid "de1a8f0c-af87-4422-8b0c-e188a77708b5")
@@ -12741,16 +12957,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/b47f9bc6-001d-4c7e-a4fa-5c43fc2285be")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "8" "7")
-			)
-			(unit
-				(name "B")
-				(pins "3" "4" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12994,7 +13200,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "db73390c-a65c-420e-af8e-e7743ef2b479")
@@ -13040,15 +13246,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/1806b699-4711-40f6-9fd2-a9520ccaab3f")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/f02ecbb1-cec3-4953-b88b-30f7c8f1de59")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13109,7 +13309,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Main Board/Break Disconnected")
+			(net "Net-(LED201-K)")
 			(pintype "passive")
 			(uuid "032e8431-479f-49f3-9522-eed9e96d8c3f")
 		)
@@ -13118,7 +13318,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+5V")
+			(net "GND")
 			(pintype "passive")
 			(uuid "4f5b1838-93e4-498e-8409-fc7624fc3994")
 		)
@@ -13189,7 +13389,7 @@
 				)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at -3 -6.5 90)
 			(layer "F.SilkS")
 			(uuid "a34b4cee-2c49-4f9c-bd21-638c6b16bfcf")
@@ -13268,12 +13468,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/a5e15c9f-e06e-4e49-b1be-9a4007f093c1")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13559,7 +13753,7 @@
 				)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at 0 -3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -13639,12 +13833,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/31c9855c-e7d6-4558-b79e-993da13060ad")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13759,12 +13947,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/17a5685c-2cd7-430a-bc84-6ae6967f0d89")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13865,7 +14047,7 @@
 				)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at -2.54 -6 0)
 			(layer "F.SilkS")
 			(uuid "b45859f7-c8d5-4c39-bf6f-44534c89819d")
@@ -13944,12 +14126,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/eb2c0a85-61c5-42de-8005-b6bd7c56787b")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14198,7 +14374,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "53665c0a-d483-4f42-8e50-f9fe395da2aa")
@@ -14247,12 +14423,6 @@
 		(path "/e2198b7f-9f60-4a5d-be1e-3151c1f6d596/645a1e12-14fc-41b0-b1ac-4da10509da8c")
 		(sheetname "/Current Sensor Sub-Board/")
 		(sheetfile "Current Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14356,7 +14526,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "C"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ac415c76-df3d-41f6-b337-0f065fb639a7")
@@ -14402,15 +14572,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/895bf764-fc21-430b-99cd-ad743e73de67/0fb101c4-06cf-4c56-b6b5-c704a91c77fa")
+		(path "/895bf764-fc21-430b-99cd-ad743e73de67/1f77bde8-06d8-4e90-9090-62979cce2d30")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14480,7 +14644,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+12V")
+			(net "+5V")
 			(pintype "passive")
 			(uuid "75fdd88f-9a88-4699-baa0-ad53043eecac")
 		)
@@ -14497,11 +14661,11 @@
 			)
 		)
 	)
-	(footprint "SDM_MiscFootprint:TLV9022QDRQ1-IPC_A"
+	(footprint "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
 		(layer "F.Cu")
 		(uuid "ff89fc43-f6a5-4db0-a4a9-695f658f30eb")
 		(at 66.398179 47.56832)
-		(tags "TLV9022QDRQ1 ")
+		(tags "TLV9032QDRQ1 ")
 		(property "Reference" "U201"
 			(at 0 0 0)
 			(unlocked yes)
@@ -14514,7 +14678,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV9022QDRQ1"
+		(property "Value" "TLV9032QDRQ1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14526,7 +14690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9022-q1"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14552,16 +14716,6 @@
 		(path "/895bf764-fc21-430b-99cd-ad743e73de67/c331a7a7-4001-461a-8234-3c0d00cf21da")
 		(sheetname "/Main Board/")
 		(sheetfile "Main Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "8" "4" "1")
-			)
-			(unit
-				(name "B")
-				(pins "5" "6" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14655,8 +14809,8 @@
 			(layer "F.Fab")
 			(uuid "e3ff5c1c-23ff-43a1-898e-b786afedb3da")
 		)
-		(fp_text user "Designator9"
-			(at -4.2672 -3.9878 0)
+		(fp_text user "Designator466"
+			(at -4.191 -4.2164 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3755481f-7f66-4c25-90bd-7d27a89ef4a9")
@@ -14752,7 +14906,7 @@
 			(uuid "4ebc3140-b9b6-41c7-94a9-92db184c8411")
 		)
 		(embedded_fonts no)
-		(model "${SDM_MISC_3D}/TLV9022QDRQ1.stp"
+		(model "${SDM_MISC_3D}/TLV9032QDRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)

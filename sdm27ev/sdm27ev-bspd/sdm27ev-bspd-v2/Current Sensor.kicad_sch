@@ -13,145 +13,6 @@
 		(comment 3 "Dylan Shah")
 	)
 	(lib_symbols
-		(symbol "+5V_1"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1772,7 +1633,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SDM_MiscSymbol:TLV9022QDRQ1"
+		(symbol "SDM_MiscSymbol:TLV9032QDRQ1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1782,7 +1643,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 12.446 3.302 0)
+				(at 19.304 2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1791,8 +1652,8 @@
 					)
 				)
 			)
-			(property "Value" "TLV9022QDRQ1"
-				(at 20.32 1.016 0)
+			(property "Value" "TLV9032QDRQ1"
+				(at 19.304 0.254 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1801,8 +1662,8 @@
 					)
 				)
 			)
-			(property "Footprint" "SDM_MiscFootprint:TLV9022QDRQ1-IPC_A"
-				(at 10.414 -23.114 0)
+			(property "Footprint" "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1813,8 +1674,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9022-q1"
-				(at 8.128 -25.146 0)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1846,7 +1707,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TLV9022QDRQ1"
+			(property "ki_keywords" "TLV9032QDRQ1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1868,7 +1729,7 @@
 					)
 				)
 			)
-			(symbol "TLV9022QDRQ1_1_1"
+			(symbol "TLV9032QDRQ1_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 15.24 -2.54)
@@ -1931,18 +1792,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 10.16 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 10.16 0) (xy 10.16 0.762)
 					)
 					(stroke
@@ -1959,18 +1808,6 @@
 					)
 					(stroke
 						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -15.24) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -2044,7 +1881,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 -15.24 90)
+					(at 10.16 -10.16 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2062,7 +1899,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 10.16 270)
+					(at 10.16 5.08 270)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -2080,10 +1917,10 @@
 					)
 				)
 			)
-			(symbol "TLV9022QDRQ1_2_1"
+			(symbol "TLV9032QDRQ1_2_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 15.24 -2.54)
+						(xy 5.08 2.54) (xy 12.7 -2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -2131,7 +1968,19 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -7.62) (xy 15.24 -2.54)
+						(xy 5.08 -7.62) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 13.462 -2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -2178,7 +2027,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 19.05 -2.54 180)
+					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "OUT2"
 						(effects
@@ -2454,8 +2303,12 @@
 		)
 		(symbol "power:GND1"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2545,8 +2398,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2617,17 +2469,6 @@
 		)
 		(uuid "96371163-9fcc-4f9b-808f-3be7faf3d3af")
 	)
-	(text "Comparitor goes high-impedance when + > -\nComparitor goes LOW when - > +\n"
-		(exclude_from_sim no)
-		(at 50.546 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b6b19961-55da-4464-bb05-4e71cd894f72")
-	)
 	(text "Brightness: 10mcd\nΔV = 5V - 2.7V = 2.3V\nV/I = 2.3V / 0.5mA =\n  4.6kΩ ≈ 4.7kΩ\nLED Current Draw: 0.5mA"
 		(exclude_from_sim no)
 		(at 17.526 173.736 0)
@@ -2639,7 +2480,7 @@
 		)
 		(uuid "f73c3c16-1a50-4eda-9c06-da8eadda1d6d")
 	)
-	(text "High Impedance when no fault\nLOW when fault"
+	(text "High when no fault\nLOW when fault"
 		(exclude_from_sim no)
 		(at 47.752 105.41 0)
 		(effects
@@ -2824,6 +2665,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 82.55) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d39e527-b91e-4222-bb9d-26951094dc54")
+	)
+	(wire
+		(pts
 			(xy 41.91 44.45) (xy 41.91 72.39)
 		)
 		(stroke
@@ -2831,6 +2682,16 @@
 			(type default)
 		)
 		(uuid "2defa38c-7779-4a7c-bbf6-686b43ca0cb5")
+	)
+	(wire
+		(pts
+			(xy 52.07 82.55) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8386cf-6fb8-42ef-820e-feaa440388bb")
 	)
 	(wire
 		(pts
@@ -2861,6 +2722,16 @@
 			(type default)
 		)
 		(uuid "398ffca9-1125-4038-bf9f-0191f37be882")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46432b7e-d754-47df-9a41-990be9d636cd")
 	)
 	(wire
 		(pts
@@ -3295,7 +3166,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "R"
 			(at 50.8 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,7 +3397,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "R"
 			(at 39.37 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3663,7 +3534,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 31.75 82.55 0)
 		(mirror y)
@@ -3889,7 +3759,7 @@
 				)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at 148.59 36.576 90)
 			(hide yes)
 			(show_name no)
@@ -4072,7 +3942,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "R"
 			(at 57.15 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4099,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "R"
 			(at 31.75 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4257,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 63.5 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4383,7 @@
 				)
 			)
 		)
-		(property "Measure" "Over Current Ref"
+		(property "Measure" "Measure"
 			(at 78.74 35.306 90)
 			(hide yes)
 			(show_name no)
@@ -4620,7 +4490,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 24.13 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +4549,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 63.5 120.65 0)
 		(unit 1)
@@ -5013,7 +4882,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM_MiscSymbol:TLV9022QDRQ1")
+		(lib_id "SDM_MiscSymbol:TLV9032QDRQ1")
 		(at 97.79 72.39 90)
 		(mirror x)
 		(unit 2)
@@ -5025,29 +4894,27 @@
 		(dnp no)
 		(uuid "7959e574-013a-42de-9758-78dba968e1a9")
 		(property "Reference" "U301"
-			(at 93.98 80.8989 90)
+			(at 112.014 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TLV9022QDRQ1"
-			(at 93.98 83.4389 90)
+		(property "Value" "TLV9032QDRQ1"
+			(at 112.014 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SDM_MiscFootprint:TLV9022QDRQ1-IPC_A"
-			(at 120.904 82.804 0)
+		(property "Footprint" "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
+			(at 97.79 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,8 +4925,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9022-q1"
-			(at 122.936 80.518 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
+			(at 97.79 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5115,7 +4982,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 96.52 36.83 0)
 		(unit 1)
@@ -5194,7 +5060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM_MiscSymbol:TLV9022QDRQ1")
+		(lib_id "SDM_MiscSymbol:TLV9032QDRQ1")
 		(at 41.91 72.39 90)
 		(mirror x)
 		(unit 1)
@@ -5206,7 +5072,7 @@
 		(dnp no)
 		(uuid "8950e02a-ea57-4d1d-a441-5bcd612c02f6")
 		(property "Reference" "U301"
-			(at 50.292 73.914 90)
+			(at 56.134 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5215,8 +5081,8 @@
 				)
 			)
 		)
-		(property "Value" "TLV9022QDRQ1"
-			(at 56.134 76.2 90)
+		(property "Value" "TLV9032QDRQ1"
+			(at 56.134 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5225,8 +5091,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM_MiscFootprint:TLV9022QDRQ1-IPC_A"
-			(at 65.024 82.804 0)
+		(property "Footprint" "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
+			(at 41.91 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5237,8 +5103,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9022-q1"
-			(at 67.056 80.518 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
+			(at 41.91 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5228,7 @@
 				)
 			)
 		)
-		(property "Measure" "Current Sensor"
+		(property "Measure" "Measure"
 			(at 103.124 39.878 0)
 			(hide yes)
 			(show_name no)
@@ -5729,7 +5595,7 @@
 				(justify left top)
 			)
 		)
-		(property "Measure" "Over Current Ref"
+		(property "Measure" "Measure"
 			(at 105.156 36.576 0)
 			(hide yes)
 			(show_name no)
@@ -5884,7 +5750,7 @@
 				(justify left top)
 			)
 		)
-		(property "Measure" "Under Current Ref"
+		(property "Measure" "Measure"
 			(at 176.53 37.846 0)
 			(hide yes)
 			(show_name no)
@@ -5934,7 +5800,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "R"
 			(at 87.884 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +5980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20%20Rev.S.PDF"
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
 			(at 26.67 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6310,7 +6176,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Measure" "P High Fault"
+		(property "Measure" "Measure"
 			(at 36.576 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +6224,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "C"
 			(at 24.13 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6709,7 +6575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Measure" "P Low Fault"
+		(property "Measure" "Measure"
 			(at 53.086 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6601,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 24.13 120.65 0)
 		(unit 1)
@@ -6814,7 +6679,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 166.37 36.83 0)
 		(unit 1)
@@ -6994,7 +6858,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 26.67 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
