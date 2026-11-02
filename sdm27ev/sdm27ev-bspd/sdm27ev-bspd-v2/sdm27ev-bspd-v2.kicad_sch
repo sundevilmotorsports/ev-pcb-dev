@@ -13,6 +13,377 @@
 		(comment 3 "Dylan Shah")
 	)
 	(lib_symbols
+		(symbol "776280-1_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J101"
+				(at 6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "776280-1"
+				(at 6.35 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SDM_MiscFootprint:776280-1"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773979-2&DocType=Data%20Sheet&DocLang=English&PartCntxt=776280-1&DocFormat=pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Body Features: Primary Product Color Black | Connector & Keying Code 1 | Configuration Features: Number of Positions 8 | Number of Rows 3 | PCB Mount Orientation Right Angle | Contact Features: Contact Type Pin | Contact Current Rating (Max) 8 AMP | Contact Mating Area Plating Material Tin | Housing Features: Centerline (Pitch) .157 INCH | Centerline (Pitch) 4 MM | Industry Standards: UL Flammability Rating UL 94V-0 | Mechanical Attachment: Connector Mounting Type Board Mount | PCB Mount Alignment With | PC"
+				(at -1.524 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "571-776280-1"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/776280-1?qs=tLAa1RwIH6coumJMxuaTDA%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "776280-1"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "776280-1_1_1_1"
+				(rectangle
+					(start 3.81 1.27)
+					(end 8.89 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 5.08 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 5.08 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 5.08 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.953 -6.35)
+					(end 5.207 -7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.493 -6.35)
+					(end 7.747 -7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -4.953)
+					(end 8.89 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 0.127)
+					(end 7.62 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 -2.413)
+					(end 7.62 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -11.43 90)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -11.43 90)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x01_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1268,12 +1639,6 @@
 		(uuid "38986e0d-7f34-43b9-a32a-f81032bd66f0")
 	)
 	(junction
-		(at 30.48 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f8371b9-c313-459f-9f22-4f1d9960acc1")
-	)
-	(junction
 		(at 182.88 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1307,7 +1672,13 @@
 		(at 30.48 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fcbe7236-5385-4fbd-a767-228815bef88d")
+		(uuid "dabce032-0d43-48c3-a299-662c59946fba")
+	)
+	(junction
+		(at 30.48 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa7d93b5-cae3-42bd-af87-d24d71705b20")
 	)
 	(no_connect
 		(at 231.14 36.83)
@@ -2132,86 +2503,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 30.48 24.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cd570b6-e518-4174-8e8d-2f755b7c921a")
-		(property "Reference" "#FLG0101"
-			(at 28.575 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 26.67 24.1299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "328f5355-b4c1-4d2d-ac94-1ffc0a4b80c6")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
-					(reference "#FLG0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
+		(lib_id "power:GND")
 		(at 30.48 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -2220,88 +2512,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "303c84e6-0cec-4f6c-b629-7e6dbf7e5693")
-		(property "Reference" "#PWR0101"
-			(at 30.48 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 30.48 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 30.48 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6dabed0-77ae-4410-96a7-83379b089694")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44ee7644-921e-4f23-931c-cf3be7354f9a")
+		(uuid "36bf5938-16b4-47b3-9f29-af4c7cac7a85")
 		(property "Reference" "#PWR0103"
-			(at 30.48 35.56 0)
+			(at 30.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2312,7 +2525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 34.29 0)
+			(at 31.75 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2322,7 +2535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 29.21 0)
+			(at 30.48 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2333,7 +2546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 29.21 0)
+			(at 30.48 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 29.21 0)
+			(at 30.48 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +2568,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "408886ec-b540-4bfd-b68f-1f19b2052750")
+			(uuid "03489735-bb49-4bd3-8960-35bd62afe298")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
@@ -2456,8 +2669,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58114e1a-6073-4405-a0bd-33a7b85840e5")
-		(property "Reference" "#FLG0103"
+		(uuid "533131f0-0f86-45fe-9639-fcfdd8d9ace3")
+		(property "Reference" "#FLG0101"
 			(at 28.575 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2513,7 +2726,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "d12a1ef0-6a2a-4d49-ac37-3b729e242d7b")
+			(uuid "bd8eaa48-ac05-4a43-a1ac-d9a0630cf9bb")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 30.48 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d22eb2-8721-449d-a6c0-04c199a588b1")
+		(property "Reference" "#FLG0103"
+			(at 28.575 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 24.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 30.48 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9f0906c-ae7d-48b2-bb42-a3be4e6fab8f")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
@@ -2681,6 +2973,7 @@
 		)
 	)
 	(symbol
+		(lib_name "776280-1_1")
 		(lib_id "SDM_MiscSymbol:776280-1")
 		(at 36.83 24.13 0)
 		(unit 1)
@@ -3072,6 +3365,83 @@
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
 					(reference "J102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 30.48 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc035744-e78f-43be-933a-ff1ccc76428b")
+		(property "Reference" "#PWR0101"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 31.242 30.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 30.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aed9bf1d-869b-41b9-8a4c-cad29e531b17")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

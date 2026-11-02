@@ -3508,7 +3508,7 @@
 				)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Current Disconnected Ref"
 			(at 148.59 36.576 90)
 			(hide yes)
 			(show_name no)
@@ -4132,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "5kW ref"
 			(at 78.74 35.306 90)
 			(hide yes)
 			(show_name no)
@@ -4901,7 +4901,7 @@
 				)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Current Sensor"
 			(at 103.124 39.878 0)
 			(hide yes)
 			(show_name no)
@@ -5268,7 +5268,7 @@
 				(justify left top)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "5kW ref"
 			(at 105.156 36.576 0)
 			(hide yes)
 			(show_name no)
@@ -5423,7 +5423,7 @@
 				(justify left top)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Current Disconnected Ref"
 			(at 176.53 37.846 0)
 			(hide yes)
 			(show_name no)

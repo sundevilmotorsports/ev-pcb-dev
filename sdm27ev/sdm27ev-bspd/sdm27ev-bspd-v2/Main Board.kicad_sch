@@ -605,105 +605,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SDM_MiscSymbol:150060GS75000"
 			(pin_names
 				(hide yes)
@@ -5371,26 +5272,6 @@
 		)
 		(uuid "1a3715a5-7008-4f16-b022-5468dadb840b")
 	)
-	(label "Over Current Fault"
-		(at 146.05 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f14399b-78ff-4e79-aee7-4972ac4aa2fe")
-	)
-	(label "Hard Breaking"
-		(at 146.05 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c03086e-3819-4288-9265-e042f166e5eb")
-	)
 	(label "Current Sensor Disconnected"
 		(at 44.45 139.7 0)
 		(effects
@@ -5451,6 +5332,16 @@
 		)
 		(uuid "b7dcc348-c504-4135-89d8-9a5e29361b36")
 	)
+	(label "Hard Breaking"
+		(at 146.05 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f37faa-7da9-4d01-8f89-9183230da21f")
+	)
 	(label "Over power and break for 0.25s"
 		(at 190.5 57.15 0)
 		(effects
@@ -5470,6 +5361,16 @@
 			(justify left bottom)
 		)
 		(uuid "ee52c8f3-92d2-4ce6-b7c3-9249e633ed12")
+	)
+	(label "Over Current Fault"
+		(at 146.05 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff633e35-387a-4789-bf47-e8f52f8f250b")
 	)
 	(hierarchical_label "Brake Sensor"
 		(shape input)
@@ -5673,82 +5574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 16.51 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08b82569-2b3f-4868-8f90-51b1d6481bb6")
-		(property "Reference" "H204"
-			(at 19.05 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 19.05 198.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 16.51 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 16.51 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
-					(reference "H204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SDM_MiscSymbol:5005")
 		(at 86.36 66.04 90)
 		(unit 1)
@@ -5816,7 +5641,7 @@
 				)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Break Disc"
 			(at 86.36 56.896 90)
 			(hide yes)
 			(show_name no)
@@ -6748,7 +6573,7 @@
 				)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Hard Break"
 			(at 58.42 35.306 90)
 			(hide yes)
 			(show_name no)
@@ -7298,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Brake Sensor"
 			(at 127.254 22.098 0)
 			(hide yes)
 			(show_name no)
@@ -7823,7 +7648,7 @@
 				(justify left top)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Hard Break Ref"
 			(at 86.36 36.576 0)
 			(hide yes)
 			(show_name no)
@@ -7847,82 +7672,6 @@
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
 					(reference "VR201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 16.51 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5550fd80-1cb2-4461-a8dc-c662079fb180")
-		(property "Reference" "H202"
-			(at 19.05 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 19.05 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 16.51 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 16.51 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
-					(reference "H202")
 					(unit 1)
 				)
 			)
@@ -9192,7 +8941,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "BSPD Good"
 			(at 205.232 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9768,82 +9517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 16.51 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9027537-2654-46c1-8240-7e81faf83087")
-		(property "Reference" "H203"
-			(at 19.05 189.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 19.05 191.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 16.51 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 16.51 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
-					(reference "H203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 48.26 0)
 		(unit 1)
@@ -10370,7 +10043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.212 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -11115,82 +10788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 16.51 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e58f8416-34dd-48c2-a64a-b77e8f747d11")
-		(property "Reference" "H201"
-			(at 19.05 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 19.05 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 16.51 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 16.51 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/895bf764-fc21-430b-99cd-ad743e73de67"
-					(reference "H201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 233.68 78.74 0)
 		(unit 1)
@@ -11471,7 +11068,7 @@
 				(justify left top)
 			)
 		)
-		(property "Measure" "Measure"
+		(property "Measure" "Break Disconnected Ref"
 			(at 114.3 58.166 0)
 			(hide yes)
 			(show_name no)
