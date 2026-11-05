@@ -11,6 +11,7 @@
 		(company "Sun Devil Motorsports")
 		(comment 1 "REVIEW - VEHICLE INTERLOCK INTERFACE TBD")
 		(comment 2 "NOT FOR PCB RELEASE | ELECTRICAL DESIGN FROZEN")
+		(comment 3 "Designer: Team 1 SDMe")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -8925,6 +8926,16 @@
 		)
 		(uuid "9391012b-220c-449c-a737-59751e6485b0")
 	)
+	(label "change to esp32"
+		(at 248.92 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99a0451a-4355-4e12-8c21-2ec37097f0c0")
+	)
 	(label "SDC_12V_COIL"
 		(at 273.05 255.27 180)
 		(effects
@@ -9124,6 +9135,16 @@
 			(justify left bottom)
 		)
 		(uuid "c317075a-1f37-4b53-8dbf-a0222b0b0c8a")
+	)
+	(label "figure out what coil is used here"
+		(at 367.03 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c59e02ad-01e7-481b-8c56-c2bed3253b4a")
 	)
 	(label "MAIN_PERMIT_TBD"
 		(at 325.12 105.41 180)
