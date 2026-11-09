@@ -13,6 +13,569 @@
 		(comment 3 "Dylan Shah")
 	)
 	(lib_symbols
+		(symbol "3386P-1-103TLF_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "VR"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SDM:3386P1103TLF"
+				(at 24.13 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/54/3386-776606.pdf"
+				(at 24.13 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Trimmer Resistors - Through Hole"
+				(at -0.762 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Measure" "Measure"
+				(at 4.064 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "4.83"
+				(at 24.13 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "652-3386P-1-103TLF"
+				(at 24.13 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D"
+				(at 24.13 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 24.13 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "3386P-1-103TLF"
+				(at 24.13 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "3386P-1-103TLF_1_0_1"
+				(polyline
+					(pts
+						(xy 3.81 -1.143) (xy 4.318 -2.286) (xy 3.302 -2.286) (xy 3.81 -1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 -1.016)
+					(end 1.27 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3386P-1-103TLF_1_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -3.81 90)
+					(length 1.27)
+					(name "Wiper"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.27)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5005_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RED_TP"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "5005"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SDM:5005"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1314"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Test Point, PC, Snap in Mounting,  Compact, Red Base"
+				(at 3.81 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Measure" "Measure"
+				(at 20.574 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "534-5005"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5005?qs=q0tsjPZWdm%252BiIco20yB3BQ%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "5005"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "5005_1_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5007_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "WHITE_TP"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "5007"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SDM:5007"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=1316"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Test Point, PC, Snap in Mounting,  Compact, White Base"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Measure" "Measure"
+				(at 20.574 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "5.59"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "534-5007"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5007?qs=q0tsjPZWdm%2FR8ZVOxrSXrQ%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "5007"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "5007_1_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -308,9 +871,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:LTV-827S"
+		(symbol "SDM_EV_Symbol:TLV9034QDRQ1"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -318,48 +881,50 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -3.81 5.08 0)
+				(at 19.304 2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "LTV-827S"
-				(at 0 -5.08 0)
+			(property "Value" "TLV9034QDRQ1"
+				(at 19.304 0.254 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-				(at -20.32 13.97 0)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 2.286 -13.462 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 				)
 			)
-			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9032-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1794209699943"
+				(at -3.048 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -370,7 +935,17 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TLV9034QDRQ1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -381,7 +956,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SMDIP*W9.53mm*"
+			(property "ki_fp_filters" "D0008A-IPC_A D0008A-IPC_B D0008A-IPC_C D0008A-MFG"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -392,24 +967,13 @@
 					)
 				)
 			)
-			(symbol "LTV-827S_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "TLV9034QDRQ1_1_1"
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+						(xy 5.08 2.54) (xy 15.24 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -418,10 +982,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
+						(xy 5.08 0) (xy 4.318 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -430,10 +994,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+						(xy 5.08 -5.08) (xy 4.318 -5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -442,10 +1006,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+						(xy 5.08 -7.62) (xy 5.08 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -454,10 +1018,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+						(xy 5.08 -7.62) (xy 15.24 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -466,10 +1030,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+						(xy 10.16 0) (xy 10.16 0.762)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -478,10 +1042,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905)
+						(xy 10.16 -5.08) (xy 10.16 -5.842)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -490,88 +1054,20 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0.635) (xy 4.445 2.54)
+						(xy 15.24 -2.54) (xy 16.002 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LTV-827S_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "OUT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -586,48 +1082,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTV-827S_2_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name ""
+				(pin power_in line
+					(at 10.16 5.08 270)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -642,10 +1100,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
+				(pin tri_state line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN1-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -660,10 +1118,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
+				(pin tri_state line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN1+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,10 +1136,120 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
+				(pin power_in line
+					(at 10.16 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9034QDRQ1_2_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.318 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 4.318 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 16.002 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN1-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -689,6 +1257,280 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9034QDRQ1_3_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.318 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 4.318 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 16.002 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin tri_state line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9034QDRQ1_4_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.318 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 4.318 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 16.002 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin tri_state line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -971,983 +1813,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SDM_MiscSymbol:3386P-1-103TLF"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "VR"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "10k"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SDM_MiscFootprint:3386P1103TLF"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/54/3386-776606.pdf"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Trimmer Resistors - Through Hole"
-				(at -0.762 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Measure" "Measure"
-				(at 4.064 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "4.83"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "652-3386P-1-103TLF"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Bourns"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "3386P-1-103TLF"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "3386P-1-103TLF_0_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.143) (xy 4.318 -2.286) (xy 3.302 -2.286) (xy 3.81 -1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.35 -1.016)
-					(end 1.27 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3386P-1-103TLF_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "CCW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -3.81 90)
-					(length 1.27)
-					(name "Wiper"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 1.27)
-					(name "CW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SDM_MiscSymbol:5005"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RED_TP"
-				(at 16.51 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "5005"
-				(at 16.51 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SDM_MiscFootprint:5005"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1314"
-				(at 16.51 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Test Point, PC, Snap in Mounting,  Compact, Red Base"
-				(at 3.81 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Measure" "Measure"
-				(at 20.574 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "534-5005"
-				(at 16.51 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5005?qs=q0tsjPZWdm%252BiIco20yB3BQ%3D%3D"
-				(at 16.51 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Keystone Electronics"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "5005"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "5005_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 7.62 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SDM_MiscSymbol:5007"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "WHITE_TP"
-				(at 16.51 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "5007"
-				(at 16.51 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SDM_MiscFootprint:5007"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=1316"
-				(at 16.51 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Test Point, PC, Snap in Mounting,  Compact, White Base"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Measure" "Measure"
-				(at 20.574 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "5.59"
-				(at 16.51 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "534-5007"
-				(at 16.51 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5007?qs=q0tsjPZWdm%2FR8ZVOxrSXrQ%3D%3D"
-				(at 16.51 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Keystone Electronics"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "5007"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "5007_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 7.62 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SDM_MiscSymbol:TLV9032QDRQ1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 19.304 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV9032QDRQ1"
-				(at 19.304 0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TLV9032QDRQ1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D0008A-IPC_A D0008A-IPC_B D0008A-IPC_C D0008A-MFG"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TLV9032QDRQ1_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 15.24 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 4.318 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 15.24 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 0.762)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 10.16 -5.842)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -2.54) (xy 16.002 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "OUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "IN1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 5.08 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV9032QDRQ1_2_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 4.318 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 13.462 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin tri_state line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "IN2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "OUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2202,1012 +2067,435 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND1"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND1"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(text "This circutry is happning on the BMS side of the isolation between BMS and BSPD.\nThis is because the sensor has a max output of 1mA, and I could not find any way to isolate it without bringing BMS 5V here.\nAt that point, we might as well do the digital comparison beforehand, and then isolate the signal."
-		(exclude_from_sim no)
-		(at 16.002 18.542 0)
+	(junction
+		(at 27.94 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0416232e-eae1-4473-87c4-7390e427e85e")
+	)
+	(junction
+		(at 82.55 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "309aaa53-7765-4f45-a250-271660c56781")
+	)
+	(junction
+		(at 48.26 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56cd63ec-1ee7-4d3d-b0be-10606197545f")
+	)
+	(junction
+		(at 82.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63914ac1-c5ab-4743-b0cd-55891bffcfb7")
+	)
+	(junction
+		(at 21.59 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72cf9511-ad84-4505-8ce8-d47cd28071d5")
+	)
+	(junction
+		(at 39.37 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94705a9d-103d-4940-b86d-cb32cf113b8d")
+	)
+	(junction
+		(at 60.96 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b36628ef-e14f-4d3b-8c9f-665981871d9c")
+	)
+	(junction
+		(at 60.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2f3d1c7-9baa-40bd-94fd-a4a6d0fe0cd9")
+	)
+	(junction
+		(at 76.2 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c917fe92-d3d4-4aea-86e7-e12de5e567ea")
+	)
+	(junction
+		(at 60.96 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d607a518-70cc-48a4-a297-b71e3c4c8088")
+	)
+	(junction
+		(at 27.94 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f42751d3-1e45-499d-b2d5-607ee8e1a0be")
+	)
+	(no_connect
+		(at 46.99 162.56)
+		(uuid "83c5afbd-13ee-47e8-aaeb-e9e6a2ae28e1")
+	)
+	(wire
+		(pts
+			(xy 60.96 21.59) (xy 64.77 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00050713-bffd-43b3-a86e-81ea0ae500c1")
+	)
+	(wire
+		(pts
+			(xy 21.59 59.69) (xy 35.56 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0079e808-191d-4059-8b8e-ea30ff0681fc")
+	)
+	(wire
+		(pts
+			(xy 62.23 88.9) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022ec702-6bcb-4f92-9f91-9d13c7159730")
+	)
+	(wire
+		(pts
+			(xy 19.05 163.83) (xy 19.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06195b96-0930-4c27-ac22-c52725746b39")
+	)
+	(wire
+		(pts
+			(xy 26.67 160.02) (xy 26.67 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad9c64a-b6d6-4962-8a7c-a3705ee341a9")
+	)
+	(wire
+		(pts
+			(xy 27.94 86.36) (xy 41.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8772ac-cb5e-410b-a2cc-845e60e1bb96")
+	)
+	(wire
+		(pts
+			(xy 22.86 156.21) (xy 22.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc341f6-2762-4d28-a5e4-80038cd7ef96")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dda003-f229-4ed3-a669-7c90cbb4aa71")
+	)
+	(wire
+		(pts
+			(xy 20.32 82.55) (xy 24.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54da279f-9bab-402e-a4b3-2c34cb5da978")
+	)
+	(wire
+		(pts
+			(xy 82.55 119.38) (xy 87.63 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7082aa6b-e822-48fc-ab66-794cf596990e")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.64) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2f4a54-59a1-4f7f-bc6a-4b4ac8db6a69")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80eedf99-efb4-4a11-a1e9-b2cfd56191e3")
+	)
+	(wire
+		(pts
+			(xy 13.97 55.88) (xy 17.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ea4611-56a2-4772-adbf-c881cfe4ff4c")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 48.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed0e117-ef2e-41c9-9e84-06b5030b1acb")
+	)
+	(wire
+		(pts
+			(xy 20.32 113.03) (xy 24.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90913241-f280-41c1-8d56-fadc21d565e1")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97790ef4-89b4-44db-b19a-718226fded7a")
+	)
+	(wire
+		(pts
+			(xy 39.37 21.59) (xy 60.96 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9affa658-11dc-457d-9ae1-a8ada2fc8f17")
+	)
+	(wire
+		(pts
+			(xy 62.23 119.38) (xy 82.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a799dfc7-e8dd-4a21-9e94-6017b6d30541")
+	)
+	(wire
+		(pts
+			(xy 55.88 57.15) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78c99d8-e40e-46ee-82dc-c3c793fdab7d")
+	)
+	(wire
+		(pts
+			(xy 31.75 82.55) (xy 35.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb20757-7ef5-4dd2-8064-9c6b09d2d7fc")
+	)
+	(wire
+		(pts
+			(xy 27.94 116.84) (xy 41.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aecc19-19a4-44ae-9d48-5aeef55a2c44")
+	)
+	(wire
+		(pts
+			(xy 76.2 57.15) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e196d0ce-094b-4e0c-9dc5-0197958a9bd4")
+	)
+	(wire
+		(pts
+			(xy 38.1 21.59) (xy 39.37 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c2326e-241b-4217-bf78-5cf282141d68")
+	)
+	(wire
+		(pts
+			(xy 25.4 55.88) (xy 29.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2364026-e988-4ece-82cb-10c1daa65e57")
+	)
+	(wire
+		(pts
+			(xy 31.75 113.03) (xy 35.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf25d59-990a-409c-9dc5-75879ed60180")
+	)
+	(wire
+		(pts
+			(xy 26.67 156.21) (xy 22.86 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5dd98c-5de4-40f7-ad49-c22b46e1203f")
+	)
+	(wire
+		(pts
+			(xy 19.05 165.1) (xy 26.67 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff72ccbb-f527-406a-82d8-f0e2cdd53274")
+	)
+	(label "Curr"
+		(at 35.56 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "07d500af-e550-4441-80e1-1f8603957726")
+		(uuid "2c2da2b6-0555-429a-ba1d-fd9df1d0f981")
 	)
-	(text "Used to set >5kW\nAssuming this is a 330V battery, this should be ~3V"
-		(exclude_from_sim no)
-		(at 81.788 27.432 0)
+	(label "Curr"
+		(at 41.91 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(uuid "18e4a714-4765-46a4-9244-8e85b74fddbf")
+		(uuid "3b047bcf-6812-4577-9edd-73ba4fc7bdba")
 	)
-	(text "BSPD SIDE"
-		(exclude_from_sim no)
-		(at 75.946 200.152 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "18ef43ff-dfca-4c93-acf9-98f8927372b6")
-	)
-	(text "Used to set when the sensor is not comunicating with the BSPD\nSould be ~0.5V"
-		(exclude_from_sim no)
-		(at 153.924 28.194 0)
+	(label "Curr"
+		(at 41.91 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(uuid "4a71585f-849d-46ad-acf8-5cf3dd502b3f")
+		(uuid "caaecdd5-34b3-496f-bb4e-9875806de081")
 	)
-	(text "Lines have 2.5mA when being driven high\nLines are HIGH on fault, and \nLOW under normal opperation,\nPut even larger pull up's on main board"
-		(exclude_from_sim no)
-		(at 17.78 197.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96371163-9fcc-4f9b-808f-3be7faf3d3af")
-	)
-	(text "Brightness: 10mcd\nΔV = 5V - 2.7V = 2.3V\nV/I = 2.3V / 0.5mA =\n  4.6kΩ ≈ 4.7kΩ\nLED Current Draw: 0.5mA"
-		(exclude_from_sim no)
-		(at 17.526 173.736 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f73c3c16-1a50-4eda-9c06-da8eadda1d6d")
-	)
-	(text "High when no fault\nLOW when fault"
-		(exclude_from_sim no)
-		(at 47.752 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa20a1ed-b068-428c-a4cc-4a82921bfc73")
-	)
-	(junction
-		(at 90.17 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40d2bc40-cd7b-4722-ae0c-c90f403b96fa")
-	)
-	(junction
-		(at 43.18 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fbcbf4b-1504-4cf5-a418-0f08163beb74")
-	)
-	(junction
-		(at 148.59 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6216312e-f0fb-42f5-8932-83823c25997a")
-	)
-	(junction
-		(at 27.94 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7988d929-dc9f-46d4-baef-3e68317889ac")
-	)
-	(junction
-		(at 97.79 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "876a2dab-e807-4979-a3b3-e68d8f158f28")
-	)
-	(junction
-		(at 78.74 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "886e6b66-7dd6-4d8e-bc82-82e854ebd07b")
-	)
-	(junction
-		(at 100.33 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "898b31ee-2edf-4636-b913-96290e8d8f74")
-	)
-	(junction
-		(at 19.05 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4734788-2254-4dde-a02a-ff5ac896807e")
-	)
-	(junction
-		(at 46.99 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae3b391b-b6db-4bb1-9b09-104ce1a62d8c")
-	)
-	(junction
-		(at 46.99 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c77e34ac-cd3f-465c-8ab6-fb5e9972401d")
-	)
-	(junction
-		(at 43.18 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7b36619-32e4-4002-8887-4ef8bbfdebeb")
-	)
-	(junction
-		(at 31.75 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf983eb1-140c-4bca-bb87-fb32d7d6f556")
-	)
-	(wire
-		(pts
-			(xy 97.79 45.72) (xy 97.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0171d85d-b4f9-4143-81a1-8f024f874ed1")
-	)
-	(wire
-		(pts
-			(xy 46.99 45.72) (xy 46.99 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0717069c-60d6-4021-b477-41e232b5461f")
-	)
-	(wire
-		(pts
-			(xy 35.56 120.65) (xy 38.1 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d24692-00d8-4ef4-b1d8-ccbab5a5276f")
-	)
-	(wire
-		(pts
-			(xy 43.18 135.89) (xy 43.18 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d08bdd7-fa6c-44ee-967e-ce660c3546df")
-	)
-	(wire
-		(pts
-			(xy 86.36 36.83) (xy 85.09 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e79851-115b-4fc8-afd2-e0621e9f8785")
-	)
-	(wire
-		(pts
-			(xy 156.21 38.1) (xy 154.94 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc700a5-7a4f-4efe-b470-6457459cefa5")
-	)
-	(wire
-		(pts
-			(xy 41.91 44.45) (xy 78.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "208239e3-df22-48e8-9505-bff9a4bb6b3d")
-	)
-	(wire
-		(pts
-			(xy 44.45 120.65) (xy 43.18 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b5a3f4-bb1e-4b22-8634-5a6a845127f8")
-	)
-	(wire
-		(pts
-			(xy 46.99 135.89) (xy 46.99 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ce084c-db55-4f6a-97d6-66f546b076ca")
-	)
-	(wire
-		(pts
-			(xy 31.75 82.55) (xy 36.83 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d39e527-b91e-4222-bb9d-26951094dc54")
-	)
-	(wire
-		(pts
-			(xy 41.91 44.45) (xy 41.91 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2defa38c-7779-4a7c-bbf6-686b43ca0cb5")
-	)
-	(wire
-		(pts
-			(xy 52.07 82.55) (xy 57.15 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8386cf-6fb8-42ef-820e-feaa440388bb")
-	)
-	(wire
-		(pts
-			(xy 148.59 45.72) (xy 148.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30dd5789-db5e-41b8-bb78-d4cfb3943b78")
-	)
-	(wire
-		(pts
-			(xy 59.69 137.16) (xy 52.07 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3851fd6b-409f-46d1-95dc-31eaf81e9c13")
-	)
-	(wire
-		(pts
-			(xy 154.94 38.1) (xy 154.94 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398ffca9-1125-4038-bf9f-0191f37be882")
-	)
-	(wire
-		(pts
-			(xy 100.33 90.17) (xy 100.33 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46432b7e-d754-47df-9a41-990be9d636cd")
-	)
-	(wire
-		(pts
-			(xy 85.09 36.83) (xy 85.09 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fc4a04-dd61-42aa-ab30-22f3847245bf")
-	)
-	(wire
-		(pts
-			(xy 19.05 97.79) (xy 19.05 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "540d121e-fc46-4ec2-b331-9d0a3ae436df")
-	)
-	(wire
-		(pts
-			(xy 90.17 45.72) (xy 97.79 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d0387b-7a97-410c-b97b-a80a9814abd9")
-	)
-	(wire
-		(pts
-			(xy 166.37 38.1) (xy 163.83 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2ec407-12e6-4256-aa67-30b235c4e2db")
-	)
-	(wire
-		(pts
-			(xy 46.99 181.61) (xy 48.26 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef119fa-9cbd-4100-be83-da0a004f228c")
-	)
-	(wire
-		(pts
-			(xy 43.18 181.61) (xy 41.91 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab0f0e8-d331-4844-b537-2407fae56fbf")
-	)
-	(wire
-		(pts
-			(xy 78.74 44.45) (xy 90.17 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eef937d-a77a-46c8-ab98-5f44a11981a9")
-	)
-	(wire
-		(pts
-			(xy 20.32 95.25) (xy 19.05 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73365759-650a-46ac-ace9-1a2f9ddb65cb")
-	)
-	(wire
-		(pts
-			(xy 19.05 95.25) (xy 19.05 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "783a5364-5eff-4843-8dab-05706ef0cd9d")
-	)
-	(wire
-		(pts
-			(xy 102.87 46.99) (xy 148.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a17029b-34da-4abf-8813-21579be21edd")
-	)
-	(wire
-		(pts
-			(xy 53.34 120.65) (xy 52.07 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bde78f4-e8a5-4d82-98cc-756ac1ad8e33")
-	)
-	(wire
-		(pts
-			(xy 96.52 36.83) (xy 93.98 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd02484-4a44-414a-9e04-0c673d065f27")
-	)
-	(wire
-		(pts
-			(xy 160.02 41.91) (xy 160.02 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81dc0599-3df9-4d3f-a457-955cbb3edf72")
-	)
-	(wire
-		(pts
-			(xy 102.87 46.99) (xy 102.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e60d74-2529-4cc6-bb91-54f2590a13b3")
-	)
-	(wire
-		(pts
-			(xy 46.99 45.72) (xy 90.17 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8342a0eb-4e6f-4944-9cad-12cf4032051e")
-	)
-	(wire
-		(pts
-			(xy 19.05 82.55) (xy 20.32 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "869bfac4-328c-4717-b29d-b4d18dec6f5c")
-	)
-	(wire
-		(pts
-			(xy 90.17 40.64) (xy 90.17 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90ca4280-8934-4fb6-8799-c7191d40d768")
-	)
-	(wire
-		(pts
-			(xy 31.75 137.16) (xy 38.1 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95bbad13-2d47-4c29-ac49-af6786bf423a")
-	)
-	(wire
-		(pts
-			(xy 100.33 91.44) (xy 46.99 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a6dacf-142f-4012-bfc3-ae5c245dbe55")
-	)
-	(wire
-		(pts
-			(xy 24.13 120.65) (xy 27.94 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a73e28a6-12b4-48e8-abff-107e20363ca4")
-	)
-	(wire
-		(pts
-			(xy 27.94 82.55) (xy 31.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0bf1ae6-7ab2-4d87-9484-0e248515af9c")
-	)
-	(wire
-		(pts
-			(xy 166.37 36.83) (xy 166.37 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c9716d-92e5-45e7-b8c4-43e976da0b84")
-	)
-	(wire
-		(pts
-			(xy 36.83 161.29) (xy 30.48 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18c2bb7-8ddc-4f3e-ba3d-61fdbc30e99c")
-	)
-	(wire
-		(pts
-			(xy 53.34 161.29) (xy 59.69 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8a1a12f-a7e1-4863-9973-19f948c0b509")
-	)
-	(wire
-		(pts
-			(xy 38.1 135.89) (xy 38.1 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e6deb2-a6ad-4a8b-9484-85dab8a78907")
-	)
-	(wire
-		(pts
-			(xy 27.94 82.55) (xy 27.94 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c40853f9-678e-44cd-b10e-9ffe4ec814a8")
-	)
-	(wire
-		(pts
-			(xy 46.99 91.44) (xy 46.99 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c50b33af-1c4a-47f4-82a1-8ed803a70df2")
-	)
-	(wire
-		(pts
-			(xy 100.33 45.72) (xy 102.87 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5858fe-5312-46b7-a969-3efde245abc1")
-	)
-	(wire
-		(pts
-			(xy 160.02 46.99) (xy 148.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1de55d1-c1c9-4c38-a79c-b77985e5ca89")
-	)
-	(wire
-		(pts
-			(xy 44.45 92.71) (xy 44.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de4ac4b0-915e-42a3-a868-03afe76afcfc")
-	)
-	(wire
-		(pts
-			(xy 52.07 137.16) (xy 52.07 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0c910b-9715-47ff-bdc9-80b2e907329e")
-	)
-	(wire
-		(pts
-			(xy 97.79 45.72) (xy 100.33 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81badb9-a4ed-423a-9516-128131122657")
-	)
-	(wire
-		(pts
-			(xy 60.96 120.65) (xy 66.04 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51a4294-2c96-43f3-931c-29bcb228fcf6")
-	)
-	(label "Over Current Ref"
-		(at 54.61 44.45 0)
+	(label "Curr"
+		(at 72.39 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "47ead1e9-bff3-4928-95cf-6e3bcceddcf7")
+		(uuid "e7919f96-6681-411e-ae63-9a8d7a50f873")
 	)
-	(label "~{Over Current Fault}"
-		(at 44.45 116.84 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74b528e0-e330-4958-a56d-a732a0766e88")
-	)
-	(label "Under Current Ref"
-		(at 127 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd1853ee-dca5-44b5-b45f-ae28378a35de")
-	)
-	(label "~{Current Sensor Fault}"
-		(at 46.99 118.11 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3633715-571f-4e62-ac85-3fbb6352cdab")
-	)
-	(hierarchical_label "Current Sensor Fault"
-		(shape output)
-		(at 48.26 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3567e510-9656-47fb-b991-2dc0d0ab261f")
-	)
-	(hierarchical_label "POWER OVER FAUT"
-		(shape output)
-		(at 41.91 181.61 180)
+	(hierarchical_label "CH1_CURRENT SENSOR"
+		(shape input)
+		(at 38.1 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "62f2c76a-2b12-4fa6-bfd8-eede1ce489a9")
+		(uuid "0ff53e0a-1da6-48bf-9ba5-488925cfe16c")
 	)
-	(hierarchical_label "CH1_CURRENT SENSOR"
-		(shape input)
-		(at 102.87 45.72 0)
+	(hierarchical_label "~{Low Short}"
+		(shape output)
+		(at 81.28 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9b3de6af-26a5-4c54-a9ba-f3432336ce03")
+		(uuid "32e70e9d-c99e-48d2-8d12-a78fb64b1ccb")
 	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 16.51 128.27) (xy 86.36 128.27) (xy 86.5014 202.027) (xy 16.6514 202.027)
+	(hierarchical_label "~{High Short}"
+		(shape output)
+		(at 87.63 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "78ae2a76-6775-44a1-9def-fe713c994f67")
+			(justify left)
 		)
+		(uuid "bb3bd882-aa4c-433d-a283-5e390b22af87")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09e60f6f-52d9-4239-b15b-ffae593ea046")
-		(property "Reference" "R305"
-			(at 50.8 138.684 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "~{Over Power}"
+		(shape output)
+		(at 87.63 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "10k"
-			(at 50.8 141.224 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 50.8 145.288 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47dd5d53-2893-4e8a-be5a-a64a8d773329")
-		)
-		(pin "2"
-			(uuid "052821a0-0de3-401b-bbcf-3ddc109f412d")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "R305")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ea05d764-aa2b-4908-a438-38e2fbb92337")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 39.37 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f1898ae-308f-492f-b428-c1128e6c3b6b")
-		(property "Reference" "R304"
-			(at 39.37 138.684 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 39.37 141.224 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 39.37 145.288 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3be50a8f-1d20-4323-99d5-4e287bd50115")
-		)
-		(pin "2"
-			(uuid "ce7be9e1-4a68-4edc-a9f4-ea915a33fe76")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "R304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 154.94 39.37 0)
-		(unit 1)
+		(lib_id "SDM_EV_Symbol:TLV9034QDRQ1")
+		(at 41.91 86.36 0)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3215,52 +2503,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23731ff4-de61-41b3-94d3-b2055788be21")
-		(property "Reference" "#PWR0304"
-			(at 154.94 45.72 0)
+		(uuid "01d7f80b-fe58-4bcc-88c2-b98d877f2cbc")
+		(property "Reference" "U4"
+			(at 52.07 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV9034QDRQ1"
+			(at 52.07 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 44.196 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "GND_BMS"
-			(at 154.94 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 39.37 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9032-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1794209699943"
+			(at 38.862 97.282 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 154.94 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 154.94 39.37 0)
+		(property "Description" ""
+			(at 41.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,21 +2560,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "863b3d66-b3e8-4b7b-9a5d-fc206ed5e32e")
+			(uuid "ddaed269-df3e-43f8-a311-000ad17a3da7")
+		)
+		(pin "13"
+			(uuid "f3e8371c-ef64-4103-99b8-d9313dd75742")
+		)
+		(pin "5"
+			(uuid "369dec41-04e1-4ca6-bcef-0c9e9c28a3e3")
+		)
+		(pin "12"
+			(uuid "3635f7a2-ae6c-4fcc-8322-0f10263a6abe")
+		)
+		(pin "2"
+			(uuid "24878d02-0f9e-4cc2-8ba0-c7b1b27463a0")
+		)
+		(pin "11"
+			(uuid "e35d19fd-6ee3-4c7b-8464-bb340f6510a2")
+		)
+		(pin "4"
+			(uuid "465a9082-2ff3-482e-ba84-04ddff20ef2b")
+		)
+		(pin "6"
+			(uuid "043e430a-9954-4339-a17c-3b60d97bd424")
+		)
+		(pin "7"
+			(uuid "57c4face-8387-482e-87a6-5ae99200ea63")
+		)
+		(pin "14"
+			(uuid "8d194b3f-8dfa-497e-b8b7-5ed6d59162d0")
+		)
+		(pin "8"
+			(uuid "19542edb-ac53-4358-82dc-60aca7eeb00c")
+		)
+		(pin "9"
+			(uuid "566f4201-577c-4c9c-bed4-c670c0c54368")
+		)
+		(pin "10"
+			(uuid "96c8f0f9-3354-4ac5-a785-6d20949f4572")
+		)
+		(pin "3"
+			(uuid "87500a6f-e75d-484c-8d40-31c1053401fa")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0304")
-					(unit 1)
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 31.75 82.55 0)
-		(mirror y)
+		(at 29.21 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3294,318 +2621,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f742360-8641-40f4-8f36-06a49f056c7d")
-		(property "Reference" "#PWR0306"
-			(at 31.75 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_BMS"
-			(at 31.75 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7859126c-0982-4a5c-95cc-195f26f8df03")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 90.17 53.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43128592-0c85-4aeb-a214-0cecbeedcd10")
-		(property "Reference" "#PWR0305"
-			(at 90.17 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_BMS"
-			(at 90.17 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 90.17 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a48e16b-25a7-47ad-9e33-803aef572d1b")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MiscSymbol:5005")
-		(at 148.59 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45c60c7d-e328-422a-b3f0-db96218a2f72")
-		(property "Reference" "RED_TP302"
-			(at 146.05 41.656 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5005"
-			(at 146.05 39.116 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:5005"
-			(at 243.51 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1314"
-			(at 343.51 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Test Point, PC, Snap in Mounting,  Compact, Red Base"
-			(at 152.4 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Measure" "Current Disconnected Ref"
-			(at 148.59 36.576 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" ""
-			(at 543.51 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "534-5005"
-			(at 643.51 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5005?qs=q0tsjPZWdm%252BiIco20yB3BQ%3D%3D"
-			(at 743.51 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 843.51 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5005"
-			(at 943.51 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "cf89ac5d-1629-4e3f-bc7b-101400e9dbda")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "RED_TP302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51f73980-4fec-45ee-b3e0-8adbc844a6a1")
-		(property "Reference" "#PWR0312"
-			(at 59.69 140.97 0)
+		(uuid "1db213a3-8029-4acc-8f96-933c141e1f46")
+		(property "Reference" "#PWR051"
+			(at 29.21 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3616,7 +2634,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 59.69 132.08 0)
+			(at 29.21 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3626,7 +2644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 137.16 0)
+			(at 29.21 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +2655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 137.16 0)
+			(at 29.21 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,7 +2666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 137.16 0)
+			(at 29.21 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,558 +2677,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3469dcb-9c57-4b57-a2b4-ac84ec0348fb")
+			(uuid "f29458f5-3881-42c4-8f7b-e7c296a55ab5")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0312")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 57.15 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5432fc6b-7dc7-4227-8e5b-dee5179e35c9")
-		(property "Reference" "R303"
-			(at 57.15 115.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 57.15 118.364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.15 122.428 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c42dbfab-f527-40e4-89d0-da0aa19386fc")
-		)
-		(pin "2"
-			(uuid "975cb7b8-f6d0-4946-b172-373f75328600")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "R303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 85.09 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "558178a3-1251-484c-9c05-47e315af6605")
-		(property "Reference" "#PWR0303"
-			(at 85.09 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_BMS"
-			(at 85.09 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 85.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17523b3c-54fb-4a4c-bbfb-06b649dd2b67")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "62c200d6-01a8-4fb8-9e6e-3f191123f527")
-		(property "Reference" "R302"
-			(at 31.75 115.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 31.75 118.364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 31.75 122.428 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "611d73ca-df6a-4714-bb83-0d7257eda508")
-		)
-		(pin "2"
-			(uuid "bbbcec5f-7384-4043-9ea5-07060935cfd2")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "R302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 31.75 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63addff7-ae4b-4b41-9702-5db5758b7f9d")
-		(property "Reference" "#PWR0311"
-			(at 31.75 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 31.75 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fa1e65c-a19e-4fda-9158-fd7b0f721ba7")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 161.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "645a1e12-14fc-41b0-b1ac-4da10509da8c")
-		(property "Reference" "R307"
-			(at 63.5 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 63.5 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 63.5 163.068 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "571f7642-b263-4a24-827c-42cbb1fc1c92")
-		)
-		(pin "1"
-			(uuid "6ecc0498-e6ed-4538-b582-576d2093aa98")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "R307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MiscSymbol:5005")
-		(at 78.74 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "657d2ef9-9310-4e96-8a27-dd1f80931cdb")
-		(property "Reference" "RED_TP301"
-			(at 76.2 40.386 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5005"
-			(at 76.2 37.846 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:5005"
-			(at 173.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1314"
-			(at 273.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Test Point, PC, Snap in Mounting,  Compact, Red Base"
-			(at 82.55 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Measure" "5kW ref"
-			(at 78.74 35.306 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" ""
-			(at 473.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "534-5005"
-			(at 573.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5005?qs=q0tsjPZWdm%252BiIco20yB3BQ%3D%3D"
-			(at 673.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 773.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5005"
-			(at 873.66 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "fde6a4a8-a6e7-4fb5-aa5c-b2e73b6fa25d")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "RED_TP301")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4218,8 +2690,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 95.25 270)
-		(mirror x)
+		(at 60.96 44.45 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4228,29 +2700,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "668adf45-b0e2-4dd5-8115-ec9f1e173040")
-		(property "Reference" "C302"
-			(at 24.13 87.63 90)
+		(uuid "2249a89a-d09c-4a8d-a500-b7e92d76c533")
+		(property "Reference" "C11"
+			(at 64.77 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 24.13 90.17 90)
+			(at 64.77 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 20.32 94.2848 0)
+			(at 59.9948 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4261,7 +2735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 95.25 0)
+			(at 60.96 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,7 +2746,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 24.13 95.25 0)
+			(at 60.96 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,23 +2757,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "34ad7ad5-2d96-43a1-bfd2-b2a2fbeea12b")
+			(uuid "dcdf35a7-f207-4ecc-b5c0-ba9f80c9c96b")
 		)
 		(pin "1"
-			(uuid "2ee711bc-bfe6-4ad8-af1b-a8c18b917acf")
+			(uuid "8fd2428d-60b8-4b03-9e9f-a2ba3ffecdc0")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "C302")
+					(reference "C11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 66.04 120.65 0)
+		(lib_name "3386P-1-103TLF_1")
+		(lib_id "SDM_MiscSymbol:3386P-1-103TLF")
+		(at 24.13 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4308,9 +2783,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b1de576-0270-4d18-bcd6-7f9cabd45277")
-		(property "Reference" "#PWR0310"
-			(at 66.04 124.46 0)
+		(uuid "261485c3-f030-4c87-b1fa-b3e43cd15431")
+		(property "Reference" "VR6"
+			(at 27.94 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 27.94 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:3386P1103TLF"
+			(at 48.26 207.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/3386-776606.pdf"
+			(at 48.26 307.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Trimmer Resistors - Through Hole"
+			(at 23.368 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4320,8 +2839,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_BMS"
-			(at 66.04 115.57 0)
+		(property "Measure" "Over Power"
+			(at 27.94 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4330,8 +2849,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 120.65 0)
+		(property "Height" "4.83"
+			(at 48.26 507.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,10 +2858,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 120.65 0)
+		(property "Mouser Part Number" "652-3386P-1-103TLF"
+			(at 48.26 607.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,10 +2870,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 120.65 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D"
+			(at 48.26 707.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4361,15 +2882,46 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 48.26 807.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3386P-1-103TLF"
+			(at 48.26 907.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "68877939-3ad8-4baa-a965-ba4e70661b0f")
+		)
+		(pin "2"
+			(uuid "086cb647-0ddc-4245-b3bf-3db1b2a23917")
 		)
 		(pin "1"
-			(uuid "090eb9b3-f3bf-4fbb-afb9-4094a11e464f")
+			(uuid "b797f2e1-b531-4b29-a2af-338c1d14c14f")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0310")
+					(reference "VR6")
 					(unit 1)
 				)
 			)
@@ -4377,8 +2929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 161.29 0)
-		(mirror y)
+		(at 20.32 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4387,9 +2938,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76525ef5-bc29-48df-9353-77ea6ecf2b71")
-		(property "Reference" "#PWR0315"
-			(at 22.86 167.64 0)
+		(uuid "298dd487-0a32-4ac7-866b-26e79ebf2638")
+		(property "Reference" "#PWR054"
+			(at 20.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4400,7 +2951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 166.37 0)
+			(at 20.32 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4410,7 +2961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 161.29 0)
+			(at 20.32 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +2972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 161.29 0)
+			(at 20.32 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +2983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 161.29 0)
+			(at 20.32 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,20 +2994,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "248e0739-e3d3-4262-8d91-cfffcde8fb20")
+			(uuid "d7bb723c-c332-4194-8c86-13bf8fa886d7")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0315")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 49.53 128.27 270)
+		(lib_name "5005_1")
+		(lib_id "SDM_MiscSymbol:5005")
+		(at 21.59 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4465,9 +3017,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "790ea7fd-ce5a-46dc-8b6b-ad960d7abfd7")
-		(property "Reference" "U302"
-			(at 54.61 126.9999 90)
+		(uuid "2efe3f09-bd08-45f4-aea9-9bd47c6c68b9")
+		(property "Reference" "RED_TP4"
+			(at 24.13 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4477,8 +3029,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTV-827S"
-			(at 54.61 129.5399 90)
+		(property "Value" "5005"
+			(at 24.13 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4488,8 +3040,32 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 41.91 128.27 0)
+		(property "Footprint" "SDM_MiscFootprint:5005"
+			(at -73.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1314"
+			(at -173.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Test Point, PC, Snap in Mounting,  Compact, Red Base"
+			(at 17.78 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4499,8 +3075,19 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 63.5 107.95 0)
+		(property "Measure" "Low Short"
+			(at 24.13 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" ""
+			(at -373.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,10 +3095,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 49.53 128.27 0)
+		(property "Mouser Part Number" "534-5005"
+			(at -473.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,144 +3107,60 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "5"
-			(uuid "6b48c318-eb86-42f3-b680-44e1a4d4e33b")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5005?qs=q0tsjPZWdm%252BiIco20yB3BQ%3D%3D"
+			(at -573.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "4"
-			(uuid "fdeffa4a-b5a6-4490-bd33-4343fd1d7173")
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at -673.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "3"
-			(uuid "1b322e2b-042d-4f1b-a1c1-ca1ad7a1a786")
-		)
-		(pin "8"
-			(uuid "cfab99cd-8584-4090-b3ab-9412bdabac79")
-		)
-		(pin "6"
-			(uuid "4cc085be-0324-468f-b053-f641da618437")
-		)
-		(pin "7"
-			(uuid "2053deea-7cea-4884-b351-8d84a6bb82f0")
-		)
-		(pin "2"
-			(uuid "b212d1cd-d8e9-4954-96db-69ef22602ec5")
+		(property "Manufacturer_Part_Number" "5005"
+			(at -773.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "1"
-			(uuid "b065e205-c9cc-4df6-98c3-6b1c758885ef")
+			(uuid "5dd29cd0-9849-4983-887c-f3519b7a4a4a")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "U302")
+					(reference "RED_TP4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SDM_MiscSymbol:TLV9032QDRQ1")
-		(at 97.79 72.39 90)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7959e574-013a-42de-9758-78dba968e1a9")
-		(property "Reference" "U301"
-			(at 112.014 78.232 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV9032QDRQ1"
-			(at 112.014 75.692 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
-			(at 97.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
-			(at 97.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "83bc27af-85b5-4303-8b43-969e6646ae9e")
-		)
-		(pin "6"
-			(uuid "cac499f4-b41f-4405-8af4-e76dfba938ab")
-		)
-		(pin "5"
-			(uuid "08b25cd6-4aa2-4aa8-851d-ddaafc9c1486")
-		)
-		(pin "8"
-			(uuid "94d54a20-99c7-4094-9f23-a409fa15a5bf")
-		)
-		(pin "4"
-			(uuid "be262bbb-b366-4519-bc54-76308adab47d")
-		)
-		(pin "3"
-			(uuid "83e8b88b-d0aa-4b7a-8654-acb75858f5b2")
-		)
-		(pin "2"
-			(uuid "2e0296c9-fbee-41a8-9658-d5e4facc04c3")
-		)
-		(pin "1"
-			(uuid "cd109fba-018b-42a0-adad-9487c1f6980d")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "U301")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 96.52 36.83 0)
+		(lib_id "power:GND")
+		(at 45.72 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4665,9 +3169,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "868bbf7a-3ee9-4a1a-a84a-4730297f877a")
-		(property "Reference" "#PWR0301"
-			(at 96.52 40.64 0)
+		(uuid "302dbb4b-d7ad-4971-9415-2e58b2a96d72")
+		(property "Reference" "#PWR052"
+			(at 45.72 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,8 +3181,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_BMS"
-			(at 96.52 31.75 0)
+		(property "Value" "GND"
+			(at 45.72 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4688,7 +3192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 36.83 0)
+			(at 45.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +3203,334 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 36.83 0)
+			(at 45.72 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0f0d68f-db05-4df0-a9e2-b9766a956001")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30a5075d-325f-48ce-838a-e8e491a17e78")
+		(property "Reference" "R22"
+			(at 85.09 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 85.09 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.328 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19da7803-d34b-4c3d-a08b-0dd098c02943")
+		)
+		(pin "1"
+			(uuid "0f14d22c-a31c-4d1e-bd34-b846ce59dd0f")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_MiscSymbol:150060GS75000")
+		(at 76.2 54.61 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3126c48a-9772-4718-9008-e3ec8ace64b1")
+		(property "Reference" "LED8"
+			(at 86.106 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060GS75000"
+			(at 96.52 53.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
+			(at -17.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
+			(at -117.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"
+			(at 76.2 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 95.504 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Height" "0.8"
+			(at -317.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "710-150060GS75000"
+			(at -417.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
+			(at -517.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at -617.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060GS75000"
+			(at -717.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Measure" "Low Short"
+			(at 69.342 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7299f7e-7e97-4b2b-a0a6-2c7887593d04")
+		)
+		(pin "1"
+			(uuid "942707ee-bda6-435c-95b5-08053a46dbc5")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 35.56 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31fe22e2-57ec-46d1-9bf0-2ef739de5cd4")
+		(property "Reference" "#PWR055"
+			(at 35.56 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 35.56 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +3541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 96.52 36.83 0)
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,21 +3552,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3ad1ac8-3a3b-4568-8753-80a8944ee193")
+			(uuid "8eb6f659-c9db-4bbf-9d8c-e2f6659a0289")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0301")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SDM_MiscSymbol:TLV9032QDRQ1")
-		(at 41.91 72.39 90)
-		(mirror x)
+		(lib_name "3386P-1-103TLF_1")
+		(lib_id "SDM_MiscSymbol:3386P-1-103TLF")
+		(at 17.78 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4743,54 +3574,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8950e02a-ea57-4d1d-a441-5bcd612c02f6")
-		(property "Reference" "U301"
-			(at 56.134 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV9032QDRQ1"
-			(at 56.134 75.438 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:TLV9032QDRQ1-IPC_A"
-			(at 41.91 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9032-q1"
-			(at 41.91 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 72.39 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "3f98043d-5cb1-482d-80ea-8480e5c5f657")
+		(property "Reference" "VR4"
+			(at 21.59 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4799,42 +3586,459 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "83bc27af-85b5-4303-8b43-969e6646ae9f")
+		(property "Value" "10k"
+			(at 21.59 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "cac499f4-b41f-4405-8af4-e76dfba938ac")
+		(property "Footprint" "SDM_MiscFootprint:3386P1103TLF"
+			(at 41.91 150.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "5"
-			(uuid "08b25cd6-4aa2-4aa8-851d-ddaafc9c1487")
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/3386-776606.pdf"
+			(at 41.91 250.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "8"
-			(uuid "94d54a20-99c7-4094-9f23-a409fa15a5c0")
+		(property "Description" "Trimmer Resistors - Through Hole"
+			(at 17.018 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "be262bbb-b366-4519-bc54-76308adab47e")
+		(property "Measure" "Low  Short"
+			(at 21.59 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.83"
+			(at 41.91 450.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-3386P-1-103TLF"
+			(at 41.91 550.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D"
+			(at 41.91 650.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 41.91 750.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3386P-1-103TLF"
+			(at 41.91 850.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "3"
-			(uuid "83e8b88b-d0aa-4b7a-8654-acb75858f5b3")
+			(uuid "7f216899-efe1-4126-ac66-5ebcecf5df19")
 		)
 		(pin "2"
-			(uuid "2e0296c9-fbee-41a8-9658-d5e4facc04c4")
+			(uuid "b5772cc6-be49-44ce-b37f-87613a7a4028")
 		)
 		(pin "1"
-			(uuid "cd109fba-018b-42a0-adad-9487c1f6980e")
+			(uuid "90b85b2e-de87-4bba-8eec-8b6ed7490410")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "U301")
+					(reference "VR4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SDM_MiscSymbol:5007")
-		(at 100.33 45.72 270)
+		(lib_id "power:+5V")
+		(at 19.05 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418aeb9e-fa61-425f-81de-93527ad94f1c")
+		(property "Reference" "#PWR060"
+			(at 19.05 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 19.05 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 19.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "708a82ab-4997-4fe6-b2d4-f85c5afc6019")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4263389a-d152-446a-8fef-ccfd445d328b")
+		(property "Reference" "R21"
+			(at 85.09 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 85.09 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.328 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f00624dc-868b-40cd-91ca-c33318aa0933")
+		)
+		(pin "1"
+			(uuid "4a59d232-bf55-403f-a413-91308459b5a8")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "3386P-1-103TLF_1")
+		(lib_id "SDM_MiscSymbol:3386P-1-103TLF")
+		(at 24.13 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "487c3842-a572-439d-ab36-30948fc503b9")
+		(property "Reference" "VR5"
+			(at 27.94 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 27.94 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:3386P1103TLF"
+			(at 48.26 177.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/3386-776606.pdf"
+			(at 48.26 277.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Trimmer Resistors - Through Hole"
+			(at 23.368 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Measure" "High Short"
+			(at 27.94 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.83"
+			(at 48.26 477.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-3386P-1-103TLF"
+			(at 48.26 577.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D"
+			(at 48.26 677.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 48.26 777.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3386P-1-103TLF"
+			(at 48.26 877.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "0c08aab3-fa21-466f-9bd2-cafda263bc02")
+		)
+		(pin "2"
+			(uuid "d853650c-d78f-40ff-bb18-db1c2b7aa3df")
+		)
+		(pin "1"
+			(uuid "51cc3db7-9e83-427d-8816-5c6580e3f377")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "VR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_MiscSymbol:150060GS75000")
+		(at 82.55 116.84 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4843,9 +4047,1043 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "912684ca-01d8-4266-8c00-5331893c83b9")
-		(property "Reference" "WHITE_TP301"
-			(at 102.108 38.862 90)
+		(uuid "49f262a6-56d9-4ebc-a4bd-75a415d89f0f")
+		(property "Reference" "LED10"
+			(at 92.456 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060GS75000"
+			(at 102.87 115.316 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
+			(at -11.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
+			(at -111.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"
+			(at 82.55 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 101.854 118.618 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Height" "0.8"
+			(at -311.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "710-150060GS75000"
+			(at -411.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
+			(at -511.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at -611.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060GS75000"
+			(at -711.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Measure" "Over Power"
+			(at 75.692 116.586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3419b1de-27a1-46b4-b89f-decd91ed021b")
+		)
+		(pin "1"
+			(uuid "b5455fac-0652-4304-8326-b399de2fce75")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a0a531d-df97-48b3-96f2-5521d00bf875")
+		(property "Reference" "#PWR056"
+			(at 82.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 82.55 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e314dfa6-3e89-450d-b484-87ab1f96c56f")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 35.56 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63dbd043-f7eb-4277-b1bb-bedfc1e3f0eb")
+		(property "Reference" "#PWR058"
+			(at 35.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 35.56 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 35.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a40a796-5b48-45c7-9c2b-bf801cef3f33")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_MiscSymbol:150060GS75000")
+		(at 82.55 86.36 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "666793fd-1a0d-4cf1-8498-40988d4e25a6")
+		(property "Reference" "LED9"
+			(at 92.456 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060GS75000"
+			(at 102.87 84.836 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
+			(at -11.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
+			(at -111.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"
+			(at 82.55 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 101.854 88.138 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Height" "0.8"
+			(at -311.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "710-150060GS75000"
+			(at -411.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
+			(at -511.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at -611.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060GS75000"
+			(at -711.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Measure" "High Short"
+			(at 75.692 86.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0481c5ae-6a5f-474e-9f2e-b703462548f5")
+		)
+		(pin "1"
+			(uuid "a9e18df8-e375-4016-b651-98602c4793cc")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "5005_1")
+		(lib_id "SDM_MiscSymbol:5005")
+		(at 27.94 116.84 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7505816b-4a94-407b-a0f4-63925d72f781")
+		(property "Reference" "RED_TP6"
+			(at 25.4 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5005"
+			(at 25.4 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:5005"
+			(at 122.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1314"
+			(at 222.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Test Point, PC, Snap in Mounting,  Compact, Red Base"
+			(at 31.75 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Measure" "Over Power"
+			(at 25.4 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" ""
+			(at 422.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "534-5005"
+			(at 522.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5005?qs=q0tsjPZWdm%252BiIco20yB3BQ%3D%3D"
+			(at 622.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 722.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5005"
+			(at 822.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "3a16a665-2850-4403-8527-873fc43c59f9")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "RED_TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 21.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81d0de1b-f9f9-4e8a-ac54-3edce3fb056f")
+		(property "Reference" "R18"
+			(at 68.58 16.764 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.58 19.304 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.58 23.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9c00064-0158-42da-8331-7823ee1c09ca")
+		)
+		(pin "2"
+			(uuid "a423273f-79b8-4874-a611-d699cc5b2e35")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f7874c-fd5a-4ec9-841c-fb20b786407f")
+		(property "Reference" "#PWR047"
+			(at 60.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cb5da17-fb5c-4190-8cdd-74b3aa96991b")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d1508e-2e5d-436b-99a4-bdb6f577713b")
+		(property "Reference" "#PWR050"
+			(at 13.97 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 13.97 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30e52959-ea38-468f-9596-15ff2b3d2d02")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "959be51f-7f6f-4c44-982d-ddd162051e3d")
+		(property "Reference" "R19"
+			(at 65.786 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 63.246 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.182 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2ee65bb-92a2-4750-aaae-aac34557e122")
+		)
+		(pin "2"
+			(uuid "d9998e29-b89c-4ee6-8519-2d63402ab05f")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b32f4a8-0c9d-4cf9-bbd4-676fc4e3b3ac")
+		(property "Reference" "#PWR059"
+			(at 22.86 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "782a04c5-2bbb-4055-8502-a9ac0448cf94")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "5007_1")
+		(lib_id "SDM_MiscSymbol:5007")
+		(at 39.37 21.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dfa3b99-530a-4408-a752-f29fcc96fece")
+		(property "Reference" "WHITE_TP2"
+			(at 41.91 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4856,7 +5094,7 @@
 			)
 		)
 		(property "Value" "5007"
-			(at 102.108 36.576 90)
+			(at 41.91 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4867,7 +5105,7 @@
 			)
 		)
 		(property "Footprint" "SDM_MiscFootprint:5007"
-			(at 5.41 29.21 0)
+			(at -55.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +5117,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=1316"
-			(at -94.59 29.21 0)
+			(at -155.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +5129,7 @@
 			)
 		)
 		(property "Description" "Test Point, PC, Snap in Mounting,  Compact, White Base"
-			(at 99.06 45.72 0)
+			(at 38.1 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4902,8 +5140,7 @@
 			)
 		)
 		(property "Measure" "Current Sensor"
-			(at 103.124 39.878 0)
-			(hide yes)
+			(at 41.91 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4914,7 +5151,7 @@
 			)
 		)
 		(property "Height" "5.59"
-			(at -294.59 29.21 0)
+			(at -355.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +5163,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-5007"
-			(at -394.59 29.21 0)
+			(at -455.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +5175,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5007?qs=q0tsjPZWdm%2FR8ZVOxrSXrQ%3D%3D"
-			(at -494.59 29.21 0)
+			(at -555.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +5187,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at -594.59 29.21 0)
+			(at -655.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +5199,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "5007"
-			(at -694.59 29.21 0)
+			(at -755.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,20 +5211,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "096a21e6-2ec2-44f1-8e91-50481033ddc9")
+			(uuid "dd72ea6b-69cc-4e55-bfdf-7b13ee1f7ad1")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "WHITE_TP301")
+					(reference "WHITE_TP2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 57.15 82.55 0)
+		(lib_id "Device:R")
+		(at 76.2 46.99 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4997,494 +5234,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99864178-4898-4a19-bb4f-a61b14f71be5")
-		(property "Reference" "#PWR0307"
-			(at 57.15 88.9 0)
-			(hide yes)
+		(uuid "a1aa9fce-b3e2-4c78-bb56-9c671de581ac")
+		(property "Reference" "R20"
+			(at 78.74 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND_BMS"
-			(at 57.15 87.63 0)
+		(property "Value" "4.7k"
+			(at 78.74 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 57.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65984fe0-a1f8-466b-b0ce-37c75062be6d")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 67.31 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d4d0d4c-b07d-4b77-9c89-8e49e4672571")
-		(property "Reference" "#PWR0316"
-			(at 67.31 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6034a64-accb-498c-a47c-347f31bfeddf")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0316")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MiscSymbol:3386P-1-103TLF")
-		(at 86.36 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9daceb7f-70ba-4c2a-8298-c660dafdd140")
-		(property "Reference" "VR301"
-			(at 93.472 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 93.726 41.402 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:3386P1103TLF"
-			(at 110.49 131.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/3386-776606.pdf"
-			(at 110.49 231.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Trimmer Resistors - Through Hole"
-			(at 86.36 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4.83"
-			(at 110.49 431.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "652-3386P-1-103TLF"
-			(at 110.49 531.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D"
-			(at 110.49 631.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 110.49 731.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3386P-1-103TLF"
-			(at 110.49 831.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Measure" "5kW ref"
-			(at 105.156 36.576 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "735a4e59-b976-4fda-a1a9-0afc63233382")
-		)
-		(pin "3"
-			(uuid "5fd4191d-46cf-4a81-b154-5b48f8f13f34")
-		)
-		(pin "1"
-			(uuid "17a8be66-d891-47d9-a2d5-e3158bb3135a")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "VR301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MiscSymbol:3386P-1-103TLF")
-		(at 156.21 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5e15c9f-e06e-4e49-b1be-9a4007f093c1")
-		(property "Reference" "VR302"
-			(at 165.1 40.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 165.608 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:3386P1103TLF"
-			(at 180.34 133.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/3386-776606.pdf"
-			(at 180.34 233.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Trimmer Resistors - Through Hole"
-			(at 156.21 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4.83"
-			(at 180.34 433.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "652-3386P-1-103TLF"
-			(at 180.34 533.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D"
-			(at 180.34 633.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 180.34 733.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "3386P-1-103TLF"
-			(at 180.34 833.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Measure" "Current Disconnected Ref"
-			(at 176.53 37.846 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c8c13895-4fa2-40b4-96ce-02c1130dc54a")
-		)
-		(pin "3"
-			(uuid "cad8ff6f-cd16-40b1-8fc9-849fcf3e48fa")
-		)
-		(pin "1"
-			(uuid "3055a079-7763-4f75-8c11-93da9b962054")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "VR302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 90.17 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9a3daf7-585c-42d6-9efd-aab64aecdd07")
-		(property "Reference" "R301"
-			(at 85.344 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 87.884 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.948 49.53 90)
+			(at 77.978 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5495,7 +5269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 49.53 0)
+			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +5280,88 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 49.53 0)
+			(at 76.2 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3cac057-e8c9-4dae-862f-f4beb76f5e03")
+		)
+		(pin "1"
+			(uuid "4fa0615f-e78d-42e5-8365-93bd47b8a23c")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba555ca2-f022-48cc-962b-34f2b198f605")
+		(property "Reference" "#PWR053"
+			(at 82.55 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 82.55 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,15 +5372,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3017f75-fdf8-497b-9f60-1e8404e6099b")
-		)
-		(pin "2"
-			(uuid "019aac3f-1f97-4ad9-86c7-692ea6d2c32f")
+			(uuid "85e97711-c7dc-402c-bb0e-1bd675bfc936")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "R301")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5533,7 +5385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 143.51 0)
+		(at 20.32 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5541,9 +5393,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "acfa91ff-1a31-4ef1-9da9-7056bfb00904")
-		(property "Reference" "#PWR0313"
-			(at 35.56 149.86 0)
+		(fields_autoplaced yes)
+		(uuid "bcc93b09-2040-4263-ab38-da9d2cc9c226")
+		(property "Reference" "#PWR057"
+			(at 20.32 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.052 147.574 0)
+			(at 20.32 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5564,7 +5417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 143.51 0)
+			(at 20.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 143.51 0)
+			(at 20.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +5439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 143.51 0)
+			(at 20.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,278 +5450,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a96f10d-432a-441c-9060-9abd9fce9e78")
+			(uuid "5514b658-38a1-4897-b612-c613745a33d9")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0313")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 40.64 128.27 90)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b47f9bc6-001d-4c7e-a4fa-5c43fc2285be")
-		(property "Reference" "U302"
-			(at 29.718 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 26.924 129.794 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-			(at 48.26 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 26.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-			(at 40.64 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "6b48c318-eb86-42f3-b680-44e1a4d4e33c")
-		)
-		(pin "4"
-			(uuid "fdeffa4a-b5a6-4490-bd33-4343fd1d7174")
-		)
-		(pin "3"
-			(uuid "1b322e2b-042d-4f1b-a1c1-ca1ad7a1a787")
-		)
-		(pin "8"
-			(uuid "cfab99cd-8584-4090-b3ab-9412bdabac7a")
-		)
-		(pin "6"
-			(uuid "4cc085be-0324-468f-b053-f641da618438")
-		)
-		(pin "7"
-			(uuid "2053deea-7cea-4884-b351-8d84a6bb82f1")
-		)
-		(pin "2"
-			(uuid "b212d1cd-d8e9-4954-96db-69ef22602ec6")
-		)
-		(pin "1"
-			(uuid "b065e205-c9cc-4df6-98c3-6b1c758885f0")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "U302")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MiscSymbol:150060GS75000")
-		(at 39.37 161.29 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bebd28f4-5e48-4c45-b6dc-bbf9e555c87f")
-		(property "Reference" "LED301"
-			(at 42.672 166.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "150060GS75000"
-			(at 42.164 167.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
-			(at 52.07 67.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
-			(at 52.07 -32.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"
-			(at 39.37 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" "Green"
-			(at 37.592 180.594 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Height" "0.8"
-			(at 52.07 -232.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "710-150060GS75000"
-			(at 52.07 -332.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
-			(at 52.07 -432.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 52.07 -532.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060GS75000"
-			(at 52.07 -632.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Measure" "Over Current Fault"
-			(at 36.576 158.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c38341d5-1d13-474e-b67e-945e6a7bcc37")
-		)
-		(pin "1"
-			(uuid "dfe61c97-21e5-4a97-99cc-b730b4304c6b")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "LED301")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5876,8 +5463,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 82.55 270)
-		(mirror x)
+		(at 48.26 44.45 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5886,29 +5473,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf0f5c83-0ef9-47b2-9221-4303d8ea0e78")
-		(property "Reference" "C301"
-			(at 24.13 74.93 90)
+		(uuid "c7b63901-58da-4320-a225-13543bf6fefa")
+		(property "Reference" "C10"
+			(at 52.07 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1µF"
-			(at 24.13 77.47 90)
+			(at 52.07 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 20.32 81.5848 0)
+			(at 47.2948 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5919,7 +5508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 82.55 0)
+			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5930,7 +5519,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 24.13 82.55 0)
+			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,23 +5530,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cbaf46b-d861-4aba-a51e-c68822ef581e")
+			(uuid "93d73707-aa0c-4967-bdb8-30c09ee339b8")
 		)
 		(pin "1"
-			(uuid "026f50fe-ee0b-460d-a719-6325685d97cf")
+			(uuid "122cf58b-e0ec-48d3-a048-c5cff7521e2a")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "C301")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 143.51 0)
+		(lib_id "SDM_EV_Symbol:TLV9034QDRQ1")
+		(at 35.56 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5965,9 +5554,516 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d362ad91-3754-473e-8ff3-25cbe75ed7f0")
-		(property "Reference" "#PWR0314"
-			(at 54.61 149.86 0)
+		(uuid "cf55d587-12dc-4d6b-9d51-8dcb76e8d645")
+		(property "Reference" "U4"
+			(at 55.626 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV9034QDRQ1"
+			(at 55.626 62.992 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 37.846 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9032-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1794209699943"
+			(at 32.512 65.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddaed269-df3e-43f8-a311-000ad17a3da7")
+		)
+		(pin "13"
+			(uuid "f3e8371c-ef64-4103-99b8-d9313dd75742")
+		)
+		(pin "5"
+			(uuid "369dec41-04e1-4ca6-bcef-0c9e9c28a3e3")
+		)
+		(pin "12"
+			(uuid "3635f7a2-ae6c-4fcc-8322-0f10263a6abe")
+		)
+		(pin "2"
+			(uuid "24878d02-0f9e-4cc2-8ba0-c7b1b27463a0")
+		)
+		(pin "11"
+			(uuid "e35d19fd-6ee3-4c7b-8464-bb340f6510a2")
+		)
+		(pin "4"
+			(uuid "465a9082-2ff3-482e-ba84-04ddff20ef2b")
+		)
+		(pin "6"
+			(uuid "043e430a-9954-4339-a17c-3b60d97bd424")
+		)
+		(pin "7"
+			(uuid "57c4face-8387-482e-87a6-5ae99200ea63")
+		)
+		(pin "14"
+			(uuid "8d194b3f-8dfa-497e-b8b7-5ed6d59162d0")
+		)
+		(pin "8"
+			(uuid "19542edb-ac53-4358-82dc-60aca7eeb00c")
+		)
+		(pin "9"
+			(uuid "566f4201-577c-4c9c-bed4-c670c0c54368")
+		)
+		(pin "10"
+			(uuid "96c8f0f9-3354-4ac5-a785-6d20949f4572")
+		)
+		(pin "3"
+			(uuid "87500a6f-e75d-484c-8d40-31c1053401fa")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "5005_1")
+		(lib_id "SDM_MiscSymbol:5005")
+		(at 27.94 86.36 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4dc96ed-62ed-479f-8182-f04fa8ebb22b")
+		(property "Reference" "RED_TP5"
+			(at 25.4 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5005"
+			(at 25.4 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SDM_MiscFootprint:5005"
+			(at 122.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1314"
+			(at 222.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Test Point, PC, Snap in Mounting,  Compact, Red Base"
+			(at 31.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Measure" "High Short"
+			(at 25.4 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" ""
+			(at 422.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "534-5005"
+			(at 522.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5005?qs=q0tsjPZWdm%252BiIco20yB3BQ%3D%3D"
+			(at 622.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 722.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5005"
+			(at 822.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "2637f75d-7f4e-486a-9b69-00f06f52e103")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "RED_TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_EV_Symbol:TLV9034QDRQ1")
+		(at 26.67 160.02 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3bb5ff2-dbec-46b6-87ba-bde3938bb854")
+		(property "Reference" "U4"
+			(at 36.83 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV9034QDRQ1"
+			(at 36.83 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 28.956 173.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9032-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1794209699943"
+			(at 23.622 170.942 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddaed269-df3e-43f8-a311-000ad17a3da7")
+		)
+		(pin "13"
+			(uuid "f3e8371c-ef64-4103-99b8-d9313dd75742")
+		)
+		(pin "5"
+			(uuid "369dec41-04e1-4ca6-bcef-0c9e9c28a3e3")
+		)
+		(pin "12"
+			(uuid "3635f7a2-ae6c-4fcc-8322-0f10263a6abe")
+		)
+		(pin "2"
+			(uuid "24878d02-0f9e-4cc2-8ba0-c7b1b27463a0")
+		)
+		(pin "11"
+			(uuid "e35d19fd-6ee3-4c7b-8464-bb340f6510a2")
+		)
+		(pin "4"
+			(uuid "465a9082-2ff3-482e-ba84-04ddff20ef2b")
+		)
+		(pin "6"
+			(uuid "043e430a-9954-4339-a17c-3b60d97bd424")
+		)
+		(pin "7"
+			(uuid "57c4face-8387-482e-87a6-5ae99200ea63")
+		)
+		(pin "14"
+			(uuid "8d194b3f-8dfa-497e-b8b7-5ed6d59162d0")
+		)
+		(pin "8"
+			(uuid "19542edb-ac53-4358-82dc-60aca7eeb00c")
+		)
+		(pin "9"
+			(uuid "566f4201-577c-4c9c-bed4-c670c0c54368")
+		)
+		(pin "10"
+			(uuid "96c8f0f9-3354-4ac5-a785-6d20949f4572")
+		)
+		(pin "3"
+			(uuid "87500a6f-e75d-484c-8d40-31c1053401fa")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDM_EV_Symbol:TLV9034QDRQ1")
+		(at 41.91 116.84 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e88bd2c4-b8e1-4b64-a68f-ecd3e7a8a11b")
+		(property "Reference" "U4"
+			(at 52.07 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV9034QDRQ1"
+			(at 52.07 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 44.196 130.302 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9032-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1794209699943"
+			(at 38.862 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddaed269-df3e-43f8-a311-000ad17a3da7")
+		)
+		(pin "13"
+			(uuid "f3e8371c-ef64-4103-99b8-d9313dd75742")
+		)
+		(pin "5"
+			(uuid "369dec41-04e1-4ca6-bcef-0c9e9c28a3e3")
+		)
+		(pin "12"
+			(uuid "3635f7a2-ae6c-4fcc-8322-0f10263a6abe")
+		)
+		(pin "2"
+			(uuid "24878d02-0f9e-4cc2-8ba0-c7b1b27463a0")
+		)
+		(pin "11"
+			(uuid "e35d19fd-6ee3-4c7b-8464-bb340f6510a2")
+		)
+		(pin "4"
+			(uuid "465a9082-2ff3-482e-ba84-04ddff20ef2b")
+		)
+		(pin "6"
+			(uuid "043e430a-9954-4339-a17c-3b60d97bd424")
+		)
+		(pin "7"
+			(uuid "57c4face-8387-482e-87a6-5ae99200ea63")
+		)
+		(pin "14"
+			(uuid "8d194b3f-8dfa-497e-b8b7-5ed6d59162d0")
+		)
+		(pin "8"
+			(uuid "19542edb-ac53-4358-82dc-60aca7eeb00c")
+		)
+		(pin "9"
+			(uuid "566f4201-577c-4c9c-bed4-c670c0c54368")
+		)
+		(pin "10"
+			(uuid "96c8f0f9-3354-4ac5-a785-6d20949f4572")
+		)
+		(pin "3"
+			(uuid "87500a6f-e75d-484c-8d40-31c1053401fa")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaad7733-18f2-4823-b92d-ceff2f9354cd")
+		(property "Reference" "#PWR046"
+			(at 60.96 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,7 +6074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.388 148.59 0)
+			(at 60.96 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5988,7 +6084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 143.51 0)
+			(at 60.96 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5999,7 +6095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 143.51 0)
+			(at 60.96 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +6106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 143.51 0)
+			(at 60.96 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6021,177 +6117,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ace85dc-1a23-4c4f-b0cc-c8d6a8a594c9")
+			(uuid "2602b874-1f70-4525-a713-249d38ed4957")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDM_MiscSymbol:150060GS75000")
-		(at 50.8 161.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d7ce9ba8-9df3-40c9-8e61-eb1e7c338829")
-		(property "Reference" "LED302"
-			(at 47.498 166.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "150060GS75000"
-			(at 48.006 167.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SDM_MiscFootprint:LEDC1608X80N"
-			(at 38.1 67.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
-			(at 38.1 -32.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"
-			(at 50.8 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" "Green"
-			(at 52.578 180.594 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Height" "0.8"
-			(at 38.1 -232.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "710-150060GS75000"
-			(at 38.1 -332.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
-			(at 38.1 -432.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 38.1 -532.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060GS75000"
-			(at 38.1 -632.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Measure" "Disconnected"
-			(at 53.086 158.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6121a040-7c16-46b4-8c7e-f8891731a0eb")
-		)
-		(pin "1"
-			(uuid "243bc46f-047c-46be-8dea-28ea6e892cbf")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "LED302")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6199,7 +6130,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 24.13 120.65 0)
+		(at 76.2 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6208,9 +6139,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc004705-42ea-4578-85bf-4d1bafc6ba6b")
-		(property "Reference" "#PWR0309"
-			(at 24.13 124.46 0)
+		(uuid "f1bd842f-d75b-42d6-9490-43ece9397ace")
+		(property "Reference" "#PWR048"
+			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6220,8 +6151,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_BMS"
-			(at 24.13 115.57 0)
+		(property "Value" "+5V"
+			(at 76.2 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6231,7 +6162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 120.65 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6242,7 +6173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 120.65 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6253,7 +6184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 120.65 0)
+			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6264,20 +6195,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "980829d8-7da2-4740-a504-17920b2d5126")
+			(uuid "cb3515d7-1fe0-4e86-983c-e24625008d48")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0309")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 166.37 36.83 0)
+		(lib_id "power:GND")
+		(at 60.96 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6286,9 +6217,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ede97d80-c18c-4e69-91e8-644941f89759")
-		(property "Reference" "#PWR0302"
-			(at 166.37 40.64 0)
+		(uuid "f86e85c2-11d5-4eb8-a8e9-e7abbd23b1e2")
+		(property "Reference" "#PWR049"
+			(at 60.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,8 +6229,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_BMS"
-			(at 166.37 31.75 0)
+		(property "Value" "GND"
+			(at 60.96 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6309,7 +6240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 36.83 0)
+			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 36.83 0)
+			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,87 +6261,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 166.37 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32500f1f-9cf6-476d-ac1c-ffe21cb844c6")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 19.05 97.79 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6700e7b-d5a6-413d-b95e-358c090e85e1")
-		(property "Reference" "#PWR0308"
-			(at 19.05 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_BMS"
-			(at 19.05 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 19.05 97.79 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6421,93 +6273,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4bf4305-246e-4ab7-bef7-6699cbd3adc0")
+			(uuid "f0e94450-6faf-44f7-b715-0538df94c142")
 		)
 		(instances
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 26.67 161.29 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8a256c2-e165-40e5-b5ad-76df13f4557b")
-		(property "Reference" "R306"
-			(at 26.67 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 26.67 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 26.67 163.068 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a33b5b7-c634-401d-8ad8-9b0ad242cbad")
-		)
-		(pin "1"
-			(uuid "61efd796-f0f4-40cb-83f4-5e22b4481090")
-		)
-		(instances
-			(project "sdm27ev-bspd-v2"
-				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485/e2198b7f-9f60-4a5d-be1e-3151c1f6d596"
-					(reference "R306")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
