@@ -1,0 +1,3265 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "19cbe86a-e6e6-4836-9bc8-e7ac31aeb0e2")
+	(paper "A3")
+	(title_block
+		(title "Measurement front end")
+		(date "2026-11-07")
+		(company "Sun Devil Motorsports")
+		(comment 1 "ESP32 SOFTWARE-CONTROLLED PRECHARGE")
+		(comment 2 "Designer: Team 1 SDMe")
+	)
+	(lib_symbols
+		(symbol "Amplifier_Operational:TLV9064"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV9064"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quad Rail-to-Rail, Operational Amplifiers, 10MHz, SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV9064_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9064_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9064_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9064_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9064_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "10k / 20k dividers feed unity buffers. The acquisition sheet filters BUF signals; the MCU receives only digital data."
+		(exclude_from_sim no)
+		(at 20 23 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left top)
+		)
+		(uuid "a37163a5-97e4-4b2a-90f0-ea227f7e46bc")
+	)
+	(text "PACK and DC-link voltage acquisition | buffered dividers"
+		(exclude_from_sim no)
+		(at 20 14 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left top)
+		)
+		(uuid "af993280-2732-494b-9ad3-d54e803a47bc")
+	)
+	(wire
+		(pts
+			(xy 48.26 54.61) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072cbbc9-098e-434a-976b-4d0ace41cf22")
+	)
+	(wire
+		(pts
+			(xy 95.25 46.99) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a38375d-2773-4f39-8500-a4a74cb13f28")
+	)
+	(wire
+		(pts
+			(xy 167.64 191.77) (xy 172.72 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a590130-9b60-4486-980b-c64a4fd98791")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af9c4ec-e6dd-4621-bcc3-0fab100ae481")
+	)
+	(wire
+		(pts
+			(xy 67.31 243.84) (xy 62.23 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14717da4-0b3a-4846-9532-1fec1d8253dd")
+	)
+	(wire
+		(pts
+			(xy 48.26 148.59) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16780e75-b10d-4cdd-8a13-a5bb46a0e407")
+	)
+	(wire
+		(pts
+			(xy 147.32 200.66) (xy 147.32 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204f635e-6784-493c-bd91-d869074034de")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.24) (xy 147.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c56a69-208c-4bef-80d6-1a3d5c351727")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293c3a81-d409-414e-9dbf-d4ba55398154")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c1d702-fa5f-4f1e-9f7d-8651bd34d2a7")
+	)
+	(wire
+		(pts
+			(xy 95.25 93.98) (xy 95.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a3d260-5386-4df0-82f1-1a046ce1c41e")
+	)
+	(wire
+		(pts
+			(xy 152.4 189.23) (xy 147.32 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3676e33a-bdca-418a-ac1d-5e120b9e5498")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 152.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cee7ba8-fbb3-4ac4-97e9-e5b4a90b1b62")
+	)
+	(wire
+		(pts
+			(xy 95.25 148.59) (xy 95.25 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420ca225-63d4-4064-9c53-0cbcdda2387c")
+	)
+	(wire
+		(pts
+			(xy 172.72 59.69) (xy 147.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df975cd-37eb-4092-bde8-cd83c323add8")
+	)
+	(wire
+		(pts
+			(xy 48.26 187.96) (xy 48.26 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5303951e-fd0c-454b-9dff-45a73bbf40e2")
+	)
+	(wire
+		(pts
+			(xy 48.26 195.58) (xy 48.26 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643ca2de-3f98-4a43-bb13-58d05454db67")
+	)
+	(wire
+		(pts
+			(xy 95.25 187.96) (xy 95.25 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65feee61-a1a9-44c8-b33c-f7c6cb64cbc6")
+	)
+	(wire
+		(pts
+			(xy 172.72 144.78) (xy 172.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9a9edd-773e-4619-8131-0816d1d04963")
+	)
+	(wire
+		(pts
+			(xy 167.64 50.8) (xy 172.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f75a0bf-bd81-4ed3-a15f-54c62bccf791")
+	)
+	(wire
+		(pts
+			(xy 147.32 153.67) (xy 147.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fda3f9-0a98-476e-b3be-83ca222e901f")
+	)
+	(wire
+		(pts
+			(xy 147.32 100.33) (xy 152.4 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712b5806-12ab-416b-a951-02ed041d55d2")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b71299-24d2-41cc-9d43-e294703dc22d")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870a6b6d-fc9d-4619-aed8-5f1f51c92351")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a83358e-50bd-46b2-876b-b45157eae8ed")
+	)
+	(wire
+		(pts
+			(xy 172.72 50.8) (xy 172.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c20a298-4623-49dd-bf27-466497599eaf")
+	)
+	(wire
+		(pts
+			(xy 172.72 153.67) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dc327f-5e2d-4513-b33b-c8b4218355a7")
+	)
+	(wire
+		(pts
+			(xy 167.64 144.78) (xy 172.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafb70ce-ff2d-40e5-b56f-5040218ac733")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 95.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08942a8-e53c-49c7-b52c-07e0222de7c3")
+	)
+	(wire
+		(pts
+			(xy 95.25 195.58) (xy 95.25 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3207431-1ef4-49e6-aec4-af05a255e52b")
+	)
+	(wire
+		(pts
+			(xy 95.25 140.97) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea3aafd-163d-4871-b8ca-82dfcdbf594f")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39471e4-5353-43c2-99a9-012e1b35292f")
+	)
+	(wire
+		(pts
+			(xy 113.03 240.03) (xy 113.03 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46d984e-bbe6-464b-b3f7-291763699916")
+	)
+	(wire
+		(pts
+			(xy 172.72 200.66) (xy 147.32 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d360fa79-e224-46c3-b25f-25519eda2b3b")
+	)
+	(wire
+		(pts
+			(xy 147.32 194.31) (xy 152.4 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c914d3-c097-4be2-9ff8-138f487d8379")
+	)
+	(wire
+		(pts
+			(xy 67.31 228.6) (xy 62.23 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8086961-e89e-4726-afac-e85b666d9881")
+	)
+	(wire
+		(pts
+			(xy 48.26 46.99) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92db81f-ca2d-45b3-a51b-72d61f0a67bd")
+	)
+	(wire
+		(pts
+			(xy 48.26 140.97) (xy 48.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddcdaeca-4c25-409e-9a49-a9b55700cda3")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0122f84-0e3c-4703-a66d-e0e9b04b7400")
+	)
+	(wire
+		(pts
+			(xy 172.72 191.77) (xy 172.72 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e75687-ca21-4d5b-a608-64e9ec271266")
+	)
+	(wire
+		(pts
+			(xy 95.25 54.61) (xy 95.25 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75816e2-be85-4a79-9735-a421c6ad85f6")
+	)
+	(wire
+		(pts
+			(xy 147.32 147.32) (xy 152.4 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0997b2f-6abb-4a1a-b37a-ced201049d78")
+	)
+	(wire
+		(pts
+			(xy 172.72 97.79) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1917d01-b448-4940-a848-354f81229b19")
+	)
+	(wire
+		(pts
+			(xy 113.03 232.41) (xy 113.03 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66ee6dd-4825-448d-b783-d76c455a0632")
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 95.25 199.39 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "122f8c77-161b-4a3d-b58c-fda32ced9957")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_DN"
+		(shape passive)
+		(at 147.32 189.23 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "16729b00-1c59-4030-a8da-28f9529a05df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 95.25 152.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2bb2f849-cbfb-48d2-ba05-80d4df38a71f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PACK_OUTN"
+		(shape passive)
+		(at 48.26 90.17 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "443ce491-3308-4194-922d-feff53ae4373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_DN"
+		(shape passive)
+		(at 48.26 199.39 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "51b51340-2431-4c26-9a12-401fa2801b74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_PN"
+		(shape passive)
+		(at 95.25 90.17 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "615739d7-d1a9-4ba3-9bb2-81c99ea39c10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BUF_DP"
+		(shape passive)
+		(at 172.72 144.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "65bef91b-7b95-4a10-aa76-f2f3d4a64dd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 95.25 58.42 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "6a2d333b-2d3e-4112-9dd2-569362adc072")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_PP"
+		(shape passive)
+		(at 147.32 48.26 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "777d09b5-33d5-4507-b55e-65658df64f78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_PP"
+		(shape passive)
+		(at 48.26 58.42 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "792df493-9238-465c-afd7-bd3e2d5bdf4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "PACK_OUTP"
+		(shape passive)
+		(at 48.26 43.18 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "873489d1-5732-454c-8ef0-bfa7acc2d046")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_DN"
+		(shape passive)
+		(at 95.25 184.15 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "88d1ace5-e454-4610-b754-463490128de6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_DP"
+		(shape passive)
+		(at 95.25 137.16 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "8dd32754-9afd-449c-8505-c319b312d97e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_PN"
+		(shape passive)
+		(at 48.26 105.41 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "90e78418-0466-4dc3-bbc1-9dbffd873c2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_DP"
+		(shape passive)
+		(at 147.32 142.24 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "a13d23ac-2859-477e-81d6-d710df9833be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape passive)
+		(at 62.23 228.6 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "a74da62c-06ea-43b6-926d-89ea595dafd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DC_OUTN"
+		(shape passive)
+		(at 48.26 184.15 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "b611a0ab-9b62-49f7-9c1e-e0ad94786782")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DC_OUTP"
+		(shape passive)
+		(at 48.26 137.16 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "bd904d01-d53e-45f3-971e-c6eb38cf7b2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BUF_PN"
+		(shape passive)
+		(at 172.72 97.79 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "cfe36143-436b-4e39-ac39-d9a2afdb8cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_PN"
+		(shape passive)
+		(at 147.32 95.25 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "d3883e4e-1ddd-4b8b-bc40-373e8c2ea55f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 113.03 243.84 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "d7d4887f-933f-4d26-ac09-1cf777e6bdf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BUF_PP"
+		(shape passive)
+		(at 172.72 50.8 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "dfdea231-7abc-420c-81e9-add993daa4c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BUF_DN"
+		(shape passive)
+		(at 172.72 191.77 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "e793cc15-fdbd-4560-9cc5-43eb97d739cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 95.25 105.41 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "ecea3ab8-9303-4858-9eb1-fb5ee2811e28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_PP"
+		(shape passive)
+		(at 95.25 43.18 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "ef441607-07a0-4d3e-8eed-6704f7c460eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 62.23 243.84 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "f72aa044-1526-4397-90ba-0c61fbe020c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape passive)
+		(at 113.03 228.6 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "fcc350cc-1e9e-418f-a204-76a574b316ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIV_DP"
+		(shape passive)
+		(at 48.26 152.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "ffa7f95d-8fa3-47e7-a02a-cb48f5bdb009")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37537e1d-d24b-4e20-a43b-db32d5d7385a")
+		(property "Reference" "R34"
+			(at 50.8 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.0k 0.1%"
+			(at 50.8 191.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at -203.2 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at -203.2 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b103536f-b8ff-4b73-9f45-63eb0d1591ee")
+		)
+		(pin "1"
+			(uuid "f1cbbea6-c109-4c87-bcb8-2d5cb5364cc2")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "390b7a89-fe12-4954-97b9-16b3c2e97a9d")
+		(property "Reference" "C45"
+			(at 116.03 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 116.03 238.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.03 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+			(at -146.05 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at -146.05 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "627bac9b-214f-414e-a2c9-a33cc5775028")
+		)
+		(pin "1"
+			(uuid "ea14388b-d639-47ee-9d4b-faa15441c954")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9064")
+		(at 69.85 236.22 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62123f67-4c31-4113-bd7d-c39df8bd1d0e")
+		(property "Reference" "U11"
+			(at 74.85 230.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9064QPWRQ1"
+			(at 74.85 232.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 74.85 230.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064-q1.pdf"
+			(at 69.85 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9064QPWRQ1"
+			(at -139.7 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "514f40d5-bbb9-42b8-ae6f-2aba2d97e395")
+		)
+		(pin "3"
+			(uuid "452a2f1b-025b-4e64-aaa5-34eebefa7f39")
+		)
+		(pin "8"
+			(uuid "2cf97c15-e621-4c97-98ef-c489ef2ed896")
+		)
+		(pin "4"
+			(uuid "bf09e7b8-64de-4186-aad5-e134a6817b15")
+		)
+		(pin "10"
+			(uuid "1025f635-8781-4f0d-bc69-335149951e75")
+		)
+		(pin "11"
+			(uuid "b3298b9d-6028-4381-a005-73649817ff09")
+		)
+		(pin "13"
+			(uuid "8c86a336-5127-4aab-9a90-1466abab8b77")
+		)
+		(pin "2"
+			(uuid "1937a725-5802-4af8-be21-5bf2ca7765a4")
+		)
+		(pin "9"
+			(uuid "5a176120-2617-4b14-9d8b-7227e71122e4")
+		)
+		(pin "5"
+			(uuid "3247064c-1cba-4f08-9831-4d94aa9f14e7")
+		)
+		(pin "1"
+			(uuid "ac9d87e1-b310-4dbd-8178-b61d6dd414a9")
+		)
+		(pin "12"
+			(uuid "97f6cd11-65d3-4e4f-9171-79f74f1eef45")
+		)
+		(pin "6"
+			(uuid "002a80e7-e67c-4606-a360-b1b118c62797")
+		)
+		(pin "7"
+			(uuid "53b2d15c-f873-4ab4-ae26-6d18579194f4")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "U11")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9064")
+		(at 160.02 97.79 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6320ef72-c43c-44cc-b643-f34bc3d650f8")
+		(property "Reference" "U11"
+			(at 155.02 88.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9064QPWRQ1"
+			(at 155.02 90.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 155.02 88.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064-q1.pdf"
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9064QPWRQ1"
+			(at -35.56 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bfe900a2-27d6-412c-91ca-64ba9b0a5db7")
+		)
+		(pin "1"
+			(uuid "6f862271-fc86-4f3d-920f-414fc1333ede")
+		)
+		(pin "3"
+			(uuid "6b108883-ed0a-45f4-9a1e-0da9edcfee94")
+		)
+		(pin "6"
+			(uuid "b63db189-43c5-4536-bdba-fc1a23091731")
+		)
+		(pin "5"
+			(uuid "63e9b279-20d3-4265-abc8-59bb24b18e39")
+		)
+		(pin "7"
+			(uuid "43616ca9-4072-4d5e-823c-c1db07fcf090")
+		)
+		(pin "11"
+			(uuid "19e461ae-17ea-43b6-8087-dce44fc83345")
+		)
+		(pin "14"
+			(uuid "972aa0ef-6f4c-4235-8038-9b7f26622c38")
+		)
+		(pin "9"
+			(uuid "aaaedcf6-8e80-4bc7-a60d-953359d1d93c")
+		)
+		(pin "13"
+			(uuid "ca068021-8db2-4c03-b980-b99dc84fd6e2")
+		)
+		(pin "10"
+			(uuid "bdb137db-dada-410c-867f-23dc332d720c")
+		)
+		(pin "4"
+			(uuid "f86e826e-69d4-46f1-a8cf-fa8ea01ee15b")
+		)
+		(pin "12"
+			(uuid "569ca751-1a6e-43b2-9c0b-f99e016f57cc")
+		)
+		(pin "8"
+			(uuid "7e96368f-2822-4a98-b6d4-2d30d96d9db8")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "U11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "679f8069-32f9-410d-bbc1-b8d5807873fc")
+		(property "Reference" "R31"
+			(at 50.8 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.0k 0.1%"
+			(at 50.8 50.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at -203.2 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at -203.2 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4eeceb6-7113-4fc2-b91c-359a06ccf832")
+		)
+		(pin "2"
+			(uuid "1deb5962-90f4-4f01-911a-5fa59729c3b6")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c45524b-663b-4364-9906-dec4c94470d6")
+		(property "Reference" "R36"
+			(at 97.79 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20.0k 0.1%"
+			(at 97.79 97.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip"
+			(at -214.63 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0720KL"
+			(at -214.63 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a914585-102c-466d-b6e4-666f44f6abda")
+		)
+		(pin "2"
+			(uuid "0300c69a-fb24-44fc-b206-06545ec14e97")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa456308-7caf-478e-ae8d-8e1f16701821")
+		(property "Reference" "R35"
+			(at 97.79 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20.0k 0.1%"
+			(at 97.79 50.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip"
+			(at -214.63 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0720KL"
+			(at -214.63 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76456e73-0430-44b8-a6c4-7cd8148cad9a")
+		)
+		(pin "2"
+			(uuid "c94d3719-205b-441a-9046-687b09242384")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9064")
+		(at 160.02 191.77 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad388b8a-6b14-4dbc-86d4-bd95d9ba9e07")
+		(property "Reference" "U11"
+			(at 155.02 182.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9064QPWRQ1"
+			(at 155.02 184.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 155.02 182.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064-q1.pdf"
+			(at 160.02 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9064QPWRQ1"
+			(at -35.56 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "abedd02b-1e49-4130-a4da-6254f2cea2bd")
+		)
+		(pin "6"
+			(uuid "571c7154-504a-4acd-bde8-5f0ae4ae1442")
+		)
+		(pin "11"
+			(uuid "15aea968-fd99-43fa-91ec-0a99597842fe")
+		)
+		(pin "13"
+			(uuid "54cf839b-0d77-4348-b16b-1044b98f3c09")
+		)
+		(pin "4"
+			(uuid "daa8cbbb-1835-4b56-b542-d0cf32c16b9a")
+		)
+		(pin "3"
+			(uuid "bebd8b0f-07d5-4669-9f44-3cab919e438e")
+		)
+		(pin "10"
+			(uuid "40f86c31-c7df-479e-8792-edaa5b90037d")
+		)
+		(pin "9"
+			(uuid "fb42eb75-589c-4b7a-bd3e-f156f89a141a")
+		)
+		(pin "8"
+			(uuid "b12cc985-bbd2-4f6e-90b1-a20ea9b34595")
+		)
+		(pin "12"
+			(uuid "95fcfd60-66a0-47ae-9b20-3979db581677")
+		)
+		(pin "5"
+			(uuid "dec4d807-52c3-44a6-bd3a-d6b40e5d2f51")
+		)
+		(pin "2"
+			(uuid "d35655c2-950a-4123-95e7-ebce61908252")
+		)
+		(pin "7"
+			(uuid "56e5a495-2d37-4654-b9a6-06a03901103d")
+		)
+		(pin "1"
+			(uuid "05cad77b-0fd9-4b38-8d97-4859e5b19614")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "U11")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9064")
+		(at 160.02 144.78 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b867acb5-4bc8-4aa7-b153-2fc1678b911d")
+		(property "Reference" "U11"
+			(at 155.02 135.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9064QPWRQ1"
+			(at 155.02 137.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 155.02 135.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064-q1.pdf"
+			(at 160.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9064QPWRQ1"
+			(at -35.56 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "0e7e0aa4-caaf-4e1d-b4e2-71309eb6ced2")
+		)
+		(pin "5"
+			(uuid "289f18ed-0551-4f7e-907e-2a987fcc4e67")
+		)
+		(pin "13"
+			(uuid "3b17f78c-9d59-4437-8aeb-5057f4104c6b")
+		)
+		(pin "3"
+			(uuid "d183f7d3-1b58-4896-8441-453cb315e5d3")
+		)
+		(pin "2"
+			(uuid "f4c3f5c5-deac-4c87-9d5d-38d1a60065e2")
+		)
+		(pin "4"
+			(uuid "84ea9227-e2cb-42b3-8741-f7127efe6b8c")
+		)
+		(pin "10"
+			(uuid "a0bad434-b236-41d4-8fb3-6ddde399dc98")
+		)
+		(pin "9"
+			(uuid "6411a420-5a0f-48ef-b044-f5359eca7f83")
+		)
+		(pin "6"
+			(uuid "9803f10e-ec67-40a0-9771-bf7b3f845cb2")
+		)
+		(pin "14"
+			(uuid "152f83c9-960d-4fff-a7fd-0058659380ad")
+		)
+		(pin "1"
+			(uuid "0d6a8f27-965c-4d02-8ce3-fba46cbd4bc5")
+		)
+		(pin "7"
+			(uuid "4b2d53fc-09f1-4149-8099-90878c665db8")
+		)
+		(pin "8"
+			(uuid "fc00e6b5-03a1-4b6f-bb81-d8fa9323427a")
+		)
+		(pin "12"
+			(uuid "2cc7c15b-9d37-4898-a7d3-a18719ce8db1")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "U11")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c42e9c82-7b33-41c9-a308-d7f45dc6e8ad")
+		(property "Reference" "R32"
+			(at 50.8 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.0k 0.1%"
+			(at 50.8 97.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at -203.2 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at -203.2 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d3a981c-c6f0-4128-84cb-9226684c4182")
+		)
+		(pin "2"
+			(uuid "6ef23296-4bd1-4adf-9cec-42e5a7149aab")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9064")
+		(at 160.02 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8c1879c-4433-488b-88cb-79865a5ddf00")
+		(property "Reference" "U11"
+			(at 155.02 41.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9064QPWRQ1"
+			(at 155.02 43.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 155.02 41.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064-q1.pdf"
+			(at 160.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9064QPWRQ1"
+			(at -35.56 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a819970c-03df-4fc8-9f89-f56e1280d2cc")
+		)
+		(pin "4"
+			(uuid "140d2700-ef89-4e09-ab8f-24b183c82ff7")
+		)
+		(pin "5"
+			(uuid "5a2793ed-be61-47c9-b816-496b9cdbfcc6")
+		)
+		(pin "10"
+			(uuid "36495f0f-1d77-49a4-9575-b656243c3840")
+		)
+		(pin "6"
+			(uuid "96a2526a-8088-4d0d-935e-79650d86d443")
+		)
+		(pin "8"
+			(uuid "48395c8c-19ba-4563-afa3-7ee2d2d975ae")
+		)
+		(pin "9"
+			(uuid "033dcba8-4b22-41bc-97fa-8373fde77e53")
+		)
+		(pin "2"
+			(uuid "a4518815-2488-4b8d-95f9-3e2f2c2f8c85")
+		)
+		(pin "14"
+			(uuid "05ca69ce-fb1a-428d-872c-3bc1fa4fd81c")
+		)
+		(pin "12"
+			(uuid "8f26bce9-2874-4008-8be8-04be79285547")
+		)
+		(pin "3"
+			(uuid "3dc42f84-8307-41fc-9b66-e67aac4ebf2a")
+		)
+		(pin "7"
+			(uuid "e4187b0f-6a0c-4f10-beb3-4b254514ec5d")
+		)
+		(pin "11"
+			(uuid "cbd9857c-c5ce-425f-bcd4-449ae17d8578")
+		)
+		(pin "13"
+			(uuid "ea3b5fc1-ab97-49bc-a4d9-4d6262e2a6f8")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb3a543c-b930-4387-b381-ff3c9319d886")
+		(property "Reference" "R38"
+			(at 97.79 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20.0k 0.1%"
+			(at 97.79 191.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip"
+			(at -214.63 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0720KL"
+			(at -214.63 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c7bbcd9-63af-496d-9007-b6b9bd805b79")
+		)
+		(pin "1"
+			(uuid "28695c86-f891-4fab-94c6-7c41328adad3")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc1c578d-e37d-4fa0-b2e8-517d361eb2f9")
+		(property "Reference" "R33"
+			(at 50.8 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.0k 0.1%"
+			(at 50.8 144.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at -203.2 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at -203.2 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "165adb33-cb85-483a-a9ae-d446acb1c6dd")
+		)
+		(pin "2"
+			(uuid "c865ce6e-f4cf-49a7-82bd-a86e64c7b18f")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d24413ae-5ee2-4250-abf7-3932ae5d63ea")
+		(property "Reference" "R37"
+			(at 97.79 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20.0k 0.1%"
+			(at 97.79 144.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Product/Index/rchip"
+			(at -214.63 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0720KL"
+			(at -214.63 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5435de44-18b5-44a5-8a45-79adaec77264")
+		)
+		(pin "1"
+			(uuid "ce8d1036-d218-44ee-a683-bcc918f22ded")
+		)
+		(instances
+			(project "prechargecontrol"
+				(path "/cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e/f39a2cad-7a42-418e-9d71-666a083bc68d"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

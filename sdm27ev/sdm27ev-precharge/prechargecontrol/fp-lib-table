@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RevB") (type "KiCad") (uri "${KIPRJMOD}/libraries/RevB.pretty") (options "") (descr ""))
+	(lib (name "Release") (type "KiCad") (uri "${KIPRJMOD}/libraries/Release.pretty") (options "") (descr "Layout release local lands"))
+	(lib (name "Connector_Release") (type "KiCad") (uri "${KIPRJMOD}/libraries/Release.pretty") (options "") (descr "Identical connector lands with edge artwork"))
+)
