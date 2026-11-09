@@ -3417,8 +3417,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM_DIODES:BAT54XV2T1G")
-		(at 116.84 118.11 270)
+		(lib_id "Device:R")
+		(at 116.84 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3426,9 +3426,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "38e8bc9b-c02e-4aac-99c5-08e5f9830373")
-		(property "Reference" "D9"
-			(at 112.014 120.904 90)
+		(fields_autoplaced yes)
+		(uuid "20a74387-fd18-4b8b-bf0a-dbdd7a042786")
+		(property "Reference" "R1"
+			(at 119.38 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3438,8 +3439,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT54XV2T1G"
-			(at 102.362 122.682 90)
+		(property "Value" "0"
+			(at 119.38 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3449,32 +3450,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SDM_MiscFootprint:SODFL1608X70N"
-			(at 19.38 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAT54XV2T1-D.PDF"
-			(at -80.62 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable ; Lower forward voltage (VF)"
-			(at 116.84 118.11 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.062 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,8 +3461,8 @@
 				)
 			)
 		)
-		(property "Height" "0.7"
-			(at -280.62 129.54 0)
+		(property "Datasheet" ""
+			(at 116.84 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,11 +3470,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "863-BAT54XV2T1G"
-			(at -380.62 129.54 0)
+		(property "Description" "Resistor"
+			(at 116.84 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,55 +3481,18 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BAT54XV2T1G?qs=vLkC5FC1VN8vpceP7xcdrw%3D%3D"
-			(at -480.62 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at -580.62 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BAT54XV2T1G"
-			(at -680.62 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "2"
-			(uuid "d7cec018-6f83-47f9-9cb4-c23ea0afc813")
+			(uuid "78065933-4d2c-423a-9d3e-4dfa0fc3233e")
 		)
 		(pin "1"
-			(uuid "8b93812e-c42b-4678-8c88-8adf2c44bb76")
+			(uuid "2af60e71-dac7-4a1a-b3e8-4b7cdc69b9f6")
 		)
 		(instances
 			(project "IMD Indicator"
 				(path "/2d398882-e4dd-424e-9a5b-db438ffb0a84"
-					(reference "D9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3757,7 +3696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 152.4 96.52 0)
 			(hide yes)
 			(show_name no)
