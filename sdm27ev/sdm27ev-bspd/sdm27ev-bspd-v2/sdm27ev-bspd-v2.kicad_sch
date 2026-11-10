@@ -22,7 +22,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J101"
+			(property "Reference" "J1"
 				(at 6.35 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -238,24 +238,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 12.7 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
@@ -265,25 +247,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -301,6 +265,42 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
 						(effects
 							(font
@@ -310,9 +310,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -11.43 90)
+					(at 0 -5.08 0)
 					(length 3.81)
-					(name "Pin_5"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -346,9 +346,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -2.54 180)
+					(at 7.62 -11.43 90)
 					(length 3.81)
-					(name "Pin_7"
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -364,9 +364,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 0 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1609,6 +1609,26 @@
 		)
 		(uuid "991c1d18-777a-434d-8a25-8fd65605d098")
 	)
+	(text "Shelding for daughter - main wires"
+		(exclude_from_sim no)
+		(at 249.428 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcdb7859-6a59-4471-93fd-0497ec7f1a92")
+	)
+	(text "Shelding for \ncurrent sensor input\n"
+		(exclude_from_sim no)
+		(at 244.856 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4d896ba-d716-4c78-9f7e-5841bbe92846")
+	)
 	(text "Link to Falstad Simulation"
 		(exclude_from_sim no)
 		(at 229.87 109.22 0)
@@ -1674,14 +1694,6 @@
 		(color 0 0 0 0)
 		(uuid "fa7d93b5-cae3-42bd-af87-d24d71705b20")
 	)
-	(no_connect
-		(at 231.14 36.83)
-		(uuid "8c0a882a-ead3-468c-9659-c24703fc9427")
-	)
-	(no_connect
-		(at 236.22 24.13)
-		(uuid "bb0eaeeb-d186-4452-b634-9b45711893bc")
-	)
 	(wire
 		(pts
 			(xy 49.53 24.13) (xy 66.04 24.13)
@@ -1691,6 +1703,16 @@
 			(type default)
 		)
 		(uuid "010b2fd4-b16d-4083-9658-9cd1f18ae2ae")
+	)
+	(wire
+		(pts
+			(xy 236.22 19.05) (xy 236.22 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0252acd8-5d7f-4e81-b53a-b120c0b20217")
 	)
 	(wire
 		(pts
@@ -1864,6 +1886,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 19.05) (xy 236.22 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b21dbe5-5795-44be-b7c5-0abb5722f0db")
+	)
+	(wire
+		(pts
 			(xy 187.96 48.26) (xy 187.96 24.13)
 		)
 		(stroke
@@ -1991,16 +2023,6 @@
 			(type default)
 		)
 		(uuid "ae55b787-a0b7-4497-b4eb-5b0b35ff756a")
-	)
-	(wire
-		(pts
-			(xy 231.14 36.83) (xy 231.14 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c394fd-1b5d-41a7-9a9c-e09b343259a1")
 	)
 	(wire
 		(pts
@@ -2915,6 +2937,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 238.76 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e304831-53d9-41ae-b3e6-7932daae1668")
+		(property "Reference" "#PWR065"
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.744 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 238.76 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df8b1cd0-81e3-46c0-862c-cf66fd9e5ec5")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SDM_MiscSymbol:776280-1")
 		(at 223.52 24.13 0)
 		(unit 1)
@@ -3146,6 +3246,84 @@
 			(project "sdm27ev-bspd-v2"
 				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 231.14 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd615421-e6b1-4beb-86eb-dbfa32d6aa13")
+		(property "Reference" "#PWR064"
+			(at 231.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 230.124 39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8453d83-e786-489f-a7d5-dc5908a1e16b")
+		)
+		(instances
+			(project "sdm27ev-bspd-v2"
+				(path "/f5fc7189-56d7-49a3-a293-889ea2ed3485"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
