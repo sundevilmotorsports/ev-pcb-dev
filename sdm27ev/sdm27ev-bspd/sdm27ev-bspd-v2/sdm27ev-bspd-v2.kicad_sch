@@ -1547,7 +1547,7 @@
 		)
 		(uuid "f954d6e2-2cf3-45cc-8ac6-daa511777a25")
 	)
-	(text "External Wireing Harness"
+	(text "External Wiring Harness"
 		(exclude_from_sim no)
 		(at 136.398 20.828 0)
 		(effects
