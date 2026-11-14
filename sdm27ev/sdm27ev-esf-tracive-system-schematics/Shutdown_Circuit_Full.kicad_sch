@@ -3532,7 +3532,7 @@
 		)
 		(uuid "b45d6835-6878-41ab-a32b-838b5d488d9d")
 	)
-	(text "Closes IR+ if battery terminals/capacitor terminals >= 0.9V"
+	(text "Closes IR+ if capacitor terminals/battery terminals >= 0.9V"
 		(exclude_from_sim no)
 		(at 92.202 127 0)
 		(effects
@@ -7982,8 +7982,8 @@
 				)
 			)
 		)
-		(property "Value" "Precharge Capacitor"
-			(at 75.184 164.592 90)
+		(property "Value" "500uF"
+			(at 74.168 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8014,9 +8014,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 73.66 160.02 0)
-			(hide yes)
+		(property "Description" "Precharge Capacitor"
+			(at 74.422 169.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
