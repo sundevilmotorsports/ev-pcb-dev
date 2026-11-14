@@ -1,4 +1,5 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "IMDFootprintLibrary") (type "KiCad") (uri "${KIPRJMOD}/IMDFootprintLibrary.pretty") (options "") (descr ""))
+	(lib (name "speed") (type "KiCad") (uri "C:/Users/shrav/Downloads/speed.pretty") (options "") (descr ""))
 )
