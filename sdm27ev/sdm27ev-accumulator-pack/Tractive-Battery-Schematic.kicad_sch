@@ -5973,6 +5973,12 @@
 		(uuid "d205b94c-ef18-4140-8061-34078af24846")
 	)
 	(junction
+		(at 77.47 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d44edd63-ecfe-42e0-83d0-c519674541c4")
+	)
+	(junction
 		(at 207.01 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6192,17 +6198,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 83.82) (xy 29.21 83.82)
-		)
-		(stroke
-			(width 0.127)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(uuid "07fbb7a0-67f5-4173-b9d5-c57589afcf46")
-	)
-	(wire
-		(pts
 			(xy 226.06 139.7) (xy 226.06 142.24)
 		)
 		(stroke
@@ -6401,17 +6396,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "1b853934-1439-4562-9ae2-1f9158f83bd7")
-	)
-	(wire
-		(pts
-			(xy 78.74 106.68) (xy 78.74 107.95)
-		)
-		(stroke
-			(width 0.127)
-			(type solid)
-			(color 72 72 0 1)
-		)
-		(uuid "1ca61188-560c-4833-88e7-4a6f33366c20")
 	)
 	(wire
 		(pts
@@ -6623,6 +6607,17 @@
 			(color 204 102 0 1)
 		)
 		(uuid "254b9fc7-034f-408d-b13f-211fb8f89544")
+	)
+	(wire
+		(pts
+			(xy 59.69 106.68) (xy 55.88 106.68)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 72 72 0 1)
+		)
+		(uuid "284b826e-dea4-4524-b450-cae7dfa1deba")
 	)
 	(wire
 		(pts
@@ -7029,17 +7024,6 @@
 			(type default)
 		)
 		(uuid "417f182e-003d-422b-acd1-379d47aaa3b9")
-	)
-	(wire
-		(pts
-			(xy 29.21 106.68) (xy 59.69 106.68)
-		)
-		(stroke
-			(width 0.127)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(uuid "4428f01a-1860-4773-89ac-961c8ed092d4")
 	)
 	(wire
 		(pts
@@ -7749,7 +7733,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 81.28) (xy 146.05 81.28)
+			(xy 49.53 81.28) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0.127)
@@ -7941,14 +7925,25 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 83.82) (xy 29.21 106.68)
+			(xy 55.88 106.68) (xy 55.88 107.95)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 72 72 0 1)
+		)
+		(uuid "8cc5d883-c1de-4a05-87f9-5dc347cab8eb")
+	)
+	(wire
+		(pts
+			(xy 77.47 106.68) (xy 74.93 106.68)
 		)
 		(stroke
 			(width 0.127)
 			(type solid)
 			(color 0 0 255 1)
 		)
-		(uuid "8e337cde-5c93-42d2-8541-7ab6a86f2fb0")
+		(uuid "8ec65085-e5a9-49a5-9578-bd5885e5f1d4")
 	)
 	(wire
 		(pts
@@ -8295,6 +8290,17 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 81.28) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "a82692c6-aef9-4d3d-a08f-1d5b2a32e43c")
+	)
+	(wire
+		(pts
 			(xy -361.95 13.97) (xy -373.38 13.97)
 		)
 		(stroke
@@ -8524,17 +8530,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "bc760d83-5c05-4f79-be5f-8d86e751e965")
-	)
-	(wire
-		(pts
-			(xy 78.74 106.68) (xy 74.93 106.68)
-		)
-		(stroke
-			(width 0.127)
-			(type solid)
-			(color 72 72 0 1)
-		)
-		(uuid "bd72aead-7e1e-4881-aec1-c1b9cb2a7e86")
 	)
 	(wire
 		(pts
@@ -8841,6 +8836,17 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 85.09) (xy 31.75 83.82)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 72 72 0 1)
+		)
+		(uuid "cf74b1bb-56ff-40ce-b6bc-abeac41009b7")
+	)
+	(wire
+		(pts
 			(xy 236.22 90.17) (xy 233.68 90.17)
 		)
 		(stroke
@@ -9049,6 +9055,17 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 81.28) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(uuid "ddb91351-6a07-404b-b27b-ae55c6385ebd")
+	)
+	(wire
+		(pts
 			(xy 148.59 124.46) (xy 148.59 125.73)
 		)
 		(stroke
@@ -9246,6 +9263,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "efcfdcd1-78a3-4702-923b-235910824f3f")
+	)
+	(wire
+		(pts
+			(xy 31.75 83.82) (xy 34.29 83.82)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 72 72 0 1)
+		)
+		(uuid "f37f2cfc-674e-417c-a0ad-3e08f78051f7")
 	)
 	(wire
 		(pts
@@ -13177,6 +13205,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c822d29-bfb2-4858-905d-4ccb076c8546")
+		(property "Reference" "#PWR024"
+			(at 31.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4af9e078-ec84-477d-aec8-9ce35ff46a07")
+		)
+		(instances
+			(project "Tractive-Battery-Schematic"
+				(path "/0d3b9c9c-3fd5-478e-8a16-60d9c04bd62e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery")
 		(at -336.55 25.4 270)
 		(unit 1)
@@ -14597,83 +14702,6 @@
 			(project "Tractive-Battery-Schematic"
 				(path "/0d3b9c9c-3fd5-478e-8a16-60d9c04bd62e"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bced8aa-202b-411e-be5e-e1db23b711b6")
-		(property "Reference" "#PWR023"
-			(at 78.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 112.268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15c37ce4-a365-4447-ba95-f1fb0c5ff00f")
-		)
-		(instances
-			(project "Tractive-Battery-Schematic"
-				(path "/0d3b9c9c-3fd5-478e-8a16-60d9c04bd62e"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17811,6 +17839,83 @@
 			(project "Tractive-Battery-Schematic"
 				(path "/0d3b9c9c-3fd5-478e-8a16-60d9c04bd62e"
 					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6c4bb03-91cc-436c-9223-085218149968")
+		(property "Reference" "#PWR025"
+			(at 55.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b39e1503-a916-449c-a529-3467363a1578")
+		)
+		(instances
+			(project "Tractive-Battery-Schematic"
+				(path "/0d3b9c9c-3fd5-478e-8a16-60d9c04bd62e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)

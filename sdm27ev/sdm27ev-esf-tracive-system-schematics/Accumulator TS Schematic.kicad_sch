@@ -2132,6 +2132,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2246,6 +2252,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2331,6 +2343,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
 					(reference "K10")
 					(unit 1)
 				)
@@ -2449,6 +2467,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2562,6 +2586,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2640,6 +2670,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
 					(reference "R7")
 					(unit 1)
 				)
@@ -2723,6 +2759,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
 					(reference "R8")
 					(unit 1)
 				)
@@ -2841,6 +2883,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2930,6 +2978,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "K3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3015,6 +3069,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
 					(reference "K4")
 					(unit 1)
 				)
@@ -3133,6 +3193,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3210,6 +3276,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "F10")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
 					(reference "F10")
 					(unit 1)
 				)
@@ -3328,6 +3400,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3413,6 +3491,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
 					(reference "K8")
 					(unit 1)
 				)
@@ -3527,6 +3611,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
+					(reference "BT10")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e/f708b1a3-8c9e-407b-b14f-eec9e8e49324"
 					(reference "BT10")
 					(unit 1)
 				)

@@ -3484,8 +3484,8 @@
 		(uuid "7e2f8bc3-9233-4dbf-8283-93c0d2819211")
 	)
 	(rectangle
-		(start 149.86 132.08)
-		(end 175.26 142.24)
+		(start 60.452 61.976)
+		(end 85.852 72.136)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3519,6 +3519,16 @@
 		)
 		(uuid "0f5b20b0-3efb-48f8-8adc-e5309b0e6bb2")
 	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 80.518 75.438 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "18a28729-52d2-495a-83c1-f047f95d5e81")
+	)
 	(text "CAN H"
 		(exclude_from_sim no)
 		(at 160.02 165.608 0)
@@ -3531,7 +3541,7 @@
 	)
 	(text "12 Volt Batt"
 		(exclude_from_sim no)
-		(at 163.068 137.414 0)
+		(at 73.66 67.31 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -3551,9 +3561,9 @@
 		)
 		(uuid "2e2f17b4-9329-4a98-bc2e-0deb871967a3")
 	)
-	(text "WS28K20Z1\n"
+	(text "Weipu Connectors\nWS28K20Z1"
 		(exclude_from_sim no)
-		(at 100.838 147.32 0)
+		(at 103.124 147.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3561,7 +3571,7 @@
 		)
 		(uuid "32d9b96f-8477-4c7c-8fb8-124ef3029439")
 	)
-	(text "HVSL1000022A1HB"
+	(text "Amphenol\nHVSL1000022A1HB\n(Charge Connector)"
 		(exclude_from_sim no)
 		(at 24.892 155.956 0)
 		(effects
@@ -3621,9 +3631,9 @@
 		)
 		(uuid "66445146-e5a1-46bd-a5f2-09337c0336ad")
 	)
-	(text "WS28K20Z1"
+	(text "Weipu Connectors\nWS28K20Z1"
 		(exclude_from_sim no)
-		(at 100.838 155.194 0)
+		(at 103.124 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3683,9 +3693,19 @@
 		)
 		(uuid "938e7843-0750-4a41-9712-498cfc258273")
 	)
-	(text "Kill Signal\n"
+	(text "Proximity Detect"
 		(exclude_from_sim no)
-		(at 123.952 169.164 0)
+		(at 202.692 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ae206bc-8f61-4be5-9c62-63d5eaf10c8b")
+	)
+	(text "BMS_Kill_Signal\n"
+		(exclude_from_sim no)
+		(at 121.666 169.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3695,7 +3715,7 @@
 	)
 	(text "CAN L"
 		(exclude_from_sim no)
-		(at 123.444 166.624 0)
+		(at 124.968 166.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,7 +3725,7 @@
 	)
 	(text "18 AWG"
 		(exclude_from_sim no)
-		(at 38.862 81.026 0)
+		(at 48.006 112.014 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3713,7 +3733,7 @@
 		)
 		(uuid "b04240d9-5c51-4d69-844a-f1d94e6b76ec")
 	)
-	(text "HVSL630022A106"
+	(text "Amphenol\nHVSL630022A106\nCharge Connector"
 		(exclude_from_sim no)
 		(at 25.4 147.066 0)
 		(effects
@@ -3723,9 +3743,29 @@
 		)
 		(uuid "bced9857-c198-45b6-bb00-a2dd21061ced")
 	)
-	(text "ATHP042P25EL"
+	(text "Proximity Detect"
 		(exclude_from_sim no)
-		(at 52.324 153.924 0)
+		(at 39.37 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdcba928-debe-4fc8-ac4c-1f700400b179")
+	)
+	(text "Control Pilot"
+		(exclude_from_sim no)
+		(at 200.914 164.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0f8cf69-2951-4f5c-91fc-e048db2b6cb5")
+	)
+	(text "Amphenol\nATHP042P25EL\n(TSMP Connector)"
+		(exclude_from_sim no)
+		(at 54.102 167.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3733,15 +3773,17 @@
 		)
 		(uuid "c2472cb4-bd75-4fc5-9b8b-e6063048ef70")
 	)
-	(text "18 AWG"
+	(text "J1772 Port"
 		(exclude_from_sim no)
-		(at 88.9 91.694 0)
+		(at 23.876 76.2 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
-		(uuid "d0e2e3ff-37cd-4385-bfdc-93bb9c05302b")
+		(uuid "d551e6bf-c3c9-4fa0-aa8b-7dff85f86219")
 	)
 	(text "Orion 2 BMS\n"
 		(exclude_from_sim no)
@@ -3783,9 +3825,9 @@
 		)
 		(uuid "f6c26b4c-5de7-4638-8429-140975448acc")
 	)
-	(text "MSDXLM000"
+	(text "Amphenol\nMSDXLM000 (MSD)\n"
 		(exclude_from_sim no)
-		(at 69.088 153.67 0)
+		(at 67.056 152.146 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3802,6 +3844,16 @@
 			)
 		)
 		(uuid "f8a50112-6787-4fb3-b126-dfa1455367f4")
+	)
+	(text "Control Pilot"
+		(exclude_from_sim no)
+		(at 37.338 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc6dbb63-1400-40d0-9dff-8d210747c467")
 	)
 	(junction
 		(at 166.37 218.44)
@@ -3844,12 +3896,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61c7b2bc-f1e6-482e-a204-ccc4baeef9d7")
-	)
-	(junction
-		(at 88.9 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78cec3aa-f4fa-4f0d-87fd-d9526ba89e47")
 	)
 	(junction
 		(at 199.39 218.44)
@@ -4052,6 +4098,17 @@
 		)
 		(uuid "10039888-6b34-4582-84d5-25ae7cd5002f")
 	)
+	(polyline
+		(pts
+			(xy 88.9 69.85) (xy 88.9 137.16)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "12b0cc23-73a0-4ee2-b3a6-fab98e9cea9b")
+	)
 	(wire
 		(pts
 			(xy 105.41 215.9) (xy 125.73 215.9)
@@ -4093,6 +4150,28 @@
 			(type default)
 		)
 		(uuid "171e22ab-442e-4b7d-9cca-70aaded868f2")
+	)
+	(polyline
+		(pts
+			(xy 91.44 64.77) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 16 27 1)
+		)
+		(uuid "17c60db3-0691-4a3e-8ec6-f0d4e23956cd")
+	)
+	(polyline
+		(pts
+			(xy 81.28 140.97) (xy 81.28 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 244 146 255 1)
+		)
+		(uuid "1b28b4a0-6445-45f7-9f40-102b07e7cc2d")
 	)
 	(wire
 		(pts
@@ -4137,7 +4216,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 163.83 55.88)
+			(xy 88.9 55.88) (xy 96.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4186,17 +4265,6 @@
 		)
 		(uuid "2d54d143-d674-44a4-8c17-7d515ed3641d")
 	)
-	(polyline
-		(pts
-			(xy 91.44 139.7) (xy 149.86 139.7)
-		)
-		(stroke
-			(width 0.381)
-			(type solid)
-			(color 255 16 27 1)
-		)
-		(uuid "2fcf2c86-6e27-4283-a624-b388b383ceb0")
-	)
 	(wire
 		(pts
 			(xy 189.23 76.2) (xy 187.96 76.2)
@@ -4220,7 +4288,7 @@
 	)
 	(bus
 		(pts
-			(xy 34.29 140.97) (xy 34.29 149.86)
+			(xy 34.29 140.97) (xy 34.29 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4293,16 +4361,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 66.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "390d8c42-3fdc-4a7b-a6fc-cf7f5c6866d6")
-	)
-	(wire
-		(pts
 			(xy 40.64 138.43) (xy 77.47 138.43)
 		)
 		(stroke
@@ -4324,7 +4382,7 @@
 	)
 	(polyline
 		(pts
-			(xy 86.36 114.3) (xy 38.1 114.3)
+			(xy 86.36 114.3) (xy 41.91 114.3)
 		)
 		(stroke
 			(width 0.381)
@@ -4341,6 +4399,17 @@
 			(type default)
 		)
 		(uuid "3d0e6b4e-5c25-49a1-90ee-aa932df016a9")
+	)
+	(polyline
+		(pts
+			(xy 72.39 135.89) (xy 81.28 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 244 146 255 1)
+		)
+		(uuid "3d699a1d-972d-44f2-86ba-6b66460ef564")
 	)
 	(wire
 		(pts
@@ -4427,7 +4496,7 @@
 	)
 	(polyline
 		(pts
-			(xy 35.56 116.84) (xy 35.56 88.9)
+			(xy 39.37 116.84) (xy 39.37 88.9)
 		)
 		(stroke
 			(width 0.381)
@@ -4468,16 +4537,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 91.44) (xy 66.04 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7cbd34-0417-4d33-9842-6a2bba88ad46")
-	)
-	(wire
-		(pts
 			(xy 77.47 138.43) (xy 77.47 167.64)
 		)
 		(stroke
@@ -4485,6 +4544,17 @@
 			(type default)
 		)
 		(uuid "4da14836-542c-47fd-bccb-4cab45d70c6e")
+	)
+	(polyline
+		(pts
+			(xy 68.58 135.89) (xy 72.39 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 244 146 255 1)
+		)
+		(uuid "50039a0d-bb11-4eae-9c4a-068939c24392")
 	)
 	(polyline
 		(pts
@@ -4506,6 +4576,17 @@
 			(type solid)
 		)
 		(uuid "5172adf3-47f0-4cc7-85e4-1bcf6ae1d981")
+	)
+	(polyline
+		(pts
+			(xy 43.434 84.836) (xy 31.496 84.836)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 204 102 0 1)
+		)
+		(uuid "5242dd73-1b62-436a-b845-66f88de78290")
 	)
 	(wire
 		(pts
@@ -4663,17 +4744,6 @@
 		)
 		(uuid "6c7c6868-70e8-4b51-acdf-88ef9eb09c59")
 	)
-	(polyline
-		(pts
-			(xy 88.9 137.16) (xy 149.86 137.16)
-		)
-		(stroke
-			(width 0.381)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "6f7b500b-aa4f-49f9-9096-538a0711cae5")
-	)
 	(wire
 		(pts
 			(xy 226.06 97.79) (xy 228.6 97.79)
@@ -4800,6 +4870,17 @@
 		)
 		(uuid "7bb2a0c5-01b5-4e34-b911-292e8a38a748")
 	)
+	(polyline
+		(pts
+			(xy 43.434 81.026) (xy 31.496 81.026)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 204 102 0 1)
+		)
+		(uuid "7cfd6ab0-5384-4123-a8a0-bc26b685c011")
+	)
 	(wire
 		(pts
 			(xy 54.61 163.83) (xy 66.04 163.83)
@@ -4863,7 +4944,7 @@
 	)
 	(bus
 		(pts
-			(xy 34.29 149.86) (xy 44.45 149.86)
+			(xy 34.29 147.32) (xy 44.45 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4893,6 +4974,16 @@
 		)
 		(uuid "89d47984-0a47-4022-8b66-2b828f126c1a")
 	)
+	(bus
+		(pts
+			(xy 33.02 86.36) (xy 33.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8daab265-9128-4b33-bb09-b706c0cd113f")
+	)
 	(wire
 		(pts
 			(xy 248.92 81.28) (xy 251.46 81.28)
@@ -4916,7 +5007,7 @@
 	)
 	(polyline
 		(pts
-			(xy 81.28 170.18) (xy 81.28 129.54)
+			(xy 81.28 170.18) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0.381)
@@ -4924,6 +5015,17 @@
 			(color 244 146 255 1)
 		)
 		(uuid "8fa10950-0981-4c75-825e-f904a404c8b6")
+	)
+	(polyline
+		(pts
+			(xy 193.802 168.91) (xy 205.74 168.91)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 204 102 0 1)
+		)
+		(uuid "943a6b36-844e-434f-ab73-96c981c3d144")
 	)
 	(wire
 		(pts
@@ -4934,6 +5036,17 @@
 			(type default)
 		)
 		(uuid "95eb523a-4d57-43c0-b277-d4034779ce4a")
+	)
+	(polyline
+		(pts
+			(xy 88.9 55.88) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 16 27 1)
+		)
+		(uuid "96377f24-9de6-4699-8d1e-cab0a521e576")
 	)
 	(wire
 		(pts
@@ -4954,6 +5067,17 @@
 			(type solid)
 		)
 		(uuid "99184df5-4ce2-427c-b474-f598e0587b02")
+	)
+	(polyline
+		(pts
+			(xy 91.44 134.62) (xy 91.44 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 16 27 1)
+		)
+		(uuid "99ed590b-c9fc-4a26-9d61-363fc14c10eb")
 	)
 	(wire
 		(pts
@@ -4988,16 +5112,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d83130e-01fd-4973-bd85-ed2d73c97c01")
-	)
-	(wire
-		(pts
 			(xy 199.39 67.31) (xy 199.39 68.58)
 		)
 		(stroke
@@ -5008,7 +5122,7 @@
 	)
 	(bus
 		(pts
-			(xy 44.45 149.86) (xy 44.45 140.97)
+			(xy 44.45 147.32) (xy 44.45 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5078,6 +5192,16 @@
 		)
 		(uuid "a3369fc2-c1a4-4f31-aab5-d411ce12952f")
 	)
+	(bus
+		(pts
+			(xy 25.4 77.47) (xy 33.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35b65a5-d8f3-4889-8d9c-38cdd8fd2446")
+	)
 	(wire
 		(pts
 			(xy 41.91 163.83) (xy 41.91 158.75)
@@ -5100,7 +5224,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 114.3) (xy 38.1 91.44)
+			(xy 41.91 114.3) (xy 41.91 91.44)
 		)
 		(stroke
 			(width 0.381)
@@ -5151,7 +5275,7 @@
 	)
 	(polyline
 		(pts
-			(xy 35.56 88.9) (xy 48.26 88.9)
+			(xy 39.37 88.9) (xy 48.26 88.9)
 		)
 		(stroke
 			(width 0.381)
@@ -5169,6 +5293,17 @@
 		)
 		(uuid "ab63988f-d98f-4c36-8f19-0da66a51eb49")
 	)
+	(polyline
+		(pts
+			(xy 85.09 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ab7f1841-1127-44e0-a36e-77a3db1387af")
+	)
 	(wire
 		(pts
 			(xy 218.44 208.28) (xy 220.98 208.28)
@@ -5179,16 +5314,6 @@
 			(color 65 62 255 1)
 		)
 		(uuid "abe32a4b-ad1a-4432-803c-2ee1211ef64f")
-	)
-	(wire
-		(pts
-			(xy 60.96 88.9) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeab66ca-b565-4c42-8328-fd408bd63e24")
 	)
 	(wire
 		(pts
@@ -5265,7 +5390,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 91.44) (xy 48.26 91.44)
+			(xy 41.91 91.44) (xy 48.26 91.44)
 		)
 		(stroke
 			(width 0.381)
@@ -5282,6 +5407,16 @@
 			(type default)
 		)
 		(uuid "bbbbc4ab-9f3a-4cd5-8005-3d0931e7f099")
+	)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c097f67c-c101-4968-bbe5-0a3f003bfb87")
 	)
 	(wire
 		(pts
@@ -5302,17 +5437,6 @@
 			(type default)
 		)
 		(uuid "c4a535e2-3c5f-439e-9ffc-2d84369fdd68")
-	)
-	(polyline
-		(pts
-			(xy 81.28 129.54) (xy 96.52 129.54)
-		)
-		(stroke
-			(width 0.381)
-			(type solid)
-			(color 244 146 255 1)
-		)
-		(uuid "c4aafde0-b1c8-4041-86fb-623de0734d89")
 	)
 	(wire
 		(pts
@@ -5358,6 +5482,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 55.88) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fb3c48-23b7-4724-88e7-4e9dcac01160")
+	)
+	(wire
+		(pts
 			(xy 226.06 86.36) (xy 241.3 86.36)
 		)
 		(stroke
@@ -5375,6 +5509,16 @@
 			(type default)
 		)
 		(uuid "c77a6318-1aca-45d8-b1a1-7f3b84629f0d")
+	)
+	(bus
+		(pts
+			(xy 25.4 86.36) (xy 33.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8edab31-4e95-46cc-a726-c0d55da7c3c1")
 	)
 	(wire
 		(pts
@@ -5439,6 +5583,17 @@
 		)
 		(uuid "cfaf6671-387d-4752-a627-f0fc501190ff")
 	)
+	(polyline
+		(pts
+			(xy 193.802 165.1) (xy 205.74 165.1)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 204 102 0 1)
+		)
+		(uuid "cff213c5-cb02-4301-88ba-fd8d94213da4")
+	)
 	(bus
 		(pts
 			(xy 34.29 140.97) (xy 44.45 140.97)
@@ -5502,15 +5657,35 @@
 		)
 		(uuid "d61646a7-7b58-469d-a1ce-beab097fd41f")
 	)
+	(wire
+		(pts
+			(xy 64.77 91.44) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d4fa7b-54bf-4d19-98d9-3c1cbabc1d0d")
+	)
 	(polyline
 		(pts
-			(xy 83.82 116.84) (xy 35.56 116.84)
+			(xy 83.82 116.84) (xy 39.37 116.84)
 		)
 		(stroke
 			(width 0.381)
 			(type solid)
 		)
 		(uuid "d7a07f78-e7e5-4e7b-a28b-20081f36a21f")
+	)
+	(bus
+		(pts
+			(xy 25.4 77.47) (xy 25.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad0a03f-e4dd-4f39-a05e-54b61f29b85b")
 	)
 	(wire
 		(pts
@@ -5565,6 +5740,17 @@
 			(color 255 109 0 1)
 		)
 		(uuid "e3bfcce2-bd22-481e-8261-7b55f8f5bda9")
+	)
+	(polyline
+		(pts
+			(xy 64.77 135.89) (xy 68.58 135.89)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 244 146 255 1)
+		)
+		(uuid "e96430e3-9e89-42e5-9f0b-9d41a2693903")
 	)
 	(wire
 		(pts
@@ -5638,6 +5824,17 @@
 			(type default)
 		)
 		(uuid "ee301aff-75e2-4bc1-8987-04527d087ccf")
+	)
+	(polyline
+		(pts
+			(xy 91.44 134.62) (xy 91.44 139.7)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 16 27 1)
+		)
+		(uuid "ee6ae1a2-fe3e-4f1b-9e05-d626bf83fef7")
 	)
 	(wire
 		(pts
@@ -5723,6 +5920,17 @@
 		)
 		(uuid "f4141c6f-4624-41cc-95cc-b578fa5789f5")
 	)
+	(polyline
+		(pts
+			(xy 88.9 64.77) (xy 85.09 64.77)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 16 27 1)
+		)
+		(uuid "f525d77f-314f-409c-8489-2fa7b37e21d4")
+	)
 	(wire
 		(pts
 			(xy 218.44 269.24) (xy 227.33 269.24)
@@ -5766,16 +5974,6 @@
 			(color 255 109 0 1)
 		)
 		(uuid "fada95f2-489d-48a4-ba42-4bd993356df7")
-	)
-	(wire
-		(pts
-			(xy 38.1 88.9) (xy 48.26 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb2b17ba-0252-4387-9894-fef9f2475080")
 	)
 	(wire
 		(pts
@@ -5841,12 +6039,12 @@
 		(uuid "30d7fab7-c33f-4f55-b5d4-254a6bafda57")
 	)
 	(label "CAN L"
-		(at 38.1 88.9 0)
+		(at 48.26 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "41176f1d-44e2-4297-a214-a881332be364")
 	)
@@ -5883,7 +6081,7 @@
 		(uuid "89faecdf-94c6-4976-8c36-b0d2d14f9a0e")
 	)
 	(label "BMS KILL SIGNAL"
-		(at 90.17 129.54 0)
+		(at 64.77 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5903,12 +6101,12 @@
 		(uuid "ab8d7e84-7535-41ce-bd1a-81f65dde2a89")
 	)
 	(label "CAN H"
-		(at 39.37 91.44 0)
+		(at 48.26 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bbd87e32-477f-4fa9-9595-ec5805965bb8")
 	)
@@ -6010,6 +6208,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6088,6 +6292,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "R16")
 					(unit 1)
 				)
@@ -6189,6 +6399,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6265,6 +6481,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "R10")
 					(unit 1)
 				)
@@ -6370,6 +6592,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6444,6 +6672,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -6526,6 +6760,96 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "F12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21e525d6-9833-4110-9bd1-5930faa5d6f2")
+		(property "Reference" "#PWR012"
+			(at 64.77 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d3d46c7-d8fb-48bb-aa38-b82c24e8d2e4")
+		)
+		(instances
+			(project "TS System Schematic"
+				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6600,6 +6924,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -6719,6 +7049,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "TS_Battery1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6804,6 +7140,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "K9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6882,6 +7224,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "R13")
 					(unit 1)
 				)
@@ -6971,6 +7319,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "K5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7045,6 +7399,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "R11")
 					(unit 1)
 				)
@@ -7130,6 +7490,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "K7")
 					(unit 1)
 				)
@@ -7304,6 +7670,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7389,6 +7761,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "K6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7463,6 +7841,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -7545,6 +7929,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7619,6 +8009,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -7703,6 +8099,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7781,6 +8183,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7855,6 +8263,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -8036,6 +8450,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "K11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8111,6 +8531,97 @@
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 100.33 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a50c910-7682-45ea-adca-ca947e9d2339")
+		(property "Reference" "500V-40A"
+			(at 100.33 59.944 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVM10-40-2P"
+			(at 102.87 57.912 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 57.658 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "39a9b643-0e91-435c-9021-57be28e9725a")
+		)
+		(pin "1"
+			(uuid "287054eb-ed08-49e0-b954-7053d1ace541")
+		)
+		(instances
+			(project "TS System Schematic"
+				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "500V-40A")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "500V-40A")
 					(unit 1)
 				)
 			)
@@ -8192,6 +8703,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8267,6 +8784,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "SW5")
 					(unit 1)
 				)
@@ -8372,6 +8895,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8462,6 +8991,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8536,6 +9071,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -8618,6 +9159,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8692,6 +9239,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -8873,6 +9426,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "K14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8947,6 +9506,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -9036,81 +9601,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f34bde2f-7122-4d06-9a05-2718c82fcb73")
-		(property "Reference" "#PWR06"
-			(at 66.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be834692-97d8-4f9e-89f3-8d49c40ee7b1")
-		)
-		(instances
-			(project "TS System Schematic"
-				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
-					(reference "#PWR06")
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9188,6 +9681,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "R15")
 					(unit 1)
 				)
@@ -9282,6 +9781,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9357,6 +9862,12 @@
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "500uF")
+					(unit 1)
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(reference "500uF")
 					(unit 1)
 				)
@@ -9531,6 +10042,12 @@
 					(unit 1)
 				)
 			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet
@@ -9575,6 +10092,11 @@
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00/6fb25d49-21f7-458a-b150-060e331aec6e"
 					(page "4")
+				)
+			)
+			(project "Charging TS Schematic"
+				(path "/f60f8b7d-4f4c-45d6-9fd0-140c93308348/6fb25d49-21f7-458a-b150-060e331aec6e"
+					(page "3")
 				)
 			)
 		)

@@ -428,15 +428,15 @@
 		)
 		(uuid "355cd22a-7f2e-4048-af22-a301005468a1")
 	)
-	(text "McMaster-Carr\n5340N21"
+	(text "Weipu Connectors\nWS28K20Z1\n"
 		(exclude_from_sim no)
-		(at 46.228 93.472 0)
+		(at 49.022 92.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4c4d9e8e-0428-4d9d-a76a-d4fec2f99758")
+		(uuid "478d0f50-f5fa-40b9-b2a7-6ef1b372bcf1")
 	)
 	(text "AWG 1\n"
 		(exclude_from_sim no)
@@ -458,9 +458,9 @@
 		)
 		(uuid "54c393b9-bd31-4367-be53-53bdc83fa1e4")
 	)
-	(text "Rear Side Panel"
+	(text "TSMPs on Rear Side Panel"
 		(exclude_from_sim no)
-		(at 105.41 15.748 0)
+		(at 121.666 16.256 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -478,16 +478,6 @@
 		)
 		(uuid "5947394d-2d45-406a-950d-70e47eac0806")
 	)
-	(text "McMaster-Carr\n5340N21"
-		(exclude_from_sim no)
-		(at 68.834 100.838 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5b9fd65c-def8-4bd2-a980-9b8c02d77238")
-	)
 	(text "12 AWG\n"
 		(exclude_from_sim no)
 		(at 82.804 37.084 0)
@@ -500,7 +490,7 @@
 	)
 	(text "McMaster-Carr\n5340N21"
 		(exclude_from_sim no)
-		(at 119.126 105.156 0)
+		(at 117.856 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -542,9 +532,9 @@
 		)
 		(uuid "70aa6ce2-4fd7-4694-9e8f-178e902a1ae9")
 	)
-	(text "HVSL1000022A1HB"
+	(text "Amphenol\nHVSL1000022A1HB"
 		(exclude_from_sim no)
-		(at 65.278 16.002 0)
+		(at 62.992 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -724,6 +714,16 @@
 		)
 		(uuid "ad161f9f-f4ae-48b8-8e69-220caf5f5594")
 	)
+	(text "Weipu Connectors\nWS28K20Z1\n"
+		(exclude_from_sim no)
+		(at 71.882 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1e248cf-64c1-4f62-9403-36e0cc6fe805")
+	)
 	(text "AWG 1\n"
 		(exclude_from_sim no)
 		(at 200.66 53.848 0)
@@ -755,9 +755,9 @@
 		)
 		(uuid "c0ef49dc-b0ff-473e-a9ac-5ed15a03bc85")
 	)
-	(text "ATHP042P25EL"
+	(text "Amphenol\nATHP042P25EL"
 		(exclude_from_sim no)
-		(at 60.706 31.496 0)
+		(at 60.96 30.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
