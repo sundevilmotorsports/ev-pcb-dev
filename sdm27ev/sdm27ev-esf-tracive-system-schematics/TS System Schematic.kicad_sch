@@ -314,7 +314,7 @@
 	)
 	(rectangle
 		(start 106.68 25.4)
-		(end 130.81 43.18)
+		(end 130.81 48.26)
 		(stroke
 			(width 0.508)
 			(type dash)
@@ -746,7 +746,7 @@
 	)
 	(text "All Unmarked Wiring\ncoming in and out of \nLV box is 18 AWG"
 		(exclude_from_sim no)
-		(at 125.476 69.596 0)
+		(at 140.462 64.77 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -818,6 +818,17 @@
 			)
 		)
 		(uuid "fe4ef866-abdf-430d-b9a9-0fd7295d2e6f")
+	)
+	(polyline
+		(pts
+			(xy 111.76 76.2) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 226 207 62 1)
+		)
+		(uuid "02b56dd0-9e99-4dff-b395-99a75dce209b")
 	)
 	(polyline
 		(pts
@@ -972,6 +983,17 @@
 			(color 255 16 27 1)
 		)
 		(uuid "3785d658-2aff-42c7-9282-e6e120d84f73")
+	)
+	(polyline
+		(pts
+			(xy 139.7 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 226 207 62 1)
+		)
+		(uuid "39c24d3b-91d2-4f55-8b76-62c7c6551550")
 	)
 	(polyline
 		(pts
@@ -1611,6 +1633,17 @@
 	)
 	(polyline
 		(pts
+			(xy 111.76 43.18) (xy 119.38 43.18)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 226 207 62 1)
+		)
+		(uuid "e95f46f2-736a-40fa-a6cb-72344d81e704")
+	)
+	(polyline
+		(pts
 			(xy 144.78 116.84) (xy 144.78 81.28)
 		)
 		(stroke
@@ -1685,6 +1718,30 @@
 			(color 21 205 210 1)
 		)
 		(uuid "fe6935ea-dac4-4994-b8ec-f7c4a2506bca")
+	)
+	(global_label "GLVMP"
+		(shape input)
+		(at 119.38 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20f068eb-e0a3-4b20-8d74-9a4bce0080c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4733 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "TSMP2"
 		(shape input)

@@ -1672,6 +1672,17 @@
 		)
 		(uuid "127e04d9-d09f-4737-8988-f0b3b130588d")
 	)
+	(polyline
+		(pts
+			(xy 124.46 35.56) (xy 175.26 35.56)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "12ec5d86-30a0-4482-9232-cd6c8c9b0df1")
+	)
 	(wire
 		(pts
 			(xy 104.14 132.08) (xy 109.22 132.08)
@@ -1760,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 25.4) (xy 130.81 25.4)
+			(xy 124.46 25.4) (xy 130.81 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2532,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 30.48) (xy 130.81 30.48)
+			(xy 124.46 30.48) (xy 130.81 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2553,7 @@
 	)
 	(global_label "TSMP2"
 		(shape input)
-		(at 123.19 30.48 180)
+		(at 124.46 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2552,7 +2563,31 @@
 		)
 		(uuid "14ecf11f-820a-4be4-ab19-3aaa5086112e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.0968 30.48 0)
+			(at 115.3668 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GLVMP"
+		(shape input)
+		(at 124.46 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6161d207-d8c0-4bc3-93f8-f4b501972759")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.3667 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2566,7 +2601,7 @@
 	)
 	(global_label "TSMP1"
 		(shape input)
-		(at 123.19 25.4 180)
+		(at 124.46 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2576,7 +2611,7 @@
 		)
 		(uuid "708cb2bf-a1fe-4352-a354-89f857da5955")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.0968 25.4 0)
+			(at 115.3668 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
