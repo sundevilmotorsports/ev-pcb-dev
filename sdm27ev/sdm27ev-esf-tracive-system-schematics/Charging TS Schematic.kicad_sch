@@ -1010,19 +1010,6 @@
 		)
 		(uuid "2b92f40d-f1a3-46a9-b1ed-06b312daa958")
 	)
-	(rectangle
-		(start 106.68 45.72)
-		(end 114.554 63.5)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "48dab9e2-0cd7-475c-8531-47df129f989a")
-	)
 	(circle
 		(center 220.98 83.82)
 		(radius 0.0001)
@@ -1048,8 +1035,8 @@
 		(uuid "620aca06-12fd-4789-ae81-7fdb9ed3b2c7")
 	)
 	(rectangle
-		(start 88.9 50.8)
-		(end 96.774 58.42)
+		(start 106.68 50.8)
+		(end 114.554 58.42)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1280,9 +1267,9 @@
 		)
 		(uuid "4e732c1e-cf26-413d-a207-ed66d0372d3b")
 	)
-	(text "NEMA 5-20 plug"
+	(text "NEMA5-20 plug"
 		(exclude_from_sim no)
-		(at 85.09 48.768 0)
+		(at 102.87 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 57.15) (xy 118.11 57.15)
+			(xy 111.76 57.15) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 1.016)
@@ -2011,7 +1998,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 54.61) (xy 118.11 54.61)
+			(xy 111.76 54.61) (xy 118.11 54.61)
 		)
 		(stroke
 			(width 1.016)
@@ -2359,7 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 118.11 52.07)
+			(xy 111.76 52.07) (xy 118.11 52.07)
 		)
 		(stroke
 			(width 1.016)
