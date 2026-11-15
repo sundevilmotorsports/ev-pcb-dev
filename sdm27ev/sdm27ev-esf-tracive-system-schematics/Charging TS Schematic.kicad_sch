@@ -948,6 +948,19 @@
 		)
 		(uuid "003a5b6f-ba4d-4884-b874-ea55ab3679be")
 	)
+	(rectangle
+		(start 195.58 33.02)
+		(end 200.66 50.8)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0a590877-dc95-4a35-8987-b15da51bfd72")
+	)
 	(circle
 		(center 218.44 81.28)
 		(radius 0.0001)
@@ -1048,8 +1061,8 @@
 		(uuid "6efa5b3c-5caf-4a33-a370-6fc8da4cf04d")
 	)
 	(rectangle
-		(start 170.18 22.86)
-		(end 195.58 33.02)
+		(start 165.1 22.86)
+		(end 190.5 33.02)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1197,6 +1210,16 @@
 		)
 		(uuid "0cc9388b-a254-4733-b49d-eead70cabca5")
 	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 132.842 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f2b1dc9-7e74-44ab-9175-318c55a25c25")
+	)
 	(text "CANBUS\n"
 		(exclude_from_sim no)
 		(at 142.24 48.26 0)
@@ -1206,6 +1229,16 @@
 			)
 		)
 		(uuid "1604f305-c446-4661-a662-d1d03c51093f")
+	)
+	(text "2/0 AWG"
+		(exclude_from_sim no)
+		(at 32.258 99.314 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "1b10cdc9-d85e-4a81-ae0c-16f427aad643")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -1217,9 +1250,9 @@
 		)
 		(uuid "1e7ff92f-4998-4190-9a43-e1db3e513fa5")
 	)
-	(text "IMD\n"
+	(text "Bender \nISO175"
 		(exclude_from_sim no)
-		(at 189.738 84.836 0)
+		(at 189.738 84.074 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -1229,7 +1262,7 @@
 	)
 	(text "12 Volt Batt"
 		(exclude_from_sim no)
-		(at 183.388 28.194 0)
+		(at 178.308 28.194 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -1257,6 +1290,16 @@
 		)
 		(uuid "405cd071-b443-43ee-86ab-b90e30a038dc")
 	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 71.882 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4518230b-06d6-46de-b28c-d2c2d5149ec1")
+	)
 	(text "Charging Tractive System"
 		(exclude_from_sim no)
 		(at 230.378 175.006 0)
@@ -1266,6 +1309,26 @@
 			)
 		)
 		(uuid "4e732c1e-cf26-413d-a207-ed66d0372d3b")
+	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 92.202 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58af6859-96c1-4e3d-8a95-25d0f2d0d94a")
+	)
+	(text "2/0 AWG"
+		(exclude_from_sim no)
+		(at 212.598 130.302 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "5aae847e-8815-43c9-8a7d-a91f9b2ac15b")
 	)
 	(text "NEMA5-20 plug"
 		(exclude_from_sim no)
@@ -1277,6 +1340,16 @@
 		)
 		(uuid "5d458ba9-cec7-4d8c-8715-c420998eead7")
 	)
+	(text "22 AWG"
+		(exclude_from_sim no)
+		(at 208.28 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f3a8f1e-5e2b-4ea4-bfe3-ca6904ae29e3")
+	)
 	(text "12V\n"
 		(exclude_from_sim no)
 		(at 267.208 147.574 0)
@@ -1286,6 +1359,16 @@
 			)
 		)
 		(uuid "7f69dd8e-5ab8-41dd-9247-ea35c95da6f4")
+	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 173.482 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88080f2b-a35f-4b70-b38d-562d91caba27")
 	)
 	(text "ELCON\n HK-J-H650"
 		(exclude_from_sim no)
@@ -1297,9 +1380,9 @@
 		)
 		(uuid "8cb97bbd-7570-4d68-b4a6-2f5d906a91c4")
 	)
-	(text "McMaster-Carr\n5340N21"
+	(text "WS28K20Z1\n"
 		(exclude_from_sim no)
-		(at 261.366 66.294 0)
+		(at 258.318 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,6 +1402,26 @@
 			)
 		)
 		(uuid "a085e6ba-a07c-438d-9c8a-43ac2981daaf")
+	)
+	(text "WS28K20Z1\n"
+		(exclude_from_sim no)
+		(at 204.978 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6893f7e-e188-448f-b396-13506961517f")
+	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 153.162 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a93ecb1d-ad61-4e13-91f3-9227a62630dd")
 	)
 	(text "ACCUMULATOR"
 		(exclude_from_sim no)
@@ -1363,6 +1466,26 @@
 		)
 		(uuid "d800fd71-5171-4d66-94fc-6b93373ea433")
 	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 193.802 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd155382-9510-4b26-9cf6-bdd8b6c91bda")
+	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 51.562 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df058145-fd7f-41cd-bdba-a9367bc09125")
+	)
 	(text "B+"
 		(exclude_from_sim no)
 		(at 144.526 54.102 0)
@@ -1384,6 +1507,26 @@
 			)
 		)
 		(uuid "f39b825d-71a3-4c8c-b045-bfb9fa2328ab")
+	)
+	(text "22 AWG"
+		(exclude_from_sim no)
+		(at 208.534 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f998c133-c43d-4406-9bdf-a9bdc5dc6a20")
+	)
+	(text "Bel Fuse Inc.\n63V 0.5A\n"
+		(exclude_from_sim no)
+		(at 112.522 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa78f6b2-8c40-42a3-b596-c2d8315e73b3")
 	)
 	(junction
 		(at 144.78 132.08)
@@ -1584,7 +1727,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 38.1) (xy 175.26 45.72)
+			(xy 170.18 38.1) (xy 170.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 50.8) (xy 248.92 50.8)
+			(xy 170.18 49.53) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1916,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.78 38.1) (xy 175.26 38.1)
+			(xy 271.78 38.1) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0.381)
@@ -1987,7 +2130,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 33.02) (xy 175.26 38.1)
+			(xy 170.18 33.02) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0.381)
@@ -2049,7 +2192,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 33.02) (xy 180.34 35.56)
+			(xy 175.26 33.02) (xy 175.26 35.56)
 		)
 		(stroke
 			(width 0.381)
@@ -2101,7 +2244,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 35.56) (xy 180.34 35.56)
+			(xy 274.32 35.56) (xy 175.26 35.56)
 		)
 		(stroke
 			(width 0.381)
@@ -2250,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 93.98) (xy 248.92 50.8)
+			(xy 248.92 93.98) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2378,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 45.72) (xy 175.26 50.8)
+			(xy 170.18 45.72) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2674,6 +2817,89 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
+		(at 104.14 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1996116e-9405-4fa1-bc67-bb0826570766")
+		(property "Reference" "F16"
+			(at 106.68 139.6999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.362 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 104.14 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a840c27-0a68-43f3-90f6-00f1712067b8")
+		)
+		(pin "2"
+			(uuid "4cdd94bb-439a-457a-91e4-3a0457024a7a")
+		)
+		(instances
+			(project "TS System Schematic"
+				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
+					(reference "F16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
 		(at 194.31 132.08 90)
 		(unit 1)
 		(body_style 1)
@@ -2695,7 +2921,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "HJS... 500V"
 			(at 194.31 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +2981,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 165.1 140.97 0)
+		(at 124.46 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2764,9 +2990,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2784b2bc-6d7f-483f-9094-66494c84d9b3")
-		(property "Reference" "F7"
-			(at 167.64 139.6999 0)
+		(uuid "334dec1a-4e15-4340-b625-7ea13d4be337")
+		(property "Reference" "F15"
+			(at 127 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,8 +3003,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 167.64 142.2399 0)
+		(property "Value" ""
+			(at 127 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2789,7 +3015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.322 140.97 90)
+			(at 122.682 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2800,7 +3026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 140.97 0)
+			(at 124.46 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +3037,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 165.1 140.97 0)
+			(at 124.46 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,15 +3048,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "04b6a128-c07f-4a89-ba40-10a2b17c6a8f")
+			(uuid "1c8513ad-eaf8-48d9-8e7f-e955b1e58f1d")
 		)
 		(pin "2"
-			(uuid "37aa17e1-9403-42a5-8915-694a98935d85")
+			(uuid "930debd0-7409-4932-8467-e0eb104e1088")
 		)
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
-					(reference "F7")
+					(reference "F15")
 					(unit 1)
 				)
 			)
@@ -2838,7 +3064,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 104.14 140.97 0)
+		(at 83.82 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2847,9 +3073,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46402ef7-3caf-4e1c-b034-73c68f834c25")
-		(property "Reference" "F4"
-			(at 106.68 139.6999 0)
+		(uuid "3c3f8b28-4e3c-4273-902b-91c934c44bc2")
+		(property "Reference" "F17"
+			(at 86.36 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,8 +3086,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 106.68 142.2399 0)
+		(property "Value" ""
+			(at 86.36 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2872,7 +3098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.362 140.97 90)
+			(at 82.042 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +3109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 140.97 0)
+			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +3120,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 104.14 140.97 0)
+			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,15 +3131,98 @@
 			)
 		)
 		(pin "1"
-			(uuid "e345ebe1-bb03-4673-83d3-34a1065c745e")
+			(uuid "c8fb5d36-eb85-4651-a1c9-4bd64674131b")
 		)
 		(pin "2"
-			(uuid "21a877b7-d51c-4787-ad58-39aac740d385")
+			(uuid "5a414482-b895-4913-a89a-3e718be04e63")
 		)
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
-					(reference "F4")
+					(reference "F17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 144.78 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47db3959-eb79-4e13-ab43-10da79b95b7c")
+		(property "Reference" "F14"
+			(at 147.32 139.6999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 147.32 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.002 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 144.78 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9bf02f-0a88-49e6-929b-62010918eb08")
+		)
+		(pin "2"
+			(uuid "0626d09d-0ee5-432f-adf7-b9758d1d02c7")
+		)
+		(instances
+			(project "TS System Schematic"
+				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
+					(reference "F14")
 					(unit 1)
 				)
 			)
@@ -3263,89 +3572,6 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 83.82 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9ed2d93-cc5c-4ce1-b67d-94ed7ff39b4e")
-		(property "Reference" "F3"
-			(at 86.36 139.6999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 86.36 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.042 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 83.82 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1b06206-468e-4ad9-bf49-896dad3f0a2b")
-		)
-		(pin "2"
-			(uuid "eda99e50-8622-49ab-80aa-1f68a5b981be")
-		)
-		(instances
-			(project "TS System Schematic"
-				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
 		(at 63.5 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -3355,8 +3581,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aea81c7b-0181-4c7c-a098-3e49ebd45f32")
-		(property "Reference" "F2"
+		(uuid "9492832f-b88a-451d-9a71-0ce252a25f97")
+		(property "Reference" "F18"
 			(at 66.04 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -3368,8 +3594,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 66.04 142.2399 0)
+		(property "Value" ""
+			(at 66.04 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3413,15 +3639,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "84764343-ee54-4406-ae46-0360d7e8ad2a")
+			(uuid "100d52d2-1948-463e-a978-e3c65a641d75")
 		)
 		(pin "2"
-			(uuid "9e4eead5-62c3-4a8f-9f56-b4398d20fdac")
+			(uuid "d5506504-4184-46e2-8845-549bcb21635a")
 		)
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
-					(reference "F2")
+					(reference "F18")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3655,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 43.18 140.97 0)
+		(at 165.1 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3438,9 +3664,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4cd7d29-8df8-4dec-9e09-f97b37158adb")
-		(property "Reference" "F1"
-			(at 45.72 139.6999 0)
+		(uuid "abf4ffdc-0ec0-4878-a68e-312cfd2dba4a")
+		(property "Reference" "F13"
+			(at 167.64 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,8 +3677,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 45.72 142.2399 0)
+		(property "Value" ""
+			(at 167.64 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3463,7 +3689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.402 140.97 90)
+			(at 163.322 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,7 +3700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 140.97 0)
+			(at 165.1 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3711,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 43.18 140.97 0)
+			(at 165.1 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,98 +3722,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbd14713-8274-434c-9658-98c1026e385f")
+			(uuid "d5703431-20ef-4aa8-b912-f4d01d1709ae")
 		)
 		(pin "2"
-			(uuid "3e72d591-95a3-4539-9f3e-518517dbcc62")
+			(uuid "169d9a48-1004-4d2d-b0c3-63f9022081aa")
 		)
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 124.46 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b936fe09-82c5-4dbb-9743-1d070d09225c")
-		(property "Reference" "F5"
-			(at 127 139.6999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 127 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.682 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 124.46 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "554e6087-8066-49fa-803b-dce6f73220c9")
-		)
-		(pin "2"
-			(uuid "2596750c-e6f1-4594-a023-23c28cfbbf0b")
-		)
-		(instances
-			(project "TS System Schematic"
-				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
-					(reference "F5")
+					(reference "F13")
 					(unit 1)
 				)
 			)
@@ -3731,8 +3874,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 187.96 142.2399 0)
+		(property "Value" ""
+			(at 187.96 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3872,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 185.42 38.1 90)
+		(at 180.34 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3882,7 +4025,7 @@
 		(dnp no)
 		(uuid "c7bef6cc-3c7c-4d72-a8e4-4165a3d1e9db")
 		(property "Reference" "F11"
-			(at 185.42 42.164 90)
+			(at 180.34 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3892,7 +4035,7 @@
 			)
 		)
 		(property "Value" "Schurter 8020.5070.G 5A"
-			(at 187.96 40.132 90)
+			(at 182.88 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 39.878 90)
+			(at 180.34 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 38.1 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +4067,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 185.42 38.1 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4262,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 144.78 140.97 0)
+		(at 43.18 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4128,9 +4271,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbd57498-403a-4361-ac08-40f73e17ba89")
-		(property "Reference" "F6"
-			(at 147.32 139.6999 0)
+		(uuid "d9785e39-5e06-4bc8-a1ec-bdcf6c552020")
+		(property "Reference" "F19"
+			(at 45.72 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4141,8 +4284,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 147.32 142.2399 0)
+		(property "Value" ""
+			(at 45.72 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4153,7 +4296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.002 140.97 90)
+			(at 41.402 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +4307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 140.97 0)
+			(at 43.18 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4175,7 +4318,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 144.78 140.97 0)
+			(at 43.18 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4186,15 +4329,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7da5af9-1b88-4dfb-943f-a5a1a90f3bea")
+			(uuid "38b710e2-6c75-4d19-ab85-4c9c43a054de")
 		)
 		(pin "2"
-			(uuid "eacfe05b-2cc0-4e33-9786-134525c1969a")
+			(uuid "bcfc60b9-d2f8-4738-be4e-69efe1edd3f7")
 		)
 		(instances
 			(project "TS System Schematic"
 				(path "/b2aeb17e-134d-4155-8140-6b03f1864ab3/8949d33a-b98a-43ca-b87d-179eb107db00"
-					(reference "F6")
+					(reference "F19")
 					(unit 1)
 				)
 			)
