@@ -5178,6 +5178,16 @@
 		)
 		(uuid "0e796f18-fbb0-4f6a-95de-f96466d2f2a9")
 	)
+	(text "<150mm"
+		(exclude_from_sim no)
+		(at 195.326 144.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "168960b1-31e7-49ba-98bb-4462161a656d")
+	)
 	(text "TS+/- Wires\nBoth 18AWG\nTaken from fused \nvoltage indicator lines"
 		(exclude_from_sim no)
 		(at 27.94 115.824 0)
@@ -5299,16 +5309,6 @@
 			)
 		)
 		(uuid "4daccd4e-9e58-4c01-87fd-3b7e58e0e2b9")
-	)
-	(text "Schurter\n8020.5065\n500mA"
-		(exclude_from_sim no)
-		(at 230.378 136.144 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "508b3f81-fbe3-4c4f-b293-76e46f55c283")
 	)
 	(text "GLV GND"
 		(exclude_from_sim no)
@@ -5442,6 +5442,16 @@
 		)
 		(uuid "7cf0cbc3-e03e-41e4-8eb2-ef454dbf6432")
 	)
+	(text "Schurter\n8020.5065\n500mA"
+		(exclude_from_sim no)
+		(at 195.326 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80e5beb0-96c7-47d7-9b73-7ee8a4d68244")
+	)
 	(text "12S4P Cells\n48 Fusible Links (90A)\n6 Thermistors"
 		(exclude_from_sim no)
 		(at 204.216 41.402 0)
@@ -5472,9 +5482,9 @@
 		)
 		(uuid "920a6b1d-dbdf-4161-8996-d5ecc76e320d")
 	)
-	(text "Schurter\n8020.5065\n500mA"
+	(text "Bel Fuse Inc.\n0ADAC1000-BE\n600V 1A"
 		(exclude_from_sim no)
-		(at 186.436 125.476 90)
+		(at 185.928 122.936 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5626,6 +5636,18 @@
 		)
 		(uuid "d35fe73f-90c9-4665-93a8-aae48293e4b8")
 	)
+	(text "12AWG Cable"
+		(exclude_from_sim no)
+		(at 182.372 163.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d3d725b6-36aa-434a-b54b-738bcd6ed50a")
+	)
 	(text "All wiring From\nGLV Connector18AWG"
 		(exclude_from_sim no)
 		(at 97.536 163.322 0)
@@ -5671,6 +5693,16 @@
 			)
 		)
 		(uuid "e91c3890-a68d-4cd6-a94a-483c56d427b2")
+	)
+	(text "Bel Fuse Inc.\n0ADAC1000-BE\n600V 1A"
+		(exclude_from_sim no)
+		(at 234.95 136.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef8628e2-f86d-49c3-800e-4872d1e751f3")
 	)
 	(text "Shutdown In"
 		(exclude_from_sim no)
@@ -5917,12 +5949,6 @@
 		(uuid "b9cbd796-1809-4faa-92a0-5db8b6468aff")
 	)
 	(junction
-		(at 207.01 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c219b7c0-0a84-482b-9558-02956d5cb5cb")
-	)
-	(junction
 		(at -281.94 13.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5945,6 +5971,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d205b94c-ef18-4140-8061-34078af24846")
+	)
+	(junction
+		(at 207.01 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dae3b508-4cf1-4b8a-abda-f5008eef3c6a")
 	)
 	(junction
 		(at -261.62 13.97)
@@ -6152,7 +6184,7 @@
 			(xy 170.18 161.29) (xy 177.8 161.29)
 		)
 		(stroke
-			(width 0.508)
+			(width 0.381)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -6469,7 +6501,7 @@
 			(xy 186.69 161.29) (xy 186.69 146.05)
 		)
 		(stroke
-			(width 0.508)
+			(width 0.381)
 			(type solid)
 			(color 255 0 0 1)
 		)
@@ -6625,6 +6657,17 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 146.05) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "2cb3edcb-d36b-48ea-bbaa-52088d5123cf")
+	)
+	(wire
+		(pts
 			(xy -195.58 -13.97) (xy -189.23 -13.97)
 		)
 		(stroke
@@ -6696,6 +6739,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "314f69b2-6c52-42b7-a31f-a72d0cdc4d81")
+	)
+	(wire
+		(pts
+			(xy 186.69 146.05) (xy 191.77 146.05)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "32cae7aa-1faa-4e0c-bbae-1d0ec89663ab")
 	)
 	(wire
 		(pts
@@ -7312,17 +7366,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 146.05) (xy 207.01 146.05)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "61fbdd73-fd7d-4e0f-8067-929c40866560")
-	)
-	(wire
-		(pts
 			(xy -302.26 13.97) (xy -322.58 13.97)
 		)
 		(stroke
@@ -7653,17 +7696,6 @@
 			(type default)
 		)
 		(uuid "76b195ed-aa87-42f1-8f16-ec826909c134")
-	)
-	(wire
-		(pts
-			(xy 207.01 146.05) (xy 207.01 157.48)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "76c4dfd0-be1a-4107-85f9-b783bb4e3080")
 	)
 	(bus
 		(pts
@@ -8159,6 +8191,17 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 146.05) (xy 207.01 146.05)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "a128fc79-281e-4485-b873-cd52a8ff538e")
+	)
+	(wire
+		(pts
 			(xy 276.86 71.12) (xy 276.86 77.47)
 		)
 		(stroke
@@ -8265,7 +8308,7 @@
 			(xy 186.69 161.29) (xy 194.31 161.29)
 		)
 		(stroke
-			(width 0.508)
+			(width 0.381)
 			(type solid)
 			(color 255 0 0 1)
 		)
@@ -8528,7 +8571,7 @@
 			(xy 177.8 130.81) (xy 177.8 161.29)
 		)
 		(stroke
-			(width 0.508)
+			(width 0.381)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -10289,6 +10332,90 @@
 			(project "Tractive-Battery-Schematic"
 				(path "/0d3b9c9c-3fd5-478e-8a16-60d9c04bd62e"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 195.58 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a03430d-1a69-4de4-990f-aea63637e855")
+		(property "Reference" "F6"
+			(at 196.8501 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HSJ..."
+			(at 195.5801 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 144.272 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 195.58 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e16b2faa-33f9-4985-9ef2-3f5a90e7fdd2")
+		)
+		(pin "1"
+			(uuid "42299597-7d00-44ed-b550-e591a3464753")
+		)
+		(instances
+			(project "Tractive-Battery-Schematic"
+				(path "/0d3b9c9c-3fd5-478e-8a16-60d9c04bd62e"
+					(reference "F6")
 					(unit 1)
 				)
 			)
