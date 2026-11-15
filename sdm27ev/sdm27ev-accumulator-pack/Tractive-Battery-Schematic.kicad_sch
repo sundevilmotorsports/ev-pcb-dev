@@ -5374,7 +5374,7 @@
 		)
 		(uuid "671a458f-5a57-40a7-8094-f3eb9a596f99")
 	)
-	(text "12S4P Cells\n48 Fusible Links (90A)\n6 Thermistors"
+	(text "10S4P Cells\n40Fusible Links (90A)\n5Thermistors"
 		(exclude_from_sim no)
 		(at 81.026 41.91 0)
 		(effects
@@ -5572,6 +5572,16 @@
 		)
 		(uuid "b0d7dedf-0685-4edf-aa01-118f43c0b1a2")
 	)
+	(text "10S4P Cells\n40Fusible Links (90A)\n5Thermistors"
+		(exclude_from_sim no)
+		(at 102.362 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b77bfbc4-f792-4916-8a2a-b8c9aceb4c47")
+	)
 	(text "CAN LO"
 		(exclude_from_sim no)
 		(at 109.728 154.432 90)
@@ -5605,26 +5615,6 @@
 			)
 		)
 		(uuid "c0e63c15-1b6e-4fec-b053-904ca1e7bc07")
-	)
-	(text "12S4P Cells\n48 Fusible Links (90A)\n6 Thermistors"
-		(exclude_from_sim no)
-		(at 121.666 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cc901653-7ca2-405b-a0b1-b449f22b73f4")
-	)
-	(text "12S4P Cells\n48 Fusible Links (90A)\n6 Thermistors"
-		(exclude_from_sim no)
-		(at 101.6 25.146 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cfc07918-c9a3-4f42-92d0-93dc293b51e7")
 	)
 	(text "Schurter\n8020.5065\n500mA"
 		(exclude_from_sim no)
@@ -5693,6 +5683,16 @@
 			)
 		)
 		(uuid "f68eb008-eeb0-4843-87d9-f4c7ef471b9f")
+	)
+	(text "10S4P Cells\n40Fusible Links (90A)\n5Thermistors"
+		(exclude_from_sim no)
+		(at 121.666 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fdde84c3-2d79-4998-aef8-6c5df515ffb4")
 	)
 	(junction
 		(at 128.27 116.84)
