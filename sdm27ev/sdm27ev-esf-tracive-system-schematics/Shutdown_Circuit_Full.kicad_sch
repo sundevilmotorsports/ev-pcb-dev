@@ -3448,6 +3448,26 @@
 		)
 		(uuid "05eca118-f18f-4d84-af01-4eeaf8ea2778")
 	)
+	(text "12AWG"
+		(exclude_from_sim no)
+		(at 231.14 167.64 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "0729ff15-1700-4548-b226-88a15629fc69")
+	)
+	(text "12AWG"
+		(exclude_from_sim no)
+		(at 36.576 162.56 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "0f035ad3-a506-480c-83ed-6d734f5e846b")
+	)
 	(text "TSMP -"
 		(exclude_from_sim no)
 		(at 233.934 161.544 0)

@@ -3394,7 +3394,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2203ac0c-71e9-4258-b9a0-9cbb94dd89ec")
 		(property "Reference" "F9"
 			(at 194.31 125.73 90)
@@ -3407,8 +3406,8 @@
 				)
 			)
 		)
-		(property "Value" "HJS... 500V"
-			(at 194.31 128.27 90)
+		(property "Value" "Mersen HJS110 500V"
+			(at 194.564 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5398,4 +5397,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

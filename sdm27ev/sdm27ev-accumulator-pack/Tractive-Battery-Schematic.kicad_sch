@@ -5354,7 +5354,7 @@
 		)
 		(uuid "5d09e732-9555-4aba-944b-029ebe15a016")
 	)
-	(text "HSJ...\n500V"
+	(text "Mersen\nHSJ110\n500V"
 		(exclude_from_sim no)
 		(at 264.16 43.688 0)
 		(effects
