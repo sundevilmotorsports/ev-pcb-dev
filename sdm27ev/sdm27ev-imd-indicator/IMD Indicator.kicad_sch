@@ -3304,7 +3304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "SDM_MiscFootprint:5007"
 			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4039,7 +4039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "SDM_MiscFootprint:5007"
 			(at 116.84 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4510,7 +4510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "SDM_MiscFootprint:5007"
 			(at 115.57 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +4588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "SDM_MiscFootprint:5007"
 			(at 142.24 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4828,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "SDM_MiscFootprint:5007"
 			(at 116.84 105.41 0)
 			(hide yes)
 			(show_name no)
