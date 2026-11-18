@@ -730,7 +730,7 @@
         "uuid": "d441a572-91af-4340-8857-bf48db1d2fcc"
       }
     ],
-    "used_designators": "SW1-2,D1,D3-16,#PWR4-19,#PWR24-28,#PWR41-42,#PWR44-70,#PWR74,#PWR98-99,#PWR102-104,#PWR106-107,#PWR113,R1-4,R20-40,R42-49,R52-75,#FLG1-4,J3-4,C1-18,C25-36,U1-2,U8-11,Q1-7,BLACK_TP1,IC4,L1,TP2",
+    "used_designators": "SW1-2,D1,D3-16,#PWR2-19,#PWR24-28,#PWR41-42,#PWR44-70,#PWR74-82,#PWR98-99,#PWR102-104,#PWR106-107,#PWR113,R1-4,R20-40,R42-49,R52-81,#FLG1-5,J3-4,C1-18,C25-39,U1-2,U8-12,Q1-7,BLACK_TP1,IC4,L1,TP2",
     "variants": []
   },
   "sheets": [
@@ -757,6 +757,10 @@
     [
       "afaffefa-bcd4-4442-b8e0-0332f9a09401",
       "5vrail"
+    ],
+    [
+      "081bd0b9-ffa3-48bc-8d16-f6e59d86d841",
+      "Spare Sensor Power"
     ]
   ],
   "text_variables": {},

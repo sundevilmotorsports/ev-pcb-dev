@@ -186,7 +186,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -236,7 +236,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -478,25 +478,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -607,7 +605,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SDM:5006"
+		(symbol "VCU_lib:5006"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -635,7 +633,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SDM:5006"
+			(property "Footprint" "VCU_lib:5006"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -773,7 +771,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SDM:TPS563211DRLR"
+		(symbol "VCU_lib:TPS563211DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -801,7 +799,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SDM:SOTFL50P160X60-8N"
+			(property "Footprint" "VCU_lib:SOTFL50P160X60-8N"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1945,7 +1943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47uF 25V"
 			(at 116.713 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2106,7 +2104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF 25V"
 			(at 116.713 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,7 +2115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 112.395 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2330,7 +2328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM:TPS563211DRLR")
+		(lib_id "VCU_lib:TPS563211DRLR")
 		(at 113.665 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -2361,7 +2359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDM:SOTFL50P160X60-8N"
+		(property "Footprint" "VCU_lib:SOTFL50P160X60-8N"
 			(at 140.335 176.2 0)
 			(hide yes)
 			(show_name no)
@@ -2891,7 +2889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM:5006")
+		(lib_id "VCU_lib:5006")
 		(at 187.325 97.79 270)
 		(unit 1)
 		(body_style 1)
@@ -2923,7 +2921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SDM:5006"
+		(property "Footprint" "VCU_lib:5006"
 			(at 92.405 114.3 0)
 			(hide yes)
 			(show_name no)
