@@ -655,7 +655,424 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GLV_Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "GLV_Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "DC_ISO",
+        "pattern": "/DC_ISO_5V"
+      },
+      {
+        "netclass": "DC_ISO",
+        "pattern": "/DC_ISO_GND"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "BOOT_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "CABLE_DM"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "CABLE_DP"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "ESP_EN"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "TWAI_RX"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "TWAI_TX"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_DM"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_DP"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "/MAIN_GATE_DRIVE"
+      },
+      {
+        "netclass": "PACK_ISO",
+        "pattern": "/PACK_ISO_5V"
+      },
+      {
+        "netclass": "PACK_ISO",
+        "pattern": "/PACK_ISO_GND"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "/PRE_GATE_DRIVE"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "SDC_N"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "START_12V"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "START_N"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "ALL_CLEAR_N"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "ARM_CLEAN"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "ARM_REQUALIFIED"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "BUCK_EN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "BUF_DN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "BUF_DP"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "BUF_PN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "BUF_PP"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "DC_OUTN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "DC_OUTP"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "DIV_DN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "DIV_DP"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "DIV_PN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "DIV_PP"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "DRIVER_ENABLE"
+      },
+      {
+        "netclass": "GLV_Power",
+        "pattern": "GLV_12V_IN"
+      },
+      {
+        "netclass": "Coil_SDC",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "KEY_FEED"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "LED_RED_CMD"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "MAIN_CMD"
+      },
+      {
+        "netclass": "Coil_SDC",
+        "pattern": "MAIN_SW"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "MEAS_DN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "MEAS_DP"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "MEAS_PN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "MEAS_PP"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "MEAS_SCL"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "MEAS_SDA"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D1-A)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D1-K)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D10-K)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D11-K)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D6-A)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D7-A)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D8-A)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(D9-A)"
+      },
+      {
+        "netclass": "PACK_ISO",
+        "pattern": "Net-(J2-Pin_1)"
+      },
+      {
+        "netclass": "DC_ISO",
+        "pattern": "Net-(J3-Pin_1)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(Q1-G)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(Q2-G)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(R102-Pad2)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(R106-Pad2)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(U1-BOOT)"
+      },
+      {
+        "netclass": "GLV_Power",
+        "pattern": "Net-(U1-EN)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(U1-FB)"
+      },
+      {
+        "netclass": "GLV_Power",
+        "pattern": "Net-(U1-SW)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "Net-(U1-VCC)"
+      },
+      {
+        "netclass": "PACK_ISO",
+        "pattern": "Net-(U5-SNSP)"
+      },
+      {
+        "netclass": "DC_ISO",
+        "pattern": "Net-(U6-SNSP)"
+      },
+      {
+        "netclass": "GLV_Power",
+        "pattern": "Net-(U7-SW)"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "OUTPUT_ARM"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "PACK_OUTN"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "PACK_OUTP"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "PAC_GPIO_IDLE"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "PRECHARGE_CMD"
+      },
+      {
+        "netclass": "Coil_SDC",
+        "pattern": "PRECHARGE_SW"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "RAIL_OK"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "RESET_REQ"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "RUN_A"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "RUN_B"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "RUN_PERMISSION"
+      },
+      {
+        "netclass": "Coil_SDC",
+        "pattern": "SDC_12V_COIL"
+      },
+      {
+        "netclass": "Coil_SDC",
+        "pattern": "SDC_12V_IN"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "SDC_PRESENT"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "SERVICE_CLEAR_N"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "START_REQUEST"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(J1-SPARE_NC-Pad8)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U1-PG-Pad4)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U2-GPIO3/ADC1_CH3-Pad15)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U2-GPIO4/ADC1_CH4-Pad3)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U22-~{Q}-Pad3)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U3-SYNC_OK-Pad5)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U4-SYNC_OK-Pad5)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U5-NC-Pad12)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U5-NC-Pad13)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U5-NC-Pad15)"
+      },
+      {
+        "netclass": "PACK_ISO",
+        "pattern": "unconnected-(U5-NC-Pad3)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U5-NC-Pad7)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U5-NC-Pad8)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U6-NC-Pad12)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U6-NC-Pad13)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U6-NC-Pad15)"
+      },
+      {
+        "netclass": "DC_ISO",
+        "pattern": "unconnected-(U6-NC-Pad3)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U6-NC-Pad7)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U6-NC-Pad8)"
+      },
+      {
+        "netclass": "Logic",
+        "pattern": "unconnected-(U7-PG-Pad8)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -837,26 +1254,6 @@
     [
       "cdf51a4e-2fd2-46f1-b5a3-e0dc1d166e7e",
       "prechargecontrol"
-    ],
-    [
-      "a640e3dc-d153-4127-a08f-772e2a726cf0",
-      "3V3 conversion and reset"
-    ],
-    [
-      "83766f2a-29e7-4b79-8521-28567c67bb5f",
-      "ESP32 control and service"
-    ],
-    [
-      "f39a2cad-7a42-418e-9d71-666a083bc68d",
-      "Measurement front end"
-    ],
-    [
-      "e087f89b-d417-449f-ac68-54fa171dc110",
-      "Vehicle interface and re-arm"
-    ],
-    [
-      "bd771829-7e2d-4cb4-82d9-9834d6069e28",
-      "Digital voltage acquisition"
     ]
   ],
   "text_variables": {},
