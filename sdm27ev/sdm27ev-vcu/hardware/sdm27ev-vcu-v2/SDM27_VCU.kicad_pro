@@ -737,30 +737,6 @@
     [
       "d441a572-91af-4340-8857-bf48db1d2fcc",
       "SDM27_VCU"
-    ],
-    [
-      "cd2662a3-622d-45f3-9b99-4c7bb4b56c70",
-      "Analog Front-End"
-    ],
-    [
-      "7c6b73a7-01fd-4d3a-b7a8-31cd99d7c7fd",
-      "Digital Inputs"
-    ],
-    [
-      "e72c1489-b811-4c62-bcdd-c0db8738ae55",
-      "Digital Outputs"
-    ],
-    [
-      "2b7934b3-74ba-4ff6-9bfa-238bf4a096ea",
-      "SD Card"
-    ],
-    [
-      "afaffefa-bcd4-4442-b8e0-0332f9a09401",
-      "5vrail"
-    ],
-    [
-      "081bd0b9-ffa3-48bc-8d16-f6e59d86d841",
-      "Spare Sensor Power"
     ]
   ],
   "text_variables": {},
