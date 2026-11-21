@@ -1,0 +1,279 @@
+(footprint "F1C12016122R2M"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "F1C1-201612-2R2M-1")
+	(tags "Inductor")
+	(property "Reference" "REF**"
+		(at 0.265 -3.115 180)
+		(layer "F.SilkS")
+		(uuid "19a47103-3ac0-4713-9095-8616d19d40d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "F1C1-201612-2R2M"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3af25d7c-8d85-4171-833f-ac239c0573eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.de/datasheet/3/191/1/ds_ST_F1C1_2016_series.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "766fb927-c342-4381-94a9-4fc9cf3748a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Shielded SMD High Power Inductor | 2.2u | 2.9A | 1LN | 2.00 x 1.60mm Footprint | 1.2mm Height Profile"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dce94286-d1f8-4f0c-bc78-0c9a110abc7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60e051a5-377e-4481-98b2-30608a1b5129")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "530-F1C1-201612-2R2M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2dea236-1b07-4c8f-8c00-10a3b4d4d246")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bel-Signal-Transformer/F1C1-201612-2R2M?qs=ZcfC38r4PouPzePVpGtkew%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430aa7b2-048f-4f3e-8f79-7e31b46e258d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Bel"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90cbcbce-b099-433f-bc20-1faab010511c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "F1C1-201612-2R2M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07820228-3e27-4e0c-a357-a12189af36fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "ESP-C5-CAN SNIFFER.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.1 1.5)
+		(end -0.1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f2fbbf7-576f-4ddf-b89e-fb6f8e04afeb")
+	)
+	(fp_line
+		(start 0 1.5)
+		(end 0 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a67dd6a-7042-4048-9d77-8f62731dd8f5")
+	)
+	(fp_arc
+		(start -0.1 1.5)
+		(mid -0.05 1.45)
+		(end 0 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1e04eb6-a7fa-4d71-ba6f-05302f60301f")
+	)
+	(fp_arc
+		(start 0 1.5)
+		(mid -0.05 1.55)
+		(end -0.1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d376a15d-e70f-4731-8da3-9e1e7b4794fc")
+	)
+	(fp_line
+		(start -1.85 -2.05)
+		(end 1.85 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f023630-45c7-4d10-89ac-340fe6e8f25b")
+	)
+	(fp_line
+		(start -1.85 2.05)
+		(end -1.85 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee0b4ce0-c545-44a7-a6ef-b45f6bc7d9df")
+	)
+	(fp_line
+		(start 1.85 -2.05)
+		(end 1.85 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44bf197c-2fe6-4e17-90f0-7f409fe1f2bd")
+	)
+	(fp_line
+		(start 1.85 2.05)
+		(end -1.85 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f14f78dc-5d16-4b52-8018-8ccfb71abefd")
+	)
+	(fp_line
+		(start -0.8 -1)
+		(end 0.8 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa563783-b66a-46fd-b36e-fc6d1016003b")
+	)
+	(fp_line
+		(start -0.8 1)
+		(end -0.8 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a82c9cb0-4871-40f1-bc1c-74ca97c4b2d8")
+	)
+	(fp_line
+		(start 0.8 -1)
+		(end 0.8 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "127dbef4-6070-4ee1-8e71-8afa1f076d57")
+	)
+	(fp_line
+		(start 0.8 1)
+		(end -0.8 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0362fd3e-7451-4a1d-be92-c82eaef4ff0d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "2d4a7987-3941-4ca6-9f91-45c970d21544")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0.65 90)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c4b755b7-7bd4-470e-a49a-e1d63502f885")
+	)
+	(pad "2" smd rect
+		(at 0 -0.65 90)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fb6d332-37b5-4c8e-a4f5-0bb9cba3a2ae")
+	)
+	(embedded_fonts no)
+	(model "F1C1-201612-2R2M.stp"
+		(offset
+			(xyz -0.1899999948 -0.9100000126 0.05999999776)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
