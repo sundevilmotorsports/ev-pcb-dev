@@ -27379,7 +27379,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d6cabc-a61b-4131-9928-9e3186cd5208")
 		(property "Reference" "R39"
@@ -30494,7 +30494,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cdbb657-4821-4037-815f-9852adbc8848")
 		(property "Reference" "R45"
@@ -32356,7 +32356,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60fee948-f266-42a8-b3b5-e8fc75b437ab")
 		(property "Reference" "R48"
