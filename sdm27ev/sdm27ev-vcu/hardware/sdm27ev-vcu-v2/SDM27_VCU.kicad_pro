@@ -730,13 +730,17 @@
         "uuid": "d441a572-91af-4340-8857-bf48db1d2fcc"
       }
     ],
-    "used_designators": "SW1-2,D1,D3-16,#PWR1-29,#PWR41-42,#PWR44-70,#PWR72,#PWR74-100,#PWR102-104,#PWR106-122,R1-4,R20-40,R42-49,R52-81,#FLG1-5,#FLG7-11,J3-4,C1-18,C25-39,U1-2,U8-12,Q1-7,BLACK_TP1,IC4,L1,TP2",
+    "used_designators": "SW1-2,D1,D3-16,#PWR1-29,#PWR41-42,#PWR44-70,#PWR72,#PWR74-104,#PWR106-129,R1-4,R20-40,R42-49,R52-81,#FLG1-5,#FLG7-12,J3-4,J6,C1-18,C25-39,C41,U1-2,U8-13,Q1-7,BLACK_TP1,IC4,L1,TP2,CN8,CN11",
     "variants": []
   },
   "sheets": [
     [
       "d441a572-91af-4340-8857-bf48db1d2fcc",
       "SDM27_VCU"
+    ],
+    [
+      "5fac3693-f5b7-49a3-8340-a9b58e2f3dd2",
+      "Untitled Sheet"
     ]
   ],
   "text_variables": {},
