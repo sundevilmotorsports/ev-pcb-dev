@@ -1,0 +1,321 @@
+(footprint "TPS62901RPJR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TPS62901RPJR-4")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 3.335 -0.085 0)
+		(layer "F.SilkS")
+		(uuid "daaa4361-9e02-429d-957d-c74239ac8c73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPS62901RPJR"
+		(at 0 -0.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "af140643-5205-4f7c-98f2-ff8ff9db9305")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62901.pdf?ts=1622532312813&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fnon-isolated-dc-dc-switching-regulators%252Fstep-down-buck%252Fbuck-converter-integrated-switch%252Fproducts.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f359d9aa-4aa2-4f46-a6b0-a0bb2e84061a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Conv DC-DC 3V to 17V Synchronous Step Down Single-Out 0.4V to 5.5V 1A T/R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05cea84e-4973-4da2-9b50-699a1e86cf33")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5255dfdd-b156-451b-88a5-84dd8b7b6418")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS62901RPJR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d92e506-0b3e-4706-9faf-58d3be588e20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62901RPJR?qs=DRkmTr78QATDXNNljpwn1Q%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d4b8bf5-76bd-4aaa-8827-5b0c21a33ad0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01082868-486c-4813-a1eb-58b196ae7ed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS62901RPJR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e34fd92-0491-4d4c-978b-90565c20862c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "ESP-C5-CAN SNIFFER.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.4 -0.25)
+		(end -1.4 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "240883e7-e78d-40ab-81be-44b3f91cefa7")
+	)
+	(fp_line
+		(start -1.3 -0.25)
+		(end -1.3 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b32aa15-a797-41eb-831b-c35176244627")
+	)
+	(fp_arc
+		(start -1.4 -0.25)
+		(mid -1.35 -0.3)
+		(end -1.3 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a35ce16-7b8d-4813-9808-341f65e2587e")
+	)
+	(fp_arc
+		(start -1.3 -0.25)
+		(mid -1.35 -0.2)
+		(end -1.4 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c0aff4-23ad-415f-9200-ecf24d243bc5")
+	)
+	(fp_line
+		(start -1.95 -2.2)
+		(end 1.95 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a3355b2-bbe4-4c77-bc0c-9fb6f02d50a7")
+	)
+	(fp_line
+		(start -1.95 2)
+		(end -1.95 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "013e6a17-e020-48be-bf34-69931ea4fc83")
+	)
+	(fp_line
+		(start 1.95 -2.2)
+		(end 1.95 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1c8b8c6-f0dc-4ebb-97a0-339a7f8d361c")
+	)
+	(fp_line
+		(start 1.95 2)
+		(end -1.95 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad285d01-8ab7-4e9c-b7eb-f95ab5c48cc8")
+	)
+	(fp_line
+		(start -0.75 -1)
+		(end -0.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74eb2ccc-255b-4679-af9f-7c01c0f3c596")
+	)
+	(fp_line
+		(start -0.75 1)
+		(end 0.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d657545-a1d5-480e-bb7a-af16cd2e78f3")
+	)
+	(fp_line
+		(start 0.75 -1)
+		(end -0.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd4329e6-5e47-49fd-ba37-84ec224d2e4d")
+	)
+	(fp_line
+		(start 0.75 1)
+		(end 0.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "854df803-9d94-4410-bb3b-587d293a918c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.1 0)
+		(layer "F.Fab")
+		(uuid "73e37a2d-8200-4998-8037-71ee2b567a60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.625 -0.25 90)
+		(size 0.2 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5d1a4ff-2d19-4a2d-a28d-cccfb8566bdd")
+	)
+	(pad "2" smd rect
+		(at -0.625 0.25 90)
+		(size 0.2 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c0adab4-95a9-4a0c-932f-9c8c08a5d076")
+	)
+	(pad "3" smd rect
+		(at -0.625 0.75 90)
+		(size 0.2 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "378ff7a7-524b-43b3-94e2-99130364a085")
+	)
+	(pad "4" smd rect
+		(at 0.45 0.75 90)
+		(size 0.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7526c8c9-1c94-477e-add1-03dd0054b13a")
+	)
+	(pad "5" smd rect
+		(at 0.625 0.25 90)
+		(size 0.2 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93f90938-ebe7-4afb-82aa-737d2c45b63a")
+	)
+	(pad "6" smd rect
+		(at 0.45 -0.25 90)
+		(size 0.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "048e6531-67c8-41ae-aab7-094864e6cb5e")
+	)
+	(pad "7" smd rect
+		(at 0.5 -0.925)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f792532b-1fe8-498d-b31a-d6b827bb2824")
+	)
+	(pad "8" smd rect
+		(at 0 -0.925)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0221ff3-0b2d-48b3-9ea6-032dc0046861")
+	)
+	(pad "9" smd rect
+		(at -0.5 -0.925)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2025814c-eca5-4793-b0f7-1c9fd71553ba")
+	)
+	(embedded_fonts no)
+	(model "TPS62901RPJR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
